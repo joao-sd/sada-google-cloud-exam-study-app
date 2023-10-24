@@ -1,0 +1,678 @@
+[
+  {
+    "question": "Which of the following machine types does Google Compute Engine offer?",
+    "choices": {
+      "A": "Normal",
+      "B": "Limited",
+      "C": "Predefined",
+      "D": "Custom"
+    },
+    "topic": "Google Compute Engine",
+    "correct": "C",
+    "quick_explanation": "Google Compute Engine offers predefined and custom machine types to fit different workloads."
+  },
+  {
+    "question": "How can you reserve Compute Engine resources for your project?",
+    "choices": {
+      "A": "Reserving Instances",
+      "B": "Preemptible Instances",
+      "C": "Commitment Based Discounts",
+      "D": "Zonal Resources"
+    },
+    "topic": "Google Compute Engine",
+    "correct": "A",
+    "quick_explanation": "Reserving instances allows you to reserve resources for future use."
+  },
+  {
+    "question": "What is the primary use case of Preemptible VM instances?",
+    "choices": {
+      "A": "Long-term tasks",
+      "B": "High-availability services",
+      "C": "Short-lived batch jobs",
+      "D": "Real-time processing"
+    },
+    "topic": "Google Compute Engine",
+    "correct": "C",
+    "quick_explanation": "Preemptible VMs are designed for short-lived tasks as they can be terminated at any time."
+  },
+  {
+    "question": "Which disk type offers the best price-performance ratio?",
+    "choices": {
+      "A": "Standard persistent disk",
+      "B": "SSD persistent disk",
+      "C": "Local SSD",
+      "D": "Regional persistent disk"
+    },
+    "topic": "Google Compute Engine",
+    "correct": "A",
+    "quick_explanation": "Standard persistent disks offer the best price-performance ratio for most workloads."
+  },
+  {
+    "question": "Which Google service is best suited to automate the deployment of containers to Compute Engine instances?",
+    "choices": {
+      "A": "Google Kubernetes Engine",
+      "B": "Google App Engine",
+      "C": "Cloud Endpoints",
+      "D": "Google Cloud Functions"
+    },
+    "topic": "Google Compute Engine",
+    "correct": "A",
+    "quick_explanation": "Google Kubernetes Engine (GKE) is specifically designed to manage containerized applications across a cluster of machines."
+  },
+  {
+    "question": "Which command-line tool is commonly used to interact with Google Compute Engine?",
+    "choices": {
+      "A": "kubectl",
+      "B": "gsutil",
+      "C": "gcloud",
+      "D": "bq"
+    },
+    "topic": "Google Compute Engine",
+    "correct": "C",
+    "quick_explanation": "The 'gcloud' command-line tool is used for interacting with GCE and other Google Cloud services."
+  },
+  {
+    "question": "How can you add GPUs to your Compute Engine instances?",
+    "choices": {
+      "A": "Only when creating a new instance",
+      "B": "Anytime, but it requires instance reboot",
+      "C": "Anytime without a reboot",
+      "D": "Cannot be added; must select a GPU-optimized instance"
+    },
+    "topic": "Google Compute Engine",
+    "correct": "B",
+    "quick_explanation": "GPUs can be added at any time but the instance needs to be restarted for the changes to take effect."
+  },
+  {
+    "question": "What is the maximum number of persistent disks you can attach to a Compute Engine instance?",
+    "choices": {
+      "A": "16",
+      "B": "32",
+      "C": "64",
+      "D": "128"
+    },
+    "topic": "Google Compute Engine",
+    "correct": "D",
+    "quick_explanation": "You can attach up to 128 persistent disks to a Compute Engine instance."
+  },
+  {
+    "question": "Which of these is not a part of Instance Templates in Google Compute Engine?",
+    "choices": {
+      "A": "Disk",
+      "B": "Region",
+      "C": "Metadata",
+      "D": "Machine type"
+    },
+    "topic": "Google Compute Engine",
+    "correct": "B",
+    "quick_explanation": "Instance templates do not include the region; this is specified when creating an instance group."
+  },
+  {
+    "question": "What types of load balancers can be used with Compute Engine instances?",
+    "choices": {
+      "A": "Regional and Global",
+      "B": "Internal and External",
+      "C": "Zonal and Regional",
+      "D": "Internal and Zonal"
+    },
+    "topic": "Google Compute Engine",
+    "correct": "B",
+    "quick_explanation": "Compute Engine instances can use Internal and External types of load balancers."
+  },
+  {
+    "question": "How are costs calculated for a running Compute Engine instance?",
+    "choices": {
+      "A": "Per minute",
+      "B": "Per hour",
+      "C": "Per second",
+      "D": "Per millisecond"
+    },
+    "topic": "Google Compute Engine",
+    "correct": "C",
+    "quick_explanation": "Costs for running Compute Engine instances are calculated on a per-second basis."
+  },
+  {
+    "question": "What is the default network for new projects in Google Compute Engine?",
+    "choices": {
+      "A": "Auto mode VPC network",
+      "B": "Global network",
+      "C": "Custom mode VPC network",
+      "D": "Default network"
+    },
+    "topic": "Google Compute Engine",
+    "correct": "A",
+    "quick_explanation": "The default network for new GCE projects is an Auto mode VPC network."
+  },
+  {
+    "question": "What does a Shielded VM in Compute Engine protect against?",
+    "choices": {
+      "A": "Unauthorized data access",
+      "B": "Boot-level and firmware-level vulnerabilities",
+      "C": "DDoS attacks",
+      "D": "Phishing attacks"
+    },
+    "topic": "Google Compute Engine",
+    "correct": "B",
+    "quick_explanation": "Shielded VMs in GCE protect against boot-level and firmware-level vulnerabilities."
+  },
+  {
+    "question": "Which of the following is a method to connect your on-premises network to Google Cloud?",
+    "choices": {
+      "A": "Direct Peering",
+      "B": "Dedicated Interconnect",
+      "C": "Carrier Peering",
+      "D": "All of the above"
+    },
+    "topic": "Google Compute Engine",
+    "correct": "D",
+    "quick_explanation": "All the mentioned methods can be used to connect your on-premises network to Google Cloud."
+  },
+  {
+    "question": "What is the purpose of Google Cloud's OS patch management?",
+    "choices": {
+      "A": "Update custom software",
+      "B": "Apply operating system patches",
+      "C": "Backup system files",
+      "D": "Monitor CPU usage"
+    },
+    "topic": "Google Compute Engine",
+    "correct": "B",
+    "quick_explanation": "Google Cloud's OS patch management is designed to apply operating system patches."
+  },
+  {
+    "question": "What is a sustained use discount in Compute Engine?",
+    "choices": {
+      "A": "Discount for long-term contracts",
+      "B": "Automatic discount based on sustained usage",
+      "C": "Coupon-based discount",
+      "D": "None of the above"
+    },
+    "topic": "Google Compute Engine",
+    "correct": "B",
+    "quick_explanation": "Sustained use discounts are automatic discounts that you get for running specific Compute Engine resources a significant portion of the billing month."
+  },
+  {
+    "question": "How many free networks are allowed per GCP project?",
+    "choices": {
+      "A": "1",
+      "B": "3",
+      "C": "5",
+      "D": "Unlimited"
+    },
+    "topic": "Google Compute Engine",
+    "correct": "D",
+    "quick_explanation": "There is no limit on the number of networks per GCP project."
+  },
+  {
+    "question": "What are the types of images that can be used to create VM instances in Compute Engine?",
+    "choices": {
+      "A": "Public images and Custom images",
+      "B": "Windows images and Linux images",
+      "C": "Google-managed images and User-managed images",
+      "D": "All of the above"
+    },
+    "topic": "Google Compute Engine",
+    "correct": "D",
+    "quick_explanation": "You can use public images, custom images, and both Google-managed and user-managed images to create VM instances."
+  },
+  {
+    "question": "Which command is used to initialize or reinitialize gcloud CLI?",
+    "choices": {
+      "A": "gcloud init setup",
+      "B": "gcloud start",
+      "C": "gcloud init",
+      "D": "gcloud initialize"
+    },
+    "topic": "GCP - CLI",
+    "correct": "C"
+  },
+  {
+    "question": "What is the correct command to list all Google Compute Engine instances in a specific zone?",
+    "choices": {
+      "A": "gcloud compute instances list --zone=us-central1-a",
+      "B": "gcloud compute instances get --zone=us-central1-a",
+      "C": "gcloud compute instances all --zone=us-central1-a",
+      "D": "gcloud compute --zone=us-central1-a instances list"
+    },
+    "topic": "GCP - CLI",
+    "correct": "A"
+  },
+  {
+    "question": "Which command adds an IAM policy binding?",
+    "choices": {
+      "A": "gcloud projects add-iam-policy-binding",
+      "B": "gcloud iam policy-binding add",
+      "C": "gcloud iam roles add",
+      "D": "gcloud projects iam add-policy-binding"
+    },
+    "topic": "GCP - CLI",
+    "correct": "A"
+  },
+  {
+    "question": "What is the command to set the default project ID in the gcloud CLI?",
+    "choices": {
+      "A": "gcloud config default project=project-id",
+      "B": "gcloud config --project=project-id",
+      "C": "gcloud config set project project-id",
+      "D": "gcloud project set-id project-id"
+    },
+    "topic": "GCP - CLI",
+    "correct": "C"
+  },
+  {
+    "question": "Which command deploys an application to Google App Engine?",
+    "choices": {
+      "A": "gcloud deploy app",
+      "B": "gcloud app deploy",
+      "C": "gcloud app-engine deploy",
+      "D": "gcloud deploy --app-engine"
+    },
+    "topic": "GCP - CLI",
+    "correct": "B"
+  },
+  {
+    "question": "What command is used to create a new service account?",
+    "choices": {
+      "A": "gcloud iam service-accounts new",
+      "B": "gcloud iam service-accounts create",
+      "C": "gcloud create service-account",
+      "D": "gcloud service-account create"
+    },
+    "topic": "GCP - CLI",
+    "correct": "B"
+  },
+  {
+    "question": "What is the command to SSH into a Compute Engine instance?",
+    "choices": {
+      "A": "gcloud compute instances ssh instance-name",
+      "B": "gcloud ssh --instance=instance-name",
+      "C": "gcloud compute ssh instance-name",
+      "D": "gcloud instance ssh instance-name"
+    },
+    "topic": "GCP - CLI",
+    "correct": "A"
+  },
+  {
+    "question": "What command is used to copy files to a Compute Engine instance?",
+    "choices": {
+      "A": "gcloud compute scp",
+      "B": "gcloud compute copy",
+      "C": "gcloud compute instances copy",
+      "D": "gcloud compute instances scp"
+    },
+    "topic": "GCP - CLI",
+    "correct": "A"
+  },
+  {
+    "question": "Which command is used to create a Kubernetes cluster?",
+    "choices": {
+      "A": "gcloud container cluster create",
+      "B": "gcloud kubernetes cluster create",
+      "C": "gcloud create kubernetes-cluster",
+      "D": "gcloud container clusters create"
+    },
+    "topic": "GCP - CLI",
+    "correct": "D"
+  },
+  {
+    "question": "What is the command to create a new table in BigQuery?",
+    "choices": {
+      "A": "bq mk --table",
+      "B": "bq create table",
+      "C": "bq table create",
+      "D": "bq mk table"
+    },
+    "topic": "GCP - CLI",
+    "correct": "A"
+  },
+  {
+    "question": "Which command lists all active configurations?",
+    "choices": {
+      "A": "gcloud config get-active-configurations",
+      "B": "gcloud config list",
+      "C": "gcloud active-configurations list",
+      "D": "gcloud list-config"
+    },
+    "topic": "GCP - CLI",
+    "correct": "B"
+  },
+  {
+    "question": "What is the command to create a new index in Datastore?",
+    "choices": {
+      "A": "gcloud datastore indexes create",
+      "B": "gcloud create datastore-index",
+      "C": "gcloud datastore create-index",
+      "D": "gcloud datastore indexes create index.yaml"
+    },
+    "topic": "GCP - CLI",
+    "correct": "D"
+  },
+  {
+    "question": "Which command initializes a Firestore database?",
+    "choices": {
+      "A": "gcloud firestore databases init",
+      "B": "gcloud firestore databases create",
+      "C": "gcloud firestore init-database",
+      "D": "gcloud create firestore-database"
+    },
+    "topic": "GCP - CLI",
+    "correct": "B"
+  },
+  {
+    "question": "What is the command to update a Google Kubernetes Engine (GKE) cluster?",
+    "choices": {
+      "A": "gcloud container clusters upgrade",
+      "B": "gcloud kubernetes clusters update",
+      "C": "gcloud container update cluster",
+      "D": "gcloud update kubernetes-cluster"
+    },
+    "topic": "GCP - CLI",
+    "correct": "A"
+  },
+  {
+    "question": "Which command uploads data to a Google Cloud Storage bucket?",
+    "choices": {
+      "A": "gsutil cp",
+      "B": "gsutil upload",
+      "C": "gcloud storage upload",
+      "D": "gcloud storage cp"
+    },
+    "topic": "GCP - CLI",
+    "correct": "A"
+  },
+  {
+    "question": "What is the command to delete a Google Cloud Pub/Sub topic?",
+    "choices": {
+      "A": "gcloud pubsub topics delete",
+      "B": "gcloud delete pubsub-topic",
+      "C": "gcloud pubsub delete topic",
+      "D": "gcloud remove pubsub-topic"
+    },
+    "topic": "GCP - CLI",
+    "correct": "A"
+  },
+  {
+    "question": "What is the command to create a new VPC network?",
+    "choices": {
+      "A": "gcloud compute networks create",
+      "B": "gcloud create network",
+      "C": "gcloud networks new",
+      "D": "gcloud vpc create"
+    },
+    "topic": "GCP - CLI",
+    "correct": "A"
+  },
+  {
+    "question": "What is the command to enable an API service?",
+    "choices": {
+      "A": "gcloud services enable",
+      "B": "gcloud enable api-service",
+      "C": "gcloud api enable",
+      "D": "gcloud enable service"
+    },
+    "topic": "GCP - CLI",
+    "correct": "A"
+  },
+  {
+    "question": "What is the command to get information about a specific GKE cluster?",
+    "choices": {
+      "A": "gcloud container clusters describe",
+      "B": "gcloud kubernetes clusters info",
+      "C": "gcloud get cluster-info",
+      "D": "gcloud kubernetes describe cluster"
+    },
+    "topic": "GCP - CLI",
+    "correct": "A"
+  },
+  {
+    "question": "What is the command to create a VPN tunnel?",
+    "choices": {
+      "A": "gcloud compute vpn-tunnels create",
+      "B": "gcloud create vpn-tunnel",
+      "C": "gcloud vpn create-tunnel",
+      "D": "gcloud vpn-tunnels new"
+    },
+    "topic": "GCP - CLI",
+    "correct": "A"
+  },
+  {
+    "question": "What is the maximum number of zones in a Google Cloud region?",
+    "choices": {
+      "A": "6",
+      "B": "3",
+      "C": "5",
+      "D": "4"
+    },
+    "topic": "Cloud Regions and Zones",
+    "correct": "D",
+    "quick_explanation": "The maximum number of zones in a Google Cloud region is typically 4."
+  },
+  {
+    "question": "Which of the following Google Cloud services is Regional by default?",
+    "choices": {
+      "A": "Cloud Storage",
+      "B": "App Engine",
+      "C": "Datastore",
+      "D": "Pub/Sub"
+    },
+    "topic": "Cloud Regions and Zones",
+    "correct": "D",
+    "quick_explanation": "Google Cloud Pub/Sub is Regional by default."
+  },
+  {
+    "question": "What is the primary reason to deploy resources across multiple regions?",
+    "choices": {
+      "A": "Lower cost",
+      "B": "Increased performance",
+      "C": "Data sovereignty",
+      "D": "Higher availability"
+    },
+    "topic": "Cloud Regions and Zones",
+    "correct": "D",
+    "quick_explanation": "The primary reason for deploying resources across multiple regions is to achieve higher availability."
+  },
+  {
+    "question": "Which of the following statements is true about Cloud Regions?",
+    "choices": {
+      "A": "Regions are globally distributed",
+      "B": "All regions have the same number of zones",
+      "C": "Regions cannot span multiple countries",
+      "D": "None of the above"
+    },
+    "topic": "Cloud Regions and Zones",
+    "correct": "A",
+    "quick_explanation": "Cloud regions are globally distributed."
+  },
+  {
+    "question": "Which Google Cloud Platform service allows for automatic multi-regional deployment?",
+    "choices": {
+      "A": "Cloud SQL",
+      "B": "BigQuery",
+      "C": "Pub/Sub",
+      "D": "Cloud Spanner"
+    },
+    "topic": "Cloud Regions and Zones",
+    "correct": "D",
+    "quick_explanation": "Cloud Spanner allows for automatic multi-regional deployment."
+  },
+  {
+    "question": "In which of the following scenarios is it best to deploy a resource in a single zone?",
+    "choices": {
+      "A": "Disaster recovery",
+      "B": "Dev/Test environments",
+      "C": "Financial systems",
+      "D": "None of the above"
+    },
+    "topic": "Cloud Regions and Zones",
+    "correct": "B",
+    "quick_explanation": "For Dev/Test environments, it may be suitable to deploy resources in a single zone to minimize costs and complexity."
+  },
+  {
+    "question": "How do you deploy an App Engine application to a specific region?",
+    "choices": {
+      "A": "Console settings",
+      "B": "gcloud CLI",
+      "C": "It's not possible to specify the region",
+      "D": "Set in app.yaml"
+    },
+    "topic": "Cloud Regions and Zones",
+    "correct": "B",
+    "quick_explanation": "You can specify the region for an App Engine application using the gcloud CLI."
+  },
+  {
+    "question": "Which Google Cloud Service offers both Zonal and Regional deployments?",
+    "choices": {
+      "A": "Cloud Bigtable",
+      "B": "Cloud SQL",
+      "C": "Compute Engine",
+      "D": "Cloud Pub/Sub"
+    },
+    "topic": "Cloud Regions and Zones",
+    "correct": "C",
+    "quick_explanation": "Compute Engine offers both Zonal and Regional deployments."
+  },
+  {
+    "question": "Which one of these Google Cloud services is Zonal?",
+    "choices": {
+      "A": "BigQuery",
+      "B": "Pub/Sub",
+      "C": "Datastore",
+      "D": "Compute Engine"
+    },
+    "topic": "Cloud Regions and Zones",
+    "correct": "D",
+    "quick_explanation": "Compute Engine instances are zonal resources."
+  },
+  {
+    "question": "What is the minimum number of zones a region can have?",
+    "choices": {
+      "A": "2",
+      "B": "1",
+      "C": "3",
+      "D": "4"
+    },
+    "topic": "Cloud Regions and Zones",
+    "correct": "C",
+    "quick_explanation": "A Google Cloud region typically has a minimum of three zones."
+  },
+  {
+    "question": "Which of the following services is NOT Multi-Regional?",
+    "choices": {
+      "A": "Cloud Storage",
+      "B": "BigQuery",
+      "C": "Datastore",
+      "D": "Cloud Spanner"
+    },
+    "topic": "Cloud Regions and Zones",
+    "correct": "D",
+    "quick_explanation": "Cloud Spanner is not a Multi-Regional service."
+  },
+  {
+    "question": "What command should you use to list available regions and zones in the Google Cloud CLI?",
+    "choices": {
+      "A": "gcloud compute zones list",
+      "B": "gcloud compute regions list",
+      "C": "Both A and B",
+      "D": "Neither A nor B"
+    },
+    "topic": "Cloud Regions and Zones",
+    "correct": "C",
+    "quick_explanation": "You can use both 'gcloud compute zones list' and 'gcloud compute regions list' to list available regions and zones."
+  },
+  {
+    "question": "Which of the following is a valid Google Cloud region?",
+    "choices": {
+      "A": "us-central1",
+      "B": "us-central",
+      "C": "us-mid",
+      "D": "us-east"
+    },
+    "topic": "Cloud Regions and Zones",
+    "correct": "A",
+    "quick_explanation": "us-central1 is a valid Google Cloud region."
+  },
+  {
+    "question": "Can you deploy Google Kubernetes Engine (GKE) clusters in multiple zones within a single region?",
+    "choices": {
+      "A": "Yes",
+      "B": "No",
+      "C": "Only in beta",
+      "D": "Only in VPC-SC"
+    },
+    "topic": "Cloud Regions and Zones",
+    "correct": "A",
+    "quick_explanation": "Yes, you can deploy Google Kubernetes Engine clusters in multiple zones within a single region."
+  },
+  {
+    "question": "Which of the following storage types can be Regional?",
+    "choices": {
+      "A": "SSD Persistent Disk",
+      "B": "Cloud SQL",
+      "C": "Firestore",
+      "D": "Local SSD"
+    },
+    "topic": "Cloud Regions and Zones",
+    "correct": "A",
+    "quick_explanation": "SSD Persistent Disks can be configured to be Regional."
+  },
+  {
+    "question": "Which command would you use to set a default region for your Google Cloud CLI configuration?",
+    "choices": {
+      "A": "gcloud set-region",
+      "B": "gcloud config set region",
+      "C": "gcloud config set compute/region",
+      "D": "gcloud region set-default"
+    },
+    "topic": "Cloud Regions and Zones",
+    "correct": "C",
+    "quick_explanation": "The command 'gcloud config set compute/region' is used to set a default region."
+  },
+  {
+    "question": "Which of the following Google Cloud services can be used to manage resources across multiple zones?",
+    "choices": {
+      "A": "Cloud Endpoints",
+      "B": "Kubernetes Engine",
+      "C": "Cloud Functions",
+      "D": "App Engine"
+    },
+    "topic": "Cloud Regions and Zones",
+    "correct": "B",
+    "quick_explanation": "Google Kubernetes Engine can be used to manage resources across multiple zones."
+  },
+  {
+    "question": "Is it possible to move a Compute Engine virtual machine from one zone to another without deleting it?",
+    "choices": {
+      "A": "Yes",
+      "B": "No",
+      "C": "Yes, but with limitations",
+      "D": "Yes, only within the same region"
+    },
+    "topic": "Cloud Regions and Zones",
+    "correct": "C",
+    "quick_explanation": "It is possible but with limitations, such as needing to snapshot the disk and create a new instance in the target zone."
+  },
+  {
+    "question": "Which Google Cloud service would you use for a globally distributed database?",
+    "choices": {
+      "A": "Cloud SQL",
+      "B": "BigQuery",
+      "C": "Firestore",
+      "D": "Cloud Spanner"
+    },
+    "topic": "Cloud Regions and Zones",
+    "correct": "D",
+    "quick_explanation": "Cloud Spanner is designed for globally distributed databases."
+  },
+  {
+    "question": "What's the best practice for setting up a highly available application?",
+    "choices": {
+      "A": "Use multiple zones in the same region",
+      "B": "Use multiple regions",
+      "C": "Use single-zone to reduce complexity",
+      "D": "None of the above"
+    },
+    "topic": "Cloud Regions and Zones",
+    "correct": "B",
+    "quick_explanation": "For high availability, it's best practice to use multiple regions."
+  }
+]
