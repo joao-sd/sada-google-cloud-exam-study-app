@@ -1,0 +1,4 @@
+
+
+export const TOTAL_EXAM_QUESTIONS = 50;
+export const EXAM_MIN_PASS_SCORE_PERCENTAGE = 75;

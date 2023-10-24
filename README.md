@@ -19,10 +19,14 @@ yarn install
 Generate your questions using GPT4, for better results, using the following prompt:
 
 ```
-Please create a set of 20 multiple-choice questions focusing on the topic 'Google Cloud CLI for Associate Cloud Engineer.' The questions should be similar in style and difficulty to those on the GCP Associate Cloud Engineer exam. The choices should be lettered, and please don't provide the answers initially; I'll answer them myself and then ask for an evaluation. Choices should be letters, not numbers. High probability questions.
+Please create a set of 20 multiple-choice questions focusing on the topic 'EXAM_TOPIC' The questions should be similar in style and difficulty to those on the EXAM_TYPE exam. The choices should be lettered, and please don't provide the answers initially; I'll answer them myself and then ask for an evaluation. Choices should be letters, not numbers. High probability questions.
 
 Please convert the following questions to this JSON format: Example { "question": "Which of the following machine types does Google Compute Engine offer?", "choices": { A: "Normal", B: "Limited", C: "Predefined", D: "Custom" }, "topic": "Zones and Regions", "correct": "C", "quick_explanation: "Bla bla bla" }
 
 ```
+
+- Ex:
+  - EXAM_TOPIC: `Block and file storage iN GCP`
+  - EXAM_TYPE: `Google Cloud Associate`
 
 - Then save it on `./src/data/questions-database.json` file.

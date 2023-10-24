@@ -914,5 +914,845 @@
     "topic": "Cloud IAM",
     "correct": "B",
     "quick_explanation": "Best practice is to use the principle of least privilege when managing Service Account permissions."
+  },
+  {
+    "question": "Which pricing model can provide cost savings if your workloads are fault-tolerant?",
+    "choices": {
+      "A": "On-Demand",
+      "B": "Preemptible Instances",
+      "C": "Committed Use",
+      "D": "Sole-Tenant Nodes"
+    },
+    "topic": "Cost and Performance Optimization",
+    "correct": "B",
+    "quick_explanation": "Preemptible instances are cost-effective but short-lived instances suitable for fault-tolerant workloads."
+  },
+  {
+    "question": "What tool can be used to get recommendations for cost-saving strategies?",
+    "choices": {
+      "A": "Stackdriver",
+      "B": "Cost Explorer",
+      "C": "BigQuery",
+      "D": "Cloud Monitoring"
+    },
+    "topic": "Cost and Performance Optimization",
+    "correct": "B",
+    "quick_explanation": "Cost Explorer can provide insights and recommendations for optimizing costs."
+  },
+  {
+    "question": "Which machine family is optimized for high-performance computing?",
+    "choices": {
+      "A": "N2",
+      "B": "E2",
+      "C": "C2",
+      "D": "M2"
+    },
+    "topic": "Cost and Performance Optimization",
+    "correct": "C",
+    "quick_explanation": "C2 machine types are optimized for compute-intensive workloads."
+  },
+  {
+    "question": "What is the benefit of using custom machine types?",
+    "choices": {
+      "A": "Fixed pricing",
+      "B": "Higher performance",
+      "C": "Cost savings",
+      "D": "Higher availability"
+    },
+    "topic": "Cost and Performance Optimization",
+    "correct": "C",
+    "quick_explanation": "Custom machine types allow you to tailor resources based on need, potentially leading to cost savings."
+  },
+  {
+    "question": "What is the purpose of sustained use discounts?",
+    "choices": {
+      "A": "To reward short-term usage",
+      "B": "To reward consistent long-term usage",
+      "C": "To encourage off-peak usage",
+      "D": "To incentivize the use of specific machine types"
+    },
+    "topic": "Cost and Performance Optimization",
+    "correct": "B",
+    "quick_explanation": "Sustained use discounts automatically give you discounted prices for long-running workloads."
+  },
+  {
+    "question": "Which storage option is best for high-performance computing?",
+    "choices": {
+      "A": "Persistent Disk",
+      "B": "Cloud Storage",
+      "C": "Local SSD",
+      "D": "Cloud Bigtable"
+    },
+    "topic": "Cost and Performance Optimization",
+    "correct": "C",
+    "quick_explanation": "Local SSDs offer the highest performance and lowest latency."
+  },
+  {
+    "question": "Which auto-scaling policy is best for optimizing costs?",
+    "choices": {
+      "A": "CPU Utilization",
+      "B": "Queues",
+      "C": "Load balancing",
+      "D": "Custom Metric"
+    },
+    "topic": "Cost and Performance Optimization",
+    "correct": "D",
+    "quick_explanation": "A custom metric can be defined to closely align with your specific Cost and Performance Optimization goals."
+  },
+  {
+    "question": "Which feature allows you to execute workloads on idle resources at a discounted price?",
+    "choices": {
+      "A": "Reservations",
+      "B": "Preemptible Instances",
+      "C": "Sole-tenant Nodes",
+      "D": "Committed Use"
+    },
+    "topic": "Cost and Performance Optimization",
+    "correct": "B",
+    "quick_explanation": "Preemptible instances are cost-effective and run on spare Google Cloud resources."
+  },
+  {
+    "question": "What type of machine type is most cost-effective for bursty workloads?",
+    "choices": {
+      "A": "Standard",
+      "B": "High-CPU",
+      "C": "E2",
+      "D": "High-Memory"
+    },
+    "topic": "Cost and Performance Optimization",
+    "correct": "C",
+    "quick_explanation": "E2 machine types are cost-effective and are well-suited for workloads that can burst."
+  },
+  {
+    "question": "Which of the following tools helps visualize and manage cloud costs?",
+    "choices": {
+      "A": "Cloud Monitoring",
+      "B": "Cloud Profiler",
+      "C": "Cloud Cost Management",
+      "D": "Cloud Console"
+    },
+    "topic": "Cost and Performance Optimization",
+    "correct": "A",
+    "quick_explanation": "Cloud Monitoring can be used to visualize and manage your cloud costs."
+  },
+  {
+    "question": "Which feature allows you to reduce cost by committing to usage for 1 or 3 years?",
+    "choices": {
+      "A": "Sustained Use Discounts",
+      "B": "Committed Use Discounts",
+      "C": "On-Demand",
+      "D": "Preemptible"
+    },
+    "topic": "Cost and Performance Optimization",
+    "correct": "B",
+    "quick_explanation": "Committed Use Discounts offer cost savings in exchange for a commitment to use resources for an extended period."
+  },
+  {
+    "question": "Which tool automatically applies the best-optimized settings to your resources?",
+    "choices": {
+      "A": "Cloud AutoML",
+      "B": "Cloud Monitoring",
+      "C": "Cloud Recommender",
+      "D": "Cloud Builder"
+    },
+    "topic": "Cost and Performance Optimization",
+    "correct": "C",
+    "quick_explanation": "Cloud Recommender provides recommendations to optimize the configurations of your Google Cloud resources."
+  },
+  {
+    "question": "Which of the following can be used to automate cost controls?",
+    "choices": {
+      "A": "Budgets and Alerts",
+      "B": "Cloud Functions",
+      "C": "Both A and B",
+      "D": "Neither A nor B"
+    },
+    "topic": "Cost and Performance Optimization",
+    "correct": "C",
+    "quick_explanation": "Budgets and Alerts can be used to set thresholds, while Cloud Functions can automate actions based on those thresholds."
+  },
+  {
+    "question": "What does 'Right-sizing' refer to?",
+    "choices": {
+      "A": "Increasing the size of your instances",
+      "B": "Decreasing the size of your instances",
+      "C": "Optimizing resource allocation",
+      "D": "Switching to the latest machine types"
+    },
+    "topic": "Cost and Performance Optimization",
+    "correct": "C",
+    "quick_explanation": "Right-sizing is about matching your workloads to the most efficient instance types and sizes."
+  },
+  {
+    "question": "Which type of Persistent Disk should you use for performance-sensitive applications?",
+    "choices": {
+      "A": "Standard",
+      "B": "Regional",
+      "C": "SSD",
+      "D": "HDD"
+    },
+    "topic": "Cost and Performance Optimization",
+    "correct": "C",
+    "quick_explanation": "SSD Persistent Disk offers higher performance and is suitable for performance-sensitive applications."
+  },
+  {
+    "question": "Which of the following is NOT a way to optimize costs in Google Compute Engine?",
+    "choices": {
+      "A": "Using Committed Use Discounts",
+      "B": "Always choosing the latest machine type",
+      "C": "Utilizing preemptible instances",
+      "D": "Taking advantage of sustained use discounts"
+    },
+    "topic": "Cost and Performance Optimization",
+    "correct": "B",
+    "quick_explanation": "The latest machine type is not necessarily the most cost-effective; it depends on your specific workload."
+  },
+  {
+    "question": "What is the primary benefit of using Cloud CDN?",
+    "choices": {
+      "A": "Lower costs",
+      "B": "Higher security",
+      "C": "Improved application performance",
+      "D": "Data loss prevention"
+    },
+    "topic": "Cost and Performance Optimization",
+    "correct": "C",
+    "quick_explanation": "Cloud CDN leverages Google’s globally distributed system to accelerate content delivery, thereby improving application performance."
+  },
+  {
+    "question": "What does Autoscaler optimize?",
+    "choices": {
+      "A": "Cost",
+      "B": "Performance",
+      "C": "Both A and B",
+      "D": "Neither A nor B"
+    },
+    "topic": "Cost and Performance Optimization",
+    "correct": "C",
+    "quick_explanation": "Autoscaler can adjust the number of VM instances available to your application up and down within minimum and maximum range, optimizing both cost and performance."
+  },
+  {
+    "question": "Which of the following helps in reducing the cost of transferring data OUT of Google Cloud?",
+    "choices": {
+      "A": "CDN Interconnect",
+      "B": "Direct Peering",
+      "C": "Carrier Peering",
+      "D": "All of the above"
+    },
+    "topic": "Cost and Performance Optimization",
+    "correct": "D",
+    "quick_explanation": "All these options can help in reducing the cost of data egress from Google Cloud."
+  },
+  {
+    "question": "How do you enable 'Cost Controls' for your Google Cloud project?",
+    "choices": {
+      "A": "Set Budgets and Alerts",
+      "B": "Enable Billing Export to BigQuery",
+      "C": "Enable Quotas",
+      "D": "All of the above"
+    },
+    "topic": "Cost and Performance Optimization",
+    "correct": "D",
+    "quick_explanation": "Budgets, Alerts, Billing Export to BigQuery, and Quotas can all be used for enabling cost controls on a Google Cloud project."
+  },
+  {
+    "question": "Which GCP service is used for block storage?",
+    "choices": {
+      "A": "Cloud Storage",
+      "B": "Persistent Disk",
+      "C": "Cloud Filestore",
+      "D": "Cloud SQL"
+    },
+    "topic": "Block, file cloud storage and etc",
+    "correct": "B",
+    "quick_explanation": "Persistent Disk is the block storage service in GCP."
+  },
+  {
+    "question": "Which file service in GCP is fully managed?",
+    "choices": {
+      "A": "Cloud Filestore",
+      "B": "Cloud Storage",
+      "C": "Persistent Disk",
+      "D": "Cloud SQL"
+    },
+    "topic": "Block, file cloud storage and etc",
+    "correct": "A",
+    "quick_explanation": "Cloud Filestore is a fully managed file storage service."
+  },
+  {
+    "question": "What is the maximum size of a zonal persistent disk?",
+    "choices": {
+      "A": "64 TB",
+      "B": "32 TB",
+      "C": "128 TB",
+      "D": "256 TB"
+    },
+    "topic": "Block, file cloud storage and etc",
+    "correct": "A",
+    "quick_explanation": "The maximum size of a zonal persistent disk is 64 TB."
+  },
+  {
+    "question": "Which of the following is NOT a storage class for Cloud Storage?",
+    "choices": {
+      "A": "Standard",
+      "B": "Nearline",
+      "C": "Coldline",
+      "D": "Hotline"
+    },
+    "topic": "Block, file cloud storage and etc",
+    "correct": "D",
+    "quick_explanation": "Hotline is not a storage class in Cloud Storage."
+  },
+  {
+    "question": "Which GCP service provides NFS support?",
+    "choices": {
+      "A": "Cloud Filestore",
+      "B": "Persistent Disk",
+      "C": "Cloud Storage",
+      "D": "Cloud SQL"
+    },
+    "topic": "Block, file cloud storage and etc",
+    "correct": "A",
+    "quick_explanation": "Cloud Filestore provides NFS support."
+  },
+  {
+    "question": "Which Persistent Disk type offers the highest performance?",
+    "choices": {
+      "A": "Standard",
+      "B": "SSD",
+      "C": "HDD",
+      "D": "Balanced"
+    },
+    "topic": "Block, file cloud storage and etc",
+    "correct": "B",
+    "quick_explanation": "SSD Persistent Disk offers the highest performance."
+  },
+  {
+    "question": "Which of the following is NOT a feature of Cloud Filestore?",
+    "choices": {
+      "A": "NFS support",
+      "B": "Zonal availability",
+      "C": "Object storage",
+      "D": "Backup capabilities"
+    },
+    "topic": "Block, file cloud storage and etc",
+    "correct": "C",
+    "quick_explanation": "Cloud Filestore does not offer object storage."
+  },
+  {
+    "question": "What is the minimum size of a Persistent Disk?",
+    "choices": {
+      "A": "1 GB",
+      "B": "10 GB",
+      "C": "100 MB",
+      "D": "200 GB"
+    },
+    "topic": "Block, file cloud storage and etc",
+    "correct": "A",
+    "quick_explanation": "The minimum size of a Persistent Disk is 1 GB."
+  },
+  {
+    "question": "Which of the following services is best for storing large blobs?",
+    "choices": {
+      "A": "Cloud Filestore",
+      "B": "Cloud Storage",
+      "C": "Persistent Disk",
+      "D": "Cloud SQL"
+    },
+    "topic": "Block, file cloud storage and etc",
+    "correct": "B",
+    "quick_explanation": "Cloud Storage is best for storing large blobs."
+  },
+  {
+    "question": "Which Persistent Disk type is the most cost-effective for frequently accessed data?",
+    "choices": {
+      "A": "Standard",
+      "B": "SSD",
+      "C": "HDD",
+      "D": "Balanced"
+    },
+    "topic": "Block, file cloud storage and etc",
+    "correct": "A",
+    "quick_explanation": "Standard Persistent Disk is the most cost-effective for frequently accessed data."
+  },
+  {
+    "question": "Which service allows you to create a file share?",
+    "choices": {
+      "A": "Cloud Filestore",
+      "B": "Persistent Disk",
+      "C": "Cloud Storage",
+      "D": "Cloud SQL"
+    },
+    "topic": "Block, file cloud storage and etc",
+    "correct": "A",
+    "quick_explanation": "Cloud Filestore allows you to create a file share."
+  },
+  {
+    "question": "What is the maximum size of a regional persistent disk?",
+    "choices": {
+      "A": "32 TB",
+      "B": "64 TB",
+      "C": "128 TB",
+      "D": "256 TB"
+    },
+    "topic": "Block, file cloud storage and etc",
+    "correct": "B",
+    "quick_explanation": "The maximum size of a regional persistent disk is 64 TB."
+  },
+  {
+    "question": "Which service provides automatic encryption at rest?",
+    "choices": {
+      "A": "Cloud Filestore",
+      "B": "Persistent Disk",
+      "C": "Cloud Storage",
+      "D": "All of the above"
+    },
+    "topic": "Block, file cloud storage and etc",
+    "correct": "D",
+    "quick_explanation": "All listed services provide automatic encryption at rest."
+  },
+  {
+    "question": "Which of the following is NOT a feature of Persistent Disk?",
+    "choices": {
+      "A": "Snapshot capabilities",
+      "B": "Multi-reader mounts",
+      "C": "Object storage",
+      "D": "Encryption at rest"
+    },
+    "topic": "Block, file cloud storage and etc",
+    "correct": "C",
+    "quick_explanation": "Persistent Disk does not offer object storage."
+  },
+  {
+    "question": "Which service is best for storing unstructured data?",
+    "choices": {
+      "A": "Cloud Filestore",
+      "B": "Cloud Storage",
+      "C": "Persistent Disk",
+      "D": "Cloud SQL"
+    },
+    "topic": "Block, file cloud storage and etc",
+    "correct": "B",
+    "quick_explanation": "Cloud Storage is best for storing unstructured data."
+  },
+  {
+    "question": "Which Persistent Disk type offers the lowest latency?",
+    "choices": {
+      "A": "Standard",
+      "B": "SSD",
+      "C": "HDD",
+      "D": "Balanced"
+    },
+    "topic": "Block, file cloud storage and etc",
+    "correct": "B",
+    "quick_explanation": "SSD Persistent Disk offers the lowest latency."
+  },
+  {
+    "question": "Which service allows you to store data in a hierarchical namespace?",
+    "choices": {
+      "A": "Cloud Filestore",
+      "B": "Persistent Disk",
+      "C": "Cloud Storage",
+      "D": "Cloud SQL"
+    },
+    "topic": "Block, file cloud storage and etc",
+    "correct": "A",
+    "quick_explanation": "Cloud Filestore allows you to store data in a hierarchical namespace."
+  },
+  {
+    "question": "Which of the following is NOT a replication option for Persistent Disk?",
+    "choices": {
+      "A": "Zonal",
+      "B": "Regional",
+      "C": "Multi-regional",
+      "D": "None of the above"
+    },
+    "topic": "Block, file cloud storage and etc",
+    "correct": "C",
+    "quick_explanation": "Persistent Disk does not offer multi-regional replication."
+  },
+  {
+    "question": "Which service is best for storing large files that are rarely accessed?",
+    "choices": {
+      "A": "Cloud Filestore",
+      "B": "Cloud Storage",
+      "C": "Persistent Disk",
+      "D": "Cloud SQL"
+    },
+    "topic": "Block, file cloud storage and etc",
+    "correct": "B",
+    "quick_explanation": "Cloud Storage with Coldline or Archive class is best for storing large files that are rarely accessed."
+  },
+  {
+    "question": "Which of the following services supports block-level operations?",
+    "choices": {
+      "A": "Cloud Filestore",
+      "B": "Persistent Disk",
+      "C": "Cloud Storage",
+      "D": "Cloud SQL"
+    },
+    "topic": "Block, file cloud storage and etc",
+    "correct": "B",
+    "quick_explanation": "Persistent Disk supports block-level operations."
+  },
+  {
+    "question": "Which of the following storage classes is most cost-effective for data that is accessed less frequently, but the retrieval time is crucial?",
+    "choices": {
+      "A": "Standard",
+      "B": "Nearline",
+      "C": "Coldline",
+      "D": "Archive"
+    },
+    "topic": "Block, file cloud storage and etc",
+    "correct": "C",
+    "quick_explanation": "Coldline storage is designed for data that is infrequently accessed but requires fast retrieval when needed."
+  },
+  {
+    "question": "What is Google Filestore primarily used for?",
+    "choices": {
+      "A": "Object Storage",
+      "B": "Block Storage",
+      "C": "File Storage",
+      "D": "Database Storage"
+    },
+    "topic": "Block, file cloud storage and etc",
+    "correct": "C",
+    "quick_explanation": "Google Filestore is a managed file storage service for applications that require a file system interface."
+  },
+  {
+    "question": "Which GCP service allows you to create, delete, and manage VM images?",
+    "choices": {
+      "A": "Google Kubernetes Engine",
+      "B": "Compute Engine",
+      "C": "App Engine",
+      "D": "BigQuery"
+    },
+    "topic": "Block, file cloud storage and etc",
+    "correct": "B",
+    "quick_explanation": "Google Compute Engine provides features to create, delete, and manage VM images."
+  },
+  {
+    "question": "Which of the following storage options would be the most cost-effective for storing infrequently accessed data for long-term archival?",
+    "choices": {
+      "A": "Standard Storage",
+      "B": "Nearline Storage",
+      "C": "Coldline Storage",
+      "D": "Archive Storage"
+    },
+    "topic": "Block, file cloud storage and etc",
+    "correct": "D",
+    "quick_explanation": "Archive Storage is designed for long-term storage of data that won't be accessed frequently."
+  },
+  {
+    "question": "Which of the following options allows you to attach high-performance block storage to your virtual machine instances?",
+    "choices": {
+      "A": "Persistent Disk",
+      "B": "Google Filestore",
+      "C": "Cloud Storage",
+      "D": "Cloud SQL"
+    },
+    "topic": "Block, file cloud storage and etc",
+    "correct": "A",
+    "quick_explanation": "Persistent Disk provides block storage that can be dynamically attached to VM instances."
+  },
+  {
+    "question": "What type of storage is optimized for storing large amounts of unstructured data?",
+    "choices": {
+      "A": "Cloud Filestore",
+      "B": "Cloud Bigtable",
+      "C": "Persistent Disk",
+      "D": "Cloud Storage"
+    },
+    "topic": "Block, file cloud storage and etc",
+    "correct": "D",
+    "quick_explanation": "Cloud Storage is optimized for storing large amounts of unstructured data, such as videos, images, and backups."
+  },
+  {
+    "question": "What is the default storage class for newly created objects in a multi-regional bucket?",
+    "choices": {
+      "A": "Standard",
+      "B": "Nearline",
+      "C": "Coldline",
+      "D": "Archive"
+    },
+    "topic": "Block, file cloud storage and etc",
+    "correct": "A",
+    "quick_explanation": "The default storage class for new objects in a multi-regional bucket is Standard."
+  },
+  {
+    "question": "Which feature would you use to automatically transition objects between storage classes?",
+    "choices": {
+      "A": "Object Lifecycle Management",
+      "B": "Cloud Functions",
+      "C": "Cloud Scheduler",
+      "D": "Cloud Pub/Sub"
+    },
+    "topic": "Block, file cloud storage and etc",
+    "correct": "A",
+    "quick_explanation": "Object Lifecycle Management policies allow you to transition objects between storage classes automatically based on specified conditions."
+  },
+  {
+    "question": "Which service allows you to create read-only replicas of your file system?",
+    "choices": {
+      "A": "Google Filestore",
+      "B": "Persistent Disk",
+      "C": "Cloud Storage",
+      "D": "Cloud Bigtable"
+    },
+    "topic": "Block, file cloud storage and etc",
+    "correct": "A",
+    "quick_explanation": "Google Filestore allows you to create read-only replicas of your file system."
+  },
+  {
+    "question": "Which of the following is NOT a feature of Machine Images in Google Compute Engine?",
+    "choices": {
+      "A": "Capture disk, metadata, and permissions",
+      "B": "Auto-scaling capabilities",
+      "C": "Create VM instances from the image",
+      "D": "Sharing across projects"
+    },
+    "topic": "Block, file cloud storage and etc",
+    "correct": "B",
+    "quick_explanation": "Machine Images capture the disk, metadata, and permissions but do not inherently have auto-scaling capabilities."
+  },
+  {
+    "question": "What is the primary benefit of using Managed Instance Groups?",
+    "choices": {
+      "A": "Automatic failover",
+      "B": "Manual control over instances",
+      "C": "Automatic scaling",
+      "D": "Enhanced Security"
+    },
+    "topic": "Instance Groups",
+    "correct": "C",
+    "quick_explanation": "Managed Instance Groups automatically manage the scaling and deployment of instances."
+  },
+  {
+    "question": "Which type of instance group is best suited for deploying instances across multiple zones?",
+    "choices": {
+      "A": "Zonal Managed Instance Group",
+      "B": "Regional Managed Instance Group",
+      "C": "Unmanaged Instance Group",
+      "D": "Regional Unmanaged Instance Group"
+    },
+    "topic": "Instance Groups",
+    "correct": "B",
+    "quick_explanation": "Regional Managed Instance Groups deploy instances across multiple zones within a region."
+  },
+  {
+    "question": "What must you do to update a group of instances managed by an Unmanaged Instance Group?",
+    "choices": {
+      "A": "Manually update each instance",
+      "B": "Configure auto-updating",
+      "C": "Enable Rolling Update",
+      "D": "Use Instance Templates"
+    },
+    "topic": "Instance Groups",
+    "correct": "A",
+    "quick_explanation": "For Unmanaged Instance Groups, you have to manually manage and update each instance."
+  },
+  {
+    "question": "Which of the following is NOT a scaling option for Managed Instance Groups?",
+    "choices": {
+      "A": "Manual Scaling",
+      "B": "Autoscaling",
+      "C": "Predictive Scaling",
+      "D": "Responsive Scaling"
+    },
+    "topic": "Instance Groups",
+    "correct": "D",
+    "quick_explanation": "Responsive Scaling is not a recognized scaling option for Managed Instance Groups in Google Cloud."
+  },
+  {
+    "question": "How do you define the configuration for instances in a Managed Instance Group?",
+    "choices": {
+      "A": "Using Firewall Rules",
+      "B": "Using an Instance Template",
+      "C": "Directly in the group settings",
+      "D": "Using a VPC"
+    },
+    "topic": "Instance Groups",
+    "correct": "B",
+    "quick_explanation": "Instance Templates define the configuration for instances in Managed Instance Groups."
+  },
+  {
+    "question": "What is the minimum number of instances you can have in a Managed Instance Group?",
+    "choices": {
+      "A": "0",
+      "B": "1",
+      "C": "2",
+      "D": "3"
+    },
+    "topic": "Instance Groups",
+    "correct": "A",
+    "quick_explanation": "A Managed Instance Group can have zero instances."
+  },
+  {
+    "question": "In which of the following scenarios would you use an Unmanaged Instance Group?",
+    "choices": {
+      "A": "Instances needing autoscaling",
+      "B": "Instances with heterogeneous configurations",
+      "C": "Instances requiring automatic software updates",
+      "D": "Instances needing automatic failover"
+    },
+    "topic": "Instance Groups",
+    "correct": "B",
+    "quick_explanation": "Unmanaged Instance Groups are suitable for instances with heterogeneous configurations."
+  },
+  {
+    "question": "What is the primary use case of Instance Groups?",
+    "choices": {
+      "A": "Load Balancing",
+      "B": "Database Replication",
+      "C": "Security Isolation",
+      "D": "Data Analysis"
+    },
+    "topic": "Instance Groups",
+    "correct": "A",
+    "quick_explanation": "Instance Groups are primarily used for load balancing."
+  },
+  {
+    "question": "What is the maximum number of instances that can be added to a single Managed Instance Group?",
+    "choices": {
+      "A": "1000",
+      "B": "5000",
+      "C": "10000",
+      "D": "There is no maximum limit"
+    },
+    "topic": "Instance Groups",
+    "correct": "B",
+    "quick_explanation": "A single Managed Instance Group can have up to 5000 instances."
+  },
+  {
+    "question": "What is the command to create a Managed Instance Group?",
+    "choices": {
+      "A": "`gcloud compute instance-groups unmanaged create`",
+      "B": "`gcloud compute instance-groups managed create`",
+      "C": "`gcloud create instance-group managed`",
+      "D": "`gcloud instance-group managed create`"
+    },
+    "topic": "Instance Groups",
+    "correct": "B",
+    "quick_explanation": "The command `gcloud compute instance-groups managed create` is used to create a Managed Instance Group."
+  },
+  {
+    "question": "Which of the following is a required field when creating an Instance Template?",
+    "choices": {
+      "A": "Region",
+      "B": "Machine Type",
+      "C": "Instance Group",
+      "D": "Autoscaling policy"
+    },
+    "topic": "Instance Groups",
+    "correct": "B",
+    "quick_explanation": "Machine Type is a required field when creating an Instance Template."
+  },
+  {
+    "question": "Which feature allows Managed Instance Groups to distribute instances evenly across zones?",
+    "choices": {
+      "A": "Multi-Zonal Distribution",
+      "B": "Proximity Placement Groups",
+      "C": "Anti-Affinity",
+      "D": "Zone Distribution Policy"
+    },
+    "topic": "Instance Groups",
+    "correct": "D",
+    "quick_explanation": "Zone Distribution Policy allows for even distribution of instances across zones."
+  },
+  {
+    "question": "Can you associate more than one Instance Template with a Managed Instance Group?",
+    "choices": {
+      "A": "Yes",
+      "B": "No",
+      "C": "Yes, but only with a special flag",
+      "D": "Only in Regional Managed Instance Groups"
+    },
+    "topic": "Instance Groups",
+    "correct": "B",
+    "quick_explanation": "You can associate only one Instance Template with a Managed Instance Group."
+  },
+  {
+    "question": "What is the key difference between a Zonal and a Regional Managed Instance Group?",
+    "choices": {
+      "A": "Number of instances",
+      "B": "Type of instances",
+      "C": "Scope of availability",
+      "D": "Cost"
+    },
+    "topic": "Instance Groups",
+    "correct": "C",
+    "quick_explanation": "The key difference is the scope of availability. Zonal exists in a single zone, whereas Regional exists across multiple zones."
+  },
+  {
+    "question": "How can you set up autoscaling for a Managed Instance Group?",
+    "choices": {
+      "A": "Using Cloud Functions",
+      "B": "Using Autoscaler",
+      "C": "Using Cloud Scheduler",
+      "D": "Using App Engine"
+    },
+    "topic": "Instance Groups",
+    "correct": "B",
+    "quick_explanation": "Autoscaler is used to configure autoscaling for a Managed Instance Group."
+  },
+  {
+    "question": "In Managed Instance Groups, what happens when an instance becomes UNHEALTHY in a health check?",
+    "choices": {
+      "A": "The instance is automatically deleted",
+      "B": "The instance is recreated",
+      "C": "The instance is flagged for manual intervention",
+      "D": "The instance is isolated from the load balancer"
+    },
+    "topic": "Instance Groups",
+    "correct": "B",
+    "quick_explanation": "The instance is automatically recreated when it becomes UNHEALTHY."
+  },
+  {
+    "question": "What is the benefit of using Per-Instance Configurations in a Managed Instance Group?",
+    "choices": {
+      "A": "Enhanced Security",
+      "B": "Automatic Scaling",
+      "C": "Cost Saving",
+      "D": "Customization of individual instances"
+    },
+    "topic": "Instance Groups",
+    "correct": "D",
+    "quick_explanation": "Per-Instance Configurations allow you to customize individual instances within a Managed Instance Group."
+  },
+  {
+    "question": "What is the primary reason to use an Unmanaged Instance Group?",
+    "choices": {
+      "A": "For instances requiring manual configuration",
+      "B": "To save on costs",
+      "C": "For stateful applications",
+      "D": "For instances that need autoscaling"
+    },
+    "topic": "Instance Groups",
+    "correct": "A",
+    "quick_explanation": "Unmanaged Instance Groups are used for instances that require manual configuration."
+  },
+  {
+    "question": "How can you perform a rolling update in a Managed Instance Group?",
+    "choices": {
+      "A": "By using an update policy",
+      "B": "By manually updating instances one by one",
+      "C": "By using a Cloud Function",
+      "D": "It's not possible"
+    },
+    "topic": "Instance Groups",
+    "correct": "A",
+    "quick_explanation": "Rolling updates in Managed Instance Groups can be performed by specifying an update policy."
+  },
+  {
+    "question": "What type of load balancing is NOT suitable for use with Managed Instance Groups?",
+    "choices": {
+      "A": "HTTP(S) Load Balancing",
+      "B": "TCP/SSL Proxy Load Balancing",
+      "C": "Internal TCP/UDP Load Balancing",
+      "D": "DNS Load Balancing"
+    },
+    "topic": "Instance Groups",
+    "correct": "D",
+    "quick_explanation": "DNS Load Balancing is not a native Google Cloud load balancing option suitable for Managed Instance Groups."
   }
 ]

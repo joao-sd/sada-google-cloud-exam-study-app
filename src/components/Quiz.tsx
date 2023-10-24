@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import { EXAM_MIN_PASS_SCORE_PERCENTAGE } from '../constants/ExamConstants';
 import { Question as QuestionType } from '../types';
 import Question from './Question';
 
@@ -43,7 +44,7 @@ const Quiz: React.FC<QuizProps> = ({ questionsData, selectedTopic }) => {
               <p className="card-text display-4">
                 {score} / {filteredQuestions.length}
               </p>
-              <span className={`h6 ${((score / filteredQuestions.length) * 100) >= 75 ? 'text-success' : 'text-danger'}`}>
+              <span className={`h6 ${((score / filteredQuestions.length) * 100) >= EXAM_MIN_PASS_SCORE_PERCENTAGE ? 'text-success' : 'text-danger'}`}>
                 ({((score / filteredQuestions.length) * 100).toFixed(2)}%)
               </span>
             </div>
