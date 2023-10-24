@@ -9,7 +9,7 @@
     },
     "topic": "Google Compute Engine",
     "correct": "C",
-    "quick_explanation": "Google Compute Engine offers predefined and custom machine types to fit different workloads."
+    "quick_explanation": "Google Compute Engine offers machine types categorized as 'Predefined' machine types. These predefined machine types come with specific amounts of vCPUs (virtual CPUs) and memory, making it easier for users to select a suitable configuration for their needs."
   },
   {
     "question": "How can you reserve Compute Engine resources for your project?",
