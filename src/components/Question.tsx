@@ -11,13 +11,13 @@ const QuestionComponent: React.FC<QuestionProps> = ({ question: data, onAnswerSe
   const [selectedAnswer, setSelectedAnswer] = useState<string | null>(null);
   const [answered, setAnswered] = useState<boolean>(false);
 
-  const isIncorrect = data.correct !== selectedAnswer;
+  const isIncorrect = data?.correct !== selectedAnswer;
 
   const handleAnswerClick = (choice: string) => {
     setSelectedAnswer(choice);
     setAnswered(true);
 
-    if (choice === data.correct) {
+    if (choice === data?.correct) {
       // move next
       onAnswerSelect(choice, true);
       setSelectedAnswer(null);
@@ -36,7 +36,7 @@ const QuestionComponent: React.FC<QuestionProps> = ({ question: data, onAnswerSe
 
   return (
     <div className="container mt-4">
-      <h5>{data.question} ({data.topic})</h5>
+      <h5>{data.question}</h5>
       <div className="row">
         <div className="col">
           {Object.entries(data.choices).map(([choice, text]) => (
@@ -54,8 +54,8 @@ const QuestionComponent: React.FC<QuestionProps> = ({ question: data, onAnswerSe
             </div>
           ))}
           {answered && isIncorrect && (
-            <div className={`alert alert-danger mt-3`}>
-              <p>{data.quick_explanation}</p>
+            <div className={`alert alert-danger mt-4`}>
+              {data.quick_explanation ?? `Correct: ${data.correct}`}
             </div>
           )}
           {answered ? (

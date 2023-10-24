@@ -29,18 +29,40 @@ const Quiz: React.FC<QuizProps> = ({ questionsData, selectedTopic }) => {
     setCurrentQuestionIndex(0);
   }, [selectedTopic]);
 
+  const hasQuestion = filteredQuestions.length > 0 && currentQuestionIndex < filteredQuestions.length;
+
   return (
     <div className="container mt-4">
       <h2 className="text-center">Quiz Summary</h2>
-      <p className="text-center">
-        Score: {score} / {filteredQuestions.length}
-      </p>
+
       <div className="row justify-content-center">
         <div className="col-md-6">
-          <Question
-            question={filteredQuestions[currentQuestionIndex]}
-            onAnswerSelect={handleAnswerClick}
-          />
+          <div className="card">
+            <div className="card-body text-center">
+              <h5 className="card-title">Score</h5>
+              <p className="card-text display-4">
+                {score} / {filteredQuestions.length}
+              </p>
+              <span className={`h6 ${((score / filteredQuestions.length) * 100) >= 75 ? 'text-success' : 'text-danger'}`}>
+                ({((score / filteredQuestions.length) * 100).toFixed(2)}%)
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="row justify-content-center mt-4">
+        <div className="col-md-6">
+          {hasQuestion ? (
+            <Question
+              question={filteredQuestions[currentQuestionIndex]}
+              onAnswerSelect={handleAnswerClick}
+            />
+          ) : (
+            <div className="alert alert-success" role="alert">
+              Finished!
+            </div>
+          )}
         </div>
       </div>
     </div>

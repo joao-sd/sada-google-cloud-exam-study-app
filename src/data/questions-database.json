@@ -564,8 +564,8 @@
       "D": "Cloud Spanner"
     },
     "topic": "Cloud Regions and Zones",
-    "correct": "D",
-    "quick_explanation": "Cloud Spanner is not a Multi-Regional service."
+    "correct": "C",
+    "quick_explanation": "Google Cloud Datastore is a NoSQL database service that is not designed to be multi-regional. It offers strong consistency but is localized to specific regions."
   },
   {
     "question": "What command should you use to list available regions and zones in the Google Cloud CLI?",
@@ -674,5 +674,245 @@
     "topic": "Cloud Regions and Zones",
     "correct": "B",
     "quick_explanation": "For high availability, it's best practice to use multiple regions."
+  },
+  {
+    "question": "What is the main responsibility of Cloud IAM?",
+    "choices": {
+      "A": "Storage Management",
+      "B": "Identity and Access Management",
+      "C": "Monitoring and Logging",
+      "D": "Data Analysis"
+    },
+    "topic": "Cloud IAM",
+    "correct": "B",
+    "quick_explanation": "Cloud IAM is primarily used for identity and access management."
+  },
+  {
+    "question": "Which IAM role should be assigned to view resources but not manage them?",
+    "choices": {
+      "A": "Editor",
+      "B": "Viewer",
+      "C": "Owner",
+      "D": "Custom"
+    },
+    "topic": "Cloud IAM",
+    "correct": "B",
+    "quick_explanation": "The 'Viewer' role allows users to view but not edit resources."
+  },
+  {
+    "question": "Which of the following is a predefined role in Cloud IAM?",
+    "choices": {
+      "A": "Project Watcher",
+      "B": "Project Editor",
+      "C": "Project Advisor",
+      "D": "Project Manager"
+    },
+    "topic": "Cloud IAM",
+    "correct": "B",
+    "quick_explanation": "Project Editor is a predefined role in Cloud IAM."
+  },
+  {
+    "question": "How are custom roles different from predefined roles?",
+    "choices": {
+      "A": "Custom roles can only manage storage.",
+      "B": "Custom roles are not customizable.",
+      "C": "Custom roles can be tailored to fit specific needs.",
+      "D": "Custom roles are predefined by Google."
+    },
+    "topic": "Cloud IAM",
+    "correct": "C",
+    "quick_explanation": "Custom roles can be tailored to fit specific needs, unlike predefined roles."
+  },
+  {
+    "question": "Which of these is NOT a type of identity in Cloud IAM?",
+    "choices": {
+      "A": "Google Account",
+      "B": "Service Account",
+      "C": "Resource Account",
+      "D": "Group"
+    },
+    "topic": "Cloud IAM",
+    "correct": "C",
+    "quick_explanation": "Resource Account is not a type of identity in Cloud IAM."
+  },
+  {
+    "question": "Who can assign roles in a GCP Project?",
+    "choices": {
+      "A": "Viewer",
+      "B": "Editor",
+      "C": "Owner",
+      "D": "Both B and C"
+    },
+    "topic": "Cloud IAM",
+    "correct": "C",
+    "quick_explanation": "Only 'Owner' can assign roles in a GCP Project."
+  },
+  {
+    "question": "How can you minimize privilege escalation risks?",
+    "choices": {
+      "A": "Grant users the Owner role",
+      "B": "Use the principle of least privilege",
+      "C": "Disable IAM",
+      "D": "Grant everyone Editor role"
+    },
+    "topic": "Cloud IAM",
+    "correct": "B",
+    "quick_explanation": "Using the principle of least privilege minimizes the risk of privilege escalation."
+  },
+  {
+    "question": "What is the minimum role required to create service accounts?",
+    "choices": {
+      "A": "Service Account User",
+      "B": "Service Account Creator",
+      "C": "Service Account Admin",
+      "D": "Service Account Viewer"
+    },
+    "topic": "Cloud IAM",
+    "correct": "C",
+    "quick_explanation": "Service Account Admin is the minimum role required to create service accounts."
+  },
+  {
+    "question": "Which of the following IAM policies have the lowest level of precedence?",
+    "choices": {
+      "A": "Organization Policy",
+      "B": "Folder Policy",
+      "C": "Project Policy",
+      "D": "Resource Policy"
+    },
+    "topic": "Cloud IAM",
+    "correct": "D",
+    "quick_explanation": "Resource-level policies have the lowest level of precedence."
+  },
+  {
+    "question": "What happens when you remove a role from a user?",
+    "choices": {
+      "A": "The user loses all permissions.",
+      "B": "The user can no longer access the project.",
+      "C": "The user loses permissions associated with that role.",
+      "D": "The user's account is deleted."
+    },
+    "topic": "Cloud IAM",
+    "correct": "C",
+    "quick_explanation": "Removing a role means the user loses permissions associated with that specific role."
+  },
+  {
+    "question": "Which API is used to manage Cloud IAM?",
+    "choices": {
+      "A": "Cloud Management API",
+      "B": "IAM API",
+      "C": "Resource Manager API",
+      "D": "Identity API"
+    },
+    "topic": "Cloud IAM",
+    "correct": "B",
+    "quick_explanation": "IAM API is used for managing Cloud IAM."
+  },
+  {
+    "question": "How do you make bulk changes to IAM roles?",
+    "choices": {
+      "A": "Google Cloud Console",
+      "B": "API requests",
+      "C": "Policy files",
+      "D": "Google Workspace"
+    },
+    "topic": "Cloud IAM",
+    "correct": "C",
+    "quick_explanation": "Policy files can be used to make bulk changes to IAM roles."
+  },
+  {
+    "question": "Who is responsible for managing Service Account keys?",
+    "choices": {
+      "A": "Google Cloud",
+      "B": "Service Account Admin",
+      "C": "Project Owner",
+      "D": "The user who created them"
+    },
+    "topic": "Cloud IAM",
+    "correct": "D",
+    "quick_explanation": "The user who created the Service Account keys is responsible for managing them."
+  },
+  {
+    "question": "Which of the following is a type of Cloud IAM policy?",
+    "choices": {
+      "A": "Implicit Policy",
+      "B": "Basic Policy",
+      "C": "Advanced Policy",
+      "D": "Explicit Policy"
+    },
+    "topic": "Cloud IAM",
+    "correct": "D",
+    "quick_explanation": "Explicit Policy is a type of IAM policy."
+  },
+  {
+    "question": "Which IAM role allows a user to browse GCP resources?",
+    "choices": {
+      "A": "Resource Manager",
+      "B": "Viewer",
+      "C": "Browser",
+      "D": "Inspector"
+    },
+    "topic": "Cloud IAM",
+    "correct": "C",
+    "quick_explanation": "The 'Browser' role allows a user to browse GCP resources."
+  },
+  {
+    "question": "What happens if multiple policies are applied to a single resource?",
+    "choices": {
+      "A": "Only the most restrictive policy is applied.",
+      "B": "Policies are merged, and the user gets the union of the permissions.",
+      "C": "Only the least restrictive policy is applied.",
+      "D": "The policies conflict, and access is denied."
+    },
+    "topic": "Cloud IAM",
+    "correct": "B",
+    "quick_explanation": "If multiple policies are applied, they are merged, and the user gets the union of permissions."
+  },
+  {
+    "question": "Which IAM role should be used for users who only need to start and stop VM instances?",
+    "choices": {
+      "A": "Compute Instance Admin",
+      "B": "Compute Viewer",
+      "C": "Compute Operator",
+      "D": "Compute Editor"
+    },
+    "topic": "Cloud IAM",
+    "correct": "C",
+    "quick_explanation": "Compute Operator allows users to start and stop VM instances but not delete them."
+  },
+  {
+    "question": "Which of the following should you NOT do when managing IAM policies?",
+    "choices": {
+      "A": "Regularly audit permissions",
+      "B": "Use broad roles like Owner for everyone",
+      "C": "Revoke unnecessary permissions",
+      "D": "Follow the principle of least privilege"
+    },
+    "topic": "Cloud IAM",
+    "correct": "B",
+    "quick_explanation": "Using broad roles like 'Owner' for everyone is not recommended."
+  },
+  {
+    "question": "What is the maximum number of policies that can be attached to a single resource?",
+    "choices": {
+      "A": "1",
+      "B": "5",
+      "C": "10",
+      "D": "Unlimited"
+    },
+    "topic": "Cloud IAM",
+    "correct": "D",
+    "quick_explanation": "There is no limit to the number of policies that can be attached to a single resource."
+  },
+  {
+    "question": "What is the best practice for managing Service Account permissions?",
+    "choices": {
+      "A": "Assign the Service Account as Project Owner",
+      "B": "Use the principle of least privilege",
+      "C": "Assign broad roles",
+      "D": "Grant Service Account access to all resources"
+    },
+    "topic": "Cloud IAM",
+    "correct": "B",
+    "quick_explanation": "Best practice is to use the principle of least privilege when managing Service Account permissions."
   }
 ]
