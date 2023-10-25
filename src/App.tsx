@@ -1,4 +1,4 @@
-import sampleSize from 'lodash/sampleSize';
+import { slice } from 'lodash';
 import shuffle from 'lodash/shuffle';
 import React, { useState } from 'react';
 import Quiz from './components/Quiz';
@@ -11,6 +11,15 @@ const App: React.FC = () => {
 
   const topics = Array.from(new Set((questionsData as QuestionsData).map(q => q.topic)));
   topics.unshift('All');
+
+
+  const onGetQuestionsData = (): QuestionsData => {
+    if (selectedTopic === 'All') {
+      return slice(shuffle(questionsData), 0, TOTAL_EXAM_QUESTIONS) as unknown as QuestionsData;
+    }
+
+    return shuffle(questionsData) as unknown as QuestionsData;
+  }
 
   return (
     <div className="container">
@@ -27,7 +36,7 @@ const App: React.FC = () => {
       </div>
       <div className="row">
         <div className="col">
-          <Quiz questionsData={sampleSize(shuffle(questionsData as QuestionsData), TOTAL_EXAM_QUESTIONS)} selectedTopic={selectedTopic} />
+          <Quiz questionsData={onGetQuestionsData()} selectedTopic={selectedTopic} />
         </div>
       </div>
     </div>
