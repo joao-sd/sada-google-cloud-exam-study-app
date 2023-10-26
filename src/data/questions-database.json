@@ -1585,7 +1585,7 @@
     },
     "topic": "Instance Groups",
     "correct": "A",
-    "quick_explanation": "A Managed Instance Group can have zero instances."
+    "quick_explanation": "A Managed Instance Group can have zero instances. This is particularly useful when you want to scale down to zero instances during periods of low traffic or when you want to prepare the group for future scaling without immediately running any instances."
   },
   {
     "question": "In which of the following scenarios would you use an Unmanaged Instance Group?",
@@ -1732,6 +1732,246 @@
     "quick_explanation": "Unmanaged Instance Groups are used for instances that require manual configuration."
   },
   {
+    "question": "What is the primary use case for unmanaged instance groups?",
+    "choices": {
+      "A": "Automatic scaling",
+      "B": "Zonal distribution",
+      "C": "Fine-grained control over instances",
+      "D": "Health checks"
+    },
+    "topic": "Instance Groups",
+    "correct": "C",
+    "quick_explanation": "Unmanaged instance groups are used when you need fine-grained control over the instances."
+  },
+  {
+    "question": "Which of the following is not a feature of managed instance groups?",
+    "choices": {
+      "A": "Auto-scaling",
+      "B": "Regional distribution",
+      "C": "Load balancing",
+      "D": "Stateful applications"
+    },
+    "topic": "Instance Groups",
+    "correct": "D",
+    "quick_explanation": "Managed instance groups are not designed to maintain stateful applications."
+  },
+  {
+    "question": "How are instances in a managed instance group created?",
+    "choices": {
+      "A": "Manual addition",
+      "B": "Instance template",
+      "C": "Snapshot",
+      "D": "Predefined image"
+    },
+    "topic": "Instance Groups",
+    "correct": "B",
+    "quick_explanation": "Instances in a managed instance group are created from an instance template."
+  },
+  {
+    "question": "In which of the following scenarios would you use a zonal managed instance group?",
+    "choices": {
+      "A": "When you require high availability",
+      "B": "When you need to minimize costs",
+      "C": "When you need global distribution",
+      "D": "When you need fine-grained control"
+    },
+    "topic": "Instance Groups",
+    "correct": "B",
+    "quick_explanation": "Zonal managed instance groups are often used to minimize costs."
+  },
+  {
+    "question": "What is the maximum number of instances that can be part of a single unmanaged instance group?",
+    "choices": {
+      "A": "5000",
+      "B": "Unlimited",
+      "C": "1000",
+      "D": "10000"
+    },
+    "topic": "Instance Groups",
+    "correct": "A",
+    "quick_explanation": "The maximum number of instances for an unmanaged instance group is 5000."
+  },
+  {
+    "question": "Which of the following is not true about regional managed instance groups?",
+    "choices": {
+      "A": "Automatically spreads instances across zones",
+      "B": "Supports autoscaling",
+      "C": "Limited to one zone",
+      "D": "Can be used for high availability"
+    },
+    "topic": "Instance Groups",
+    "correct": "C",
+    "quick_explanation": "Regional managed instance groups spread instances across multiple zones, not limited to one."
+  },
+  {
+    "question": "What does a managed instance group use to determine instance health?",
+    "choices": {
+      "A": "Health checks",
+      "B": "Monitoring dashboard",
+      "C": "API calls",
+      "D": "Metrics"
+    },
+    "topic": "Instance Groups",
+    "correct": "A",
+    "quick_explanation": "Managed instance groups use health checks to determine the health of instances."
+  },
+  {
+    "question": "Which of the following autoscaling policies is not supported by managed instance groups?",
+    "choices": {
+      "A": "CPU utilization",
+      "B": "Memory utilization",
+      "C": "Custom metrics",
+      "D": "Queue depth"
+    },
+    "topic": "Instance Groups",
+    "correct": "D",
+    "quick_explanation": "Queue depth is not a directly supported autoscaling policy for managed instance groups."
+  },
+  {
+    "question": "What is the default update mechanism for instances in a managed instance group?",
+    "choices": {
+      "A": "Rolling update",
+      "B": "Manual update",
+      "C": "Immediate replacement",
+      "D": "Proactive update"
+    },
+    "topic": "Instance Groups",
+    "correct": "A",
+    "quick_explanation": "Rolling update is the default update mechanism for instances in a managed instance group."
+  },
+  {
+    "question": "Which of the following is not a way to control traffic distribution with instance groups?",
+    "choices": {
+      "A": "HTTP(S) Load Balancer",
+      "B": "Network Load Balancer",
+      "C": "SSL Proxy",
+      "D": "VPC Peering"
+    },
+    "topic": "Instance Groups",
+    "correct": "D",
+    "quick_explanation": "VPC Peering is not a way to control traffic distribution with instance groups."
+  },
+  {
+    "question": "Which of the following metrics can you not use for autoscaling a managed instance group?",
+    "choices": {
+      "A": "Disk usage",
+      "B": "Network In",
+      "C": "Custom Cloud Monitoring metrics",
+      "D": "Database transactions"
+    },
+    "topic": "Instance Groups",
+    "correct": "D",
+    "quick_explanation": "Database transactions are not a directly supported metric for autoscaling in managed instance groups."
+  },
+  {
+    "question": "What happens to instances in an unmanaged instance group when the group is deleted?",
+    "choices": {
+      "A": "They are also deleted",
+      "B": "They become standalone instances",
+      "C": "They are suspended",
+      "D": "They are moved to another group"
+    },
+    "topic": "Instance Groups",
+    "correct": "B",
+    "quick_explanation": "When an unmanaged instance group is deleted, the instances become standalone and are not deleted."
+  },
+  {
+    "question": "Which of the following is not a benefit of using managed instance groups?",
+    "choices": {
+      "A": "Automatic instance creation",
+      "B": "Stateful applications",
+      "C": "Autoscaling",
+      "D": "High availability"
+    },
+    "topic": "Instance Groups",
+    "correct": "B",
+    "quick_explanation": "Managed instance groups are not designed to maintain stateful applications."
+  },
+  {
+    "question": "What type of instance group is recommended for running fault-tolerant applications?",
+    "choices": {
+      "A": "Zonal managed instance group",
+      "B": "Regional managed instance group",
+      "C": "Unmanaged instance group",
+      "D": "Single-zone instance group"
+    },
+    "topic": "Instance Groups",
+    "correct": "B",
+    "quick_explanation": "For running fault-tolerant applications, a regional managed instance group is recommended."
+  },
+  {
+    "question": "Which of the following is not a way to create an instance group?",
+    "choices": {
+      "A": "Cloud Console",
+      "B": "gcloud CLI",
+      "C": "REST API",
+      "D": "Firebase"
+    },
+    "topic": "Instance Groups",
+    "correct": "D",
+    "quick_explanation": "Firebase is not a method for creating instance groups in GCP."
+  },
+  {
+    "question": "How can you change the instance template for an existing managed instance group?",
+    "choices": {
+      "A": "Direct modification",
+      "B": "Rolling update",
+      "C": "You can't",
+      "D": "Restart the group"
+    },
+    "topic": "Instance Groups",
+    "correct": "B",
+    "quick_explanation": "You can change the instance template by performing a rolling update."
+  },
+  {
+    "question": "What happens when you manually remove an instance from a managed instance group?",
+    "choices": {
+      "A": "It gets deleted",
+      "B": "It becomes a standalone instance",
+      "C": "It gets re-added automatically",
+      "D": "It is moved to another group"
+    },
+    "topic": "Instance Groups",
+    "correct": "A",
+    "quick_explanation": "When manually removed, the instance gets deleted."
+  },
+  {
+    "question": "What is the purpose of a 'cool-down period' in managed instance group autoscaling?",
+    "choices": {
+      "A": "To reduce costs",
+      "B": "To stabilize the system",
+      "C": "To perform maintenance",
+      "D": "To save energy"
+    },
+    "topic": "Instance Groups",
+    "correct": "B",
+    "quick_explanation": "A 'cool-down period' is meant to stabilize the system after scaling actions."
+  },
+  {
+    "question": "What does an instance group do when it receives traffic that it cannot handle?",
+    "choices": {
+      "A": "Shuts down",
+      "B": "Returns an error",
+      "C": "Scales up",
+      "D": "Buffers the requests"
+    },
+    "topic": "Instance Groups",
+    "correct": "C",
+    "quick_explanation": "The instance group scales up to handle the increased traffic."
+  },
+  {
+    "question": "Which of the following features are available for both managed and unmanaged instance groups?",
+    "choices": {
+      "A": "Load balancing",
+      "B": "Autoscaling",
+      "C": "Rolling updates",
+      "D": "Health checks"
+    },
+    "topic": "Instance Groups",
+    "correct": "A",
+    "quick_explanation": "Load balancing is a feature that's available for both managed and unmanaged instance groups."
+  },
+  {
     "question": "How can you perform a rolling update in a Managed Instance Group?",
     "choices": {
       "A": "By using an update policy",
@@ -1754,5 +1994,233 @@
     "topic": "Instance Groups",
     "correct": "D",
     "quick_explanation": "DNS Load Balancing is not a native Google Cloud load balancing option suitable for Managed Instance Groups."
+  },
+  {
+    "question": "Where is the HTTP(S) Load Balancing function performed in GCP?",
+    "choices": {
+      "A": "In the network edge locations",
+      "B": "In the central data centers",
+      "C": "On the user's machine",
+      "D": "On the individual VM instances"
+    },
+    "topic": "Load Balancing",
+    "correct": "A",
+    "quick_explanation": "HTTP(S) Load Balancing is performed at the edge of Google's network in their network edge locations."
+  },
+  {
+    "question": "Which of the following protocols is supported by the SSL Proxy Load Balancer?",
+    "choices": {
+      "A": "TCP",
+      "B": "UDP",
+      "C": "HTTP",
+      "D": "HTTPS"
+    },
+    "topic": "Load Balancing",
+    "correct": "D",
+    "quick_explanation": "SSL Proxy Load Balancer is designed for HTTPS traffic."
+  },
+  {
+    "question": "Which type of load balancing would you use for distributing TCP and UDP traffic over regional backends?",
+    "choices": {
+      "A": "HTTP(S) Load Balancing",
+      "B": "Internal TCP/UDP Load Balancing",
+      "C": "External TCP/UDP Load Balancing",
+      "D": "SSL Proxy Load Balancing"
+    },
+    "topic": "Load Balancing",
+    "correct": "C",
+    "quick_explanation": "External TCP/UDP Load Balancing is used for distributing TCP and UDP traffic over regional backends."
+  },
+  {
+    "question": "Which of the following is NOT a feature of Cloud Load Balancing?",
+    "choices": {
+      "A": "Automatic multi-region failover",
+      "B": "Centralized logging",
+      "C": "HTTPS load balancing",
+      "D": "SSL offloading"
+    },
+    "topic": "Load Balancing",
+    "correct": "B",
+    "quick_explanation": "Centralized logging is not a feature provided by Cloud Load Balancing, it's generally achieved using Cloud Logging."
+  },
+  {
+    "question": "What is the primary purpose of a health check in Cloud Load Balancing?",
+    "choices": {
+      "A": "To monitor the cost of the load balancer",
+      "B": "To ensure that traffic is only sent to healthy backends",
+      "C": "To encrypt the data traffic",
+      "D": "To authenticate user requests"
+    },
+    "topic": "Load Balancing",
+    "correct": "B",
+    "quick_explanation": "Health checks in Cloud Load Balancing ensure that traffic is only sent to healthy backends."
+  },
+  {
+    "question": "Which of the following is a benefit of using Cloud Armor with Cloud Load Balancing?",
+    "choices": {
+      "A": "Cost reduction",
+      "B": "Application scaling",
+      "C": "DDoS protection",
+      "D": "SSL offloading"
+    },
+    "topic": "Load Balancing",
+    "correct": "C",
+    "quick_explanation": "Cloud Armor provides DDoS protection when used with Cloud Load Balancing."
+  },
+  {
+    "question": "Which type of load balancing would be most suitable for distributing traffic to instances within the same region?",
+    "choices": {
+      "A": "HTTP(S) Load Balancing",
+      "B": "Internal TCP/UDP Load Balancing",
+      "C": "External TCP/UDP Load Balancing",
+      "D": "SSL Proxy Load Balancing"
+    },
+    "topic": "Load Balancing",
+    "correct": "B",
+    "quick_explanation": "Internal TCP/UDP Load Balancing is suitable for distributing traffic to instances within the same region."
+  },
+  {
+    "question": "Which type of load balancing supports content-based routing?",
+    "choices": {
+      "A": "HTTP(S) Load Balancing",
+      "B": "Internal TCP/UDP Load Balancing",
+      "C": "External TCP/UDP Load Balancing",
+      "D": "SSL Proxy Load Balancing"
+    },
+    "topic": "Load Balancing",
+    "correct": "A",
+    "quick_explanation": "HTTP(S) Load Balancing supports content-based routing."
+  },
+  {
+    "question": "What is the maximum number of forwarding rules you can create per project in GCP?",
+    "choices": {
+      "A": "50",
+      "B": "100",
+      "C": "200",
+      "D": "Unlimited"
+    },
+    "topic": "Load Balancing",
+    "correct": "D",
+    "quick_explanation": "There is no specified limit on the number of forwarding rules you can create per project in GCP."
+  },
+  {
+    "question": "What is the primary purpose of backend services in Cloud Load Balancing?",
+    "choices": {
+      "A": "To specify the protocol used for communication",
+      "B": "To define the set of instances or endpoints to receive traffic",
+      "C": "To encrypt data traffic",
+      "D": "To authenticate user requests"
+    },
+    "topic": "Load Balancing",
+    "correct": "B",
+    "quick_explanation": "Backend services in Cloud Load Balancing define the set of instances or endpoints to receive traffic."
+  },
+  {
+    "question": "Which of the following is NOT a method for backend authentication in GCP Load Balancing?",
+    "choices": {
+      "A": "Google-managed SSL certificates",
+      "B": "Self-managed SSL certificates",
+      "C": "OAuth tokens",
+      "D": "Shared secret"
+    },
+    "topic": "Load Balancing",
+    "correct": "C",
+    "quick_explanation": "OAuth tokens are not a method for backend authentication in GCP Load Balancing."
+  },
+  {
+    "question": "Which of the following is a prerequisite for setting up Cloud Load Balancing?",
+    "choices": {
+      "A": "Creating a VPC network",
+      "B": "Configuring Firewall rules",
+      "C": "Enabling the Cloud Load Balancing API",
+      "D": "All of the above"
+    },
+    "topic": "Load Balancing",
+    "correct": "D",
+    "quick_explanation": "All the options provided are prerequisites for setting up Cloud Load Balancing in GCP."
+  },
+  {
+    "question": "Which of the following is NOT a feature of Cloud CDN?",
+    "choices": {
+      "A": "HTTP/HTTPS Load Balancing",
+      "B": "Cache invalidation",
+      "C": "Origin fetches",
+      "D": "SSL offloading"
+    },
+    "topic": "Load Balancing",
+    "correct": "D",
+    "quick_explanation": "SSL offloading is not a feature of Cloud CDN, it's a feature of Cloud Load Balancing."
+  },
+  {
+    "question": "Which type of load balancing can be used to distribute traffic to backends across multiple regions?",
+    "choices": {
+      "A": "HTTP(S) Load Balancing",
+      "B": "Internal TCP/UDP Load Balancing",
+      "C": "External TCP/UDP Load Balancing",
+      "D": "SSL Proxy Load Balancing"
+    },
+    "topic": "Load Balancing",
+    "correct": "A",
+    "quick_explanation": "HTTP(S) Load Balancing can be used to distribute traffic to backends across multiple regions."
+  },
+  {
+    "question": "Which of the following is an example of a Layer 7 Load Balancer?",
+    "choices": {
+      "A": "HTTP(S) Load Balancing",
+      "B": "Internal TCP/UDP Load Balancing",
+      "C": "External TCP/UDP Load Balancing",
+      "D": "SSL Proxy Load Balancing"
+    },
+    "topic": "Load Balancing",
+    "correct": "A",
+    "quick_explanation": "HTTP(S) Load Balancing is an example of a Layer 7 Load Balancer."
+  },
+  {
+    "question": "What is the main purpose of using Session Affinity in Cloud Load Balancing?",
+    "choices": {
+      "A": "To reduce cost",
+      "B": "To ensure that all requests from a client are directed to the same backend",
+      "C": "To distribute traffic evenly across all backends",
+      "D": "To increase the security of the load balancer"
+    },
+    "topic": "Load Balancing",
+    "correct": "B",
+    "quick_explanation": "Session Affinity ensures that all requests from a client are directed to the same backend."
+  },
+  {
+    "question": "Which Google Cloud Platform service would you use to manage SSL/TLS certificates for HTTPS Load Balancing?",
+    "choices": {
+      "A": "Cloud Key Management Service",
+      "B": "Cloud Security Command Center",
+      "C": "Cloud Armor",
+      "D": "Google-managed SSL certificates"
+    },
+    "topic": "Load Balancing",
+    "correct": "D",
+    "quick_explanation": "Google-managed SSL certificates is used to manage SSL/TLS certificates for HTTPS Load Balancing."
+  },
+  {
+    "question": "In GCP, where are SSL certificates installed for SSL Proxy and HTTPS Load Balancing?",
+    "choices": {
+      "A": "On the client machine",
+      "B": "On the load balancer",
+      "C": "On the backend instances",
+      "D": "On a third-party server"
+    },
+    "topic": "Load Balancing",
+    "correct": "B",
+    "quick_explanation": "SSL certificates are installed on the load balancer for SSL Proxy and HTTPS Load Balancing in GCP."
+  },
+  {
+    "question": "Which of the following protocols is NOT supported by Cloud Load Balancing?",
+    "choices": {
+      "A": "TCP",
+      "B": "UDP",
+      "C": "HTTP",
+      "D": "SMTP"
+    },
+    "topic": "Load Balancing",
+    "correct": "D",
+    "quick_explanation": "SMTP is not a supported protocol by Cloud Load Balancing in GCP."
   }
 ]
