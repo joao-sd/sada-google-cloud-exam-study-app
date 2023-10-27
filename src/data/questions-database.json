@@ -2231,7 +2231,7 @@
       "C": "Cloud Spanner",
       "D": "Cloud Firestore"
     },
-    "topic": "Choosing a database in GCP",
+    "topic": "Choosing Database in GCP",
     "correct": "C",
     "quick_explanation": "Cloud Spanner is fully managed, allowing for seamless scaling and strong consistency across rows, regions, and continents."
   },
@@ -2243,7 +2243,7 @@
       "C": "Cloud Spanner",
       "D": "Cloud Firestore"
     },
-    "topic": "Choosing a database in GCP",
+    "topic": "Choosing Database in GCP",
     "correct": "B",
     "quick_explanation": "Cloud SQL supports MySQL, PostgreSQL, and SQL Server, making it ideal for relational database management."
   },
@@ -2255,7 +2255,7 @@
       "C": "Cloud Spanner",
       "D": "Cloud Firestore"
     },
-    "topic": "Choosing a database in GCP",
+    "topic": "Choosing Database in GCP",
     "correct": "C",
     "quick_explanation": "Cloud Spanner provides strong consistency at global scale, making it suitable for applications that require such consistency."
   },
@@ -2267,7 +2267,7 @@
       "C": "Cloud Spanner",
       "D": "Cloud Firestore"
     },
-    "topic": "Choosing a database in GCP",
+    "topic": "Choosing Database in GCP",
     "correct": "A",
     "quick_explanation": "Cloud Bigtable is optimized for both analytical and operational workloads with high throughput requirements."
   },
@@ -2279,7 +2279,7 @@
       "C": "When real-time updates are important",
       "D": "When needing a fully-managed database service"
     },
-    "topic": "Choosing a database in GCP",
+    "topic": "Choosing Database in GCP",
     "correct": "C",
     "quick_explanation": "Cloud Firestore provides real-time updates, making it a better choice over Cloud Datastore for such requirements."
   },
@@ -2294,18 +2294,6 @@
     "topic": "Choosing Database in GCP",
     "correct": "B",
     "quick_explanation": "Cloud SQL is ideal for managing relational databases as it supports MySQL, PostgreSQL, and SQL Server."
-  },
-  {
-    "question": "Which database service is highly suitable for high-throughput, analytical, and operational workloads?",
-    "choices": {
-      "A": "Cloud Bigtable",
-      "B": "Cloud SQL",
-      "C": "Cloud Spanner",
-      "D": "Cloud Firestore"
-    },
-    "topic": "Choosing Database in GCP",
-    "correct": "A",
-    "quick_explanation": "Cloud Bigtable is designed to handle high-throughput both for analytical and operational workloads."
   },
   {
     "question": "If strong consistency across rows, regions, and continents is required, which GCP database service would you choose?",
@@ -2412,8 +2400,8 @@
       "D": "Cloud Firestore"
     },
     "topic": "Choosing Database in GCP",
-    "correct": "B",
-    "quick_explanation": "Cloud SQL supports SQL queries and provides automatic scaling to handle increasing workloads."
+    "correct": "C",
+    "quick_explanation": "It's a fully managed, scalable, globally distributed, and strongly consistent database service. It supports SQL queries and automatic scaling, thus meeting both criteria."
   },
   {
     "question": "For an application needing to store and analyze terabytes of time-series data, which GCP database service is more suitable?",
@@ -2452,7 +2440,7 @@
     "quick_explanation": "Cloud Bigtable is designed to manage large-scale, single-keyed data with low latency, making it suitable for such applications."
   },
   {
-    "question": "Which GCP database service is suitable for applications that require ACID transactions?",
+    "question": "Which GCP database service is suitable for globally distributed applications that require ACID transactions?",
     "choices": {
       "A": "Cloud Bigtable",
       "B": "Cloud SQL",
@@ -2461,7 +2449,7 @@
     },
     "topic": "Choosing Database in GCP",
     "correct": "C",
-    "quick_explanation": "Cloud Spanner provides ACID transactions, ensuring consistency and reliability in data management."
+    "quick_explanation": "Cloud Spanner provides ACID transactions, ensuring consistency and reliability in data management, and is also globally distributed."
   },
   {
     "question": "Which GCP database service is more suitable for applications that require a schemaless, NoSQL data model?",
@@ -2522,5 +2510,245 @@
     "topic": "Choosing Database in GCP",
     "correct": "A",
     "quick_explanation": "Cloud Bigtable provides a wide-column storage model, making it ideal for applications needing such a data model."
+  },
+  {
+    "question": "Which runtime environment is NOT supported by Google App Engine Standard?",
+    "choices": {
+      "A": "Python",
+      "B": "Java",
+      "C": "C++",
+      "D": "Node.js"
+    },
+    "topic": "Google App Engine",
+    "correct": "C",
+    "quick_explanation": "Google App Engine Standard does not support C++."
+  },
+  {
+    "question": "Which scaling type is NOT available in Google App Engine?",
+    "choices": {
+      "A": "Manual",
+      "B": "Basic",
+      "C": "Automatic",
+      "D": "Dynamic"
+    },
+    "topic": "Google App Engine",
+    "correct": "D",
+    "quick_explanation": "Dynamic scaling is not an option in Google App Engine."
+  },
+  {
+    "question": "What is the primary purpose of the `app.yaml` file?",
+    "choices": {
+      "A": "Define environment variables",
+      "B": "List project dependencies",
+      "C": "Configure the application",
+      "D": "Initialize database connections"
+    },
+    "topic": "Google App Engine",
+    "correct": "C",
+    "quick_explanation": "The `app.yaml` file is primarily used for application configuration."
+  },
+  {
+    "question": "How can you run a service on a custom domain?",
+    "choices": {
+      "A": "Modify `app.yaml`",
+      "B": "Use Firebase",
+      "C": "Through Google Domains",
+      "D": "Use App Engine Custom Domains"
+    },
+    "topic": "Google App Engine",
+    "correct": "D",
+    "quick_explanation": "You can map a custom domain by using App Engine Custom Domains."
+  },
+  {
+    "question": "Which statement about Google App Engine services is false?",
+    "choices": {
+      "A": "Each service can have its own runtime",
+      "B": "A service must belong to only one application",
+      "C": "Each service can scale independently",
+      "D": "Services can share a single `app.yaml` file"
+    },
+    "topic": "Google App Engine",
+    "correct": "D",
+    "quick_explanation": "Each service must have its own `app.yaml` file."
+  },
+  {
+    "question": "Which database service is NOT natively supported in Google App Engine?",
+    "choices": {
+      "A": "Cloud Firestore",
+      "B": "Cloud SQL",
+      "C": "Cloud Spanner",
+      "D": "MongoDB"
+    },
+    "topic": "Google App Engine",
+    "correct": "D",
+    "quick_explanation": "MongoDB is not natively supported in Google App Engine."
+  },
+  {
+    "question": "What is the maximum allowed size for a single HTTP request or response in App Engine (Standard environment)?",
+    "choices": {
+      "A": "16 MB",
+      "B": "32 MB",
+      "C": "64 MB",
+      "D": "128 MB"
+    },
+    "topic": "Google App Engine",
+    "correct": "B",
+    "quick_explanation": "The maximum allowed size is 32 MB."
+  },
+  {
+    "question": "Which of the following does NOT incur costs in Google App Engine?",
+    "choices": {
+      "A": "Outgoing Bandwidth",
+      "B": "Instance Hours",
+      "C": "Ingress Data",
+      "D": "API Calls"
+    },
+    "topic": "Google App Engine",
+    "correct": "C",
+    "quick_explanation": "Ingress data is generally free."
+  },
+  {
+    "question": "Which type of scaling can result in zero instances if there is no incoming traffic?",
+    "choices": {
+      "A": "Manual",
+      "B": "Basic",
+      "C": "Automatic",
+      "D": "None of the above"
+    },
+    "topic": "Google App Engine",
+    "correct": "C",
+    "quick_explanation": "Automatic scaling can scale down to zero instances."
+  },
+  {
+    "question": "Which of these tasks can NOT be performed with `gcloud app` command?",
+    "choices": {
+      "A": "Deploy applications",
+      "B": "Browse logs",
+      "C": "Migrate traffic",
+      "D": "Modify the pricing plan"
+    },
+    "topic": "Google App Engine",
+    "correct": "D",
+    "quick_explanation": "`gcloud app` does not provide a way to modify the pricing plan."
+  },
+  {
+    "question": "What is the default scaling type for App Engine Standard?",
+    "choices": {
+      "A": "Manual",
+      "B": "Basic",
+      "C": "Automatic",
+      "D": "None of the above"
+    },
+    "topic": "Google App Engine",
+    "correct": "C",
+    "quick_explanation": "The default scaling type for App Engine Standard is Automatic."
+  },
+  {
+    "question": "What is the maximum lifespan of an instance in App Engine Standard?",
+    "choices": {
+      "A": "15 minutes",
+      "B": "24 hours",
+      "C": "7 days",
+      "D": "No limit"
+    },
+    "topic": "Google App Engine",
+    "correct": "B",
+    "quick_explanation": "The maximum lifespan of an instance is 24 hours."
+  },
+  {
+    "question": "Which of the following is NOT a component of the App Engine SDK?",
+    "choices": {
+      "A": "Local Development Server",
+      "B": "API libraries",
+      "C": "Logging utilities",
+      "D": "Virtual machine manager"
+    },
+    "topic": "Google App Engine",
+    "correct": "D",
+    "quick_explanation": "Virtual machine manager is not a component of the App Engine SDK."
+  },
+  {
+    "question": "Which type of storage can be accessed via the filesystem in App Engine?",
+    "choices": {
+      "A": "Cloud Storage",
+      "B": "Persistent Disk",
+      "C": "Memory",
+      "D": "None of the above"
+    },
+    "topic": "Google App Engine",
+    "correct": "D",
+    "quick_explanation": "App Engine does not provide filesystem-based storage."
+  },
+  {
+    "question": "What environment variable is used to determine the service name in App Engine?",
+    "choices": {
+      "A": "GAE_SERVICE",
+      "B": "GAE_APPLICATION",
+      "C": "GAE_INSTANCE",
+      "D": "GAE_ENV"
+    },
+    "topic": "Google App Engine",
+    "correct": "A",
+    "quick_explanation": "GAE_SERVICE is used to determine the service name."
+  },
+  {
+    "question": "Which of the following services is NOT directly integrated with App Engine?",
+    "choices": {
+      "A": "Cloud Endpoints",
+      "B": "BigQuery",
+      "C": "Memcached",
+      "D": "Firebase"
+    },
+    "topic": "Google App Engine",
+    "correct": "D",
+    "quick_explanation": "Firebase is not directly integrated with App Engine."
+  },
+  {
+    "question": "What does App Engine use to isolate resources between services?",
+    "choices": {
+      "A": "Namespaces",
+      "B": "Containers",
+      "C": "Virtual Machines",
+      "D": "Service Accounts"
+    },
+    "topic": "Google App Engine",
+    "correct": "B",
+    "quick_explanation": "App Engine uses containers to isolate resources."
+  },
+  {
+    "question": "Which of the following is NOT a valid field in `app.yaml` for App Engine Standard?",
+    "choices": {
+      "A": "runtime",
+      "B": "api_version",
+      "C": "env",
+      "D": "instance_type"
+    },
+    "topic": "Google App Engine",
+    "correct": "D",
+    "quick_explanation": "`instance_type` is not a valid field in `app.yaml` for App Engine Standard."
+  },
+  {
+    "question": "How can you perform authentication in App Engine?",
+    "choices": {
+      "A": "Use Identity Platform",
+      "B": "Implement OAuth 2.0",
+      "C": "App Engine User API",
+      "D": "All of the above"
+    },
+    "topic": "Google App Engine",
+    "correct": "D",
+    "quick_explanation": "All listed methods are valid ways to perform authentication in App Engine."
+  },
+  {
+    "question": "Which of the following is NOT a feature of App Engine?",
+    "choices": {
+      "A": "Automated rollbacks",
+      "B": "Zero-downtime deployments",
+      "C": "Log aggregation",
+      "D": "Automated database sharding"
+    },
+    "topic": "Google App Engine",
+    "correct": "D",
+    "quick_explanation": "Automated database sharding is not a feature of App Engine."
   }
 ]
