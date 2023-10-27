@@ -2222,5 +2222,305 @@
     "topic": "Load Balancing",
     "correct": "D",
     "quick_explanation": "SMTP is not a supported protocol by Cloud Load Balancing in GCP."
+  },
+  {
+    "question": "Which Google Cloud database service is fully managed and allows for seamless scaling?",
+    "choices": {
+      "A": "Cloud Bigtable",
+      "B": "Cloud SQL",
+      "C": "Cloud Spanner",
+      "D": "Cloud Firestore"
+    },
+    "topic": "Choosing a database in GCP",
+    "correct": "C",
+    "quick_explanation": "Cloud Spanner is fully managed, allowing for seamless scaling and strong consistency across rows, regions, and continents."
+  },
+  {
+    "question": "Which database service is ideal for relational database management with support for MySQL, PostgreSQL, and SQL Server?",
+    "choices": {
+      "A": "Cloud Bigtable",
+      "B": "Cloud SQL",
+      "C": "Cloud Spanner",
+      "D": "Cloud Firestore"
+    },
+    "topic": "Choosing a database in GCP",
+    "correct": "B",
+    "quick_explanation": "Cloud SQL supports MySQL, PostgreSQL, and SQL Server, making it ideal for relational database management."
+  },
+  {
+    "question": "For applications that require strong consistency at global scale, which database service would be the most appropriate?",
+    "choices": {
+      "A": "Cloud Bigtable",
+      "B": "Cloud SQL",
+      "C": "Cloud Spanner",
+      "D": "Cloud Firestore"
+    },
+    "topic": "Choosing a database in GCP",
+    "correct": "C",
+    "quick_explanation": "Cloud Spanner provides strong consistency at global scale, making it suitable for applications that require such consistency."
+  },
+  {
+    "question": "Which database service is optimized for high-throughput, analytical and operational workloads?",
+    "choices": {
+      "A": "Cloud Bigtable",
+      "B": "Cloud SQL",
+      "C": "Cloud Spanner",
+      "D": "Cloud Firestore"
+    },
+    "topic": "Choosing a database in GCP",
+    "correct": "A",
+    "quick_explanation": "Cloud Bigtable is optimized for both analytical and operational workloads with high throughput requirements."
+  },
+  {
+    "question": "When is Cloud Firestore a better choice over Cloud Datastore?",
+    "choices": {
+      "A": "When strong SQL support is required",
+      "B": "When needing a highly scalable NoSQL database",
+      "C": "When real-time updates are important",
+      "D": "When needing a fully-managed database service"
+    },
+    "topic": "Choosing a database in GCP",
+    "correct": "C",
+    "quick_explanation": "Cloud Firestore provides real-time updates, making it a better choice over Cloud Datastore for such requirements."
+  },
+  {
+    "question": "Which GCP database service is ideal for relational database management?",
+    "choices": {
+      "A": "Cloud Bigtable",
+      "B": "Cloud SQL",
+      "C": "Cloud Spanner",
+      "D": "Cloud Firestore"
+    },
+    "topic": "Choosing Database in GCP",
+    "correct": "B",
+    "quick_explanation": "Cloud SQL is ideal for managing relational databases as it supports MySQL, PostgreSQL, and SQL Server."
+  },
+  {
+    "question": "Which database service is highly suitable for high-throughput, analytical, and operational workloads?",
+    "choices": {
+      "A": "Cloud Bigtable",
+      "B": "Cloud SQL",
+      "C": "Cloud Spanner",
+      "D": "Cloud Firestore"
+    },
+    "topic": "Choosing Database in GCP",
+    "correct": "A",
+    "quick_explanation": "Cloud Bigtable is designed to handle high-throughput both for analytical and operational workloads."
+  },
+  {
+    "question": "If strong consistency across rows, regions, and continents is required, which GCP database service would you choose?",
+    "choices": {
+      "A": "Cloud Bigtable",
+      "B": "Cloud SQL",
+      "C": "Cloud Spanner",
+      "D": "Cloud Firestore"
+    },
+    "topic": "Choosing Database in GCP",
+    "correct": "C",
+    "quick_explanation": "Cloud Spanner provides strong consistency across rows, regions, and continents, making it ideal for global applications."
+  },
+  {
+    "question": "For applications that require real-time updates, which database service is more appropriate?",
+    "choices": {
+      "A": "Cloud Bigtable",
+      "B": "Cloud SQL",
+      "C": "Cloud Spanner",
+      "D": "Cloud Firestore"
+    },
+    "topic": "Choosing Database in GCP",
+    "correct": "D",
+    "quick_explanation": "Cloud Firestore provides real-time updates, making it suitable for applications that require such features."
+  },
+  {
+    "question": "Which GCP database service is fully managed and allows for seamless scaling?",
+    "choices": {
+      "A": "Cloud Bigtable",
+      "B": "Cloud SQL",
+      "C": "Cloud Spanner",
+      "D": "Cloud Firestore"
+    },
+    "topic": "Choosing Database in GCP",
+    "correct": "C",
+    "quick_explanation": "Cloud Spanner is fully managed and allows for seamless scaling with strong consistency across rows, regions, and continents."
+  },
+  {
+    "question": "For a mobile gaming application needing a NoSQL database, which GCP database service would be ideal?",
+    "choices": {
+      "A": "Cloud Bigtable",
+      "B": "Cloud SQL",
+      "C": "Cloud Spanner",
+      "D": "Cloud Firestore"
+    },
+    "topic": "Choosing Database in GCP",
+    "correct": "D",
+    "quick_explanation": "Cloud Firestore is a NoSQL database that provides real-time updates, making it ideal for mobile gaming applications."
+  },
+  {
+    "question": "Which database service would you choose for a mission-critical business application requiring strong transactional consistency and high availability?",
+    "choices": {
+      "A": "Cloud Bigtable",
+      "B": "Cloud SQL",
+      "C": "Cloud Spanner",
+      "D": "Cloud Firestore"
+    },
+    "topic": "Choosing Database in GCP",
+    "correct": "C",
+    "quick_explanation": "Cloud Spanner provides strong transactional consistency and high availability, making it suitable for mission-critical applications."
+  },
+  {
+    "question": "Which GCP database service provides automatic sharding and scaling with a serverless option?",
+    "choices": {
+      "A": "Cloud Bigtable",
+      "B": "Cloud SQL",
+      "C": "Cloud Spanner",
+      "D": "Cloud Firestore"
+    },
+    "topic": "Choosing Database in GCP",
+    "correct": "D",
+    "quick_explanation": "Cloud Firestore provides automatic sharding and scaling, along with a serverless option for simplified operations."
+  },
+  {
+    "question": "For an application requiring a globally distributed, horizontally scalable database, which GCP database service is the most suitable?",
+    "choices": {
+      "A": "Cloud Bigtable",
+      "B": "Cloud SQL",
+      "C": "Cloud Spanner",
+      "D": "Cloud Firestore"
+    },
+    "topic": "Choosing Database in GCP",
+    "correct": "C",
+    "quick_explanation": "Cloud Spanner is globally distributed and horizontally scalable, making it ideal for such requirements."
+  },
+  {
+    "question": "Which GCP database service is designed to handle large analytical and operational workloads?",
+    "choices": {
+      "A": "Cloud Bigtable",
+      "B": "Cloud SQL",
+      "C": "Cloud Spanner",
+      "D": "Cloud Firestore"
+    },
+    "topic": "Choosing Database in GCP",
+    "correct": "A",
+    "quick_explanation": "Cloud Bigtable is designed to handle large analytical and operational workloads, providing high throughput for both types of workloads."
+  },
+  {
+    "question": "Which GCP database service allows for SQL queries and automatic scaling?",
+    "choices": {
+      "A": "Cloud Bigtable",
+      "B": "Cloud SQL",
+      "C": "Cloud Spanner",
+      "D": "Cloud Firestore"
+    },
+    "topic": "Choosing Database in GCP",
+    "correct": "B",
+    "quick_explanation": "Cloud SQL supports SQL queries and provides automatic scaling to handle increasing workloads."
+  },
+  {
+    "question": "For an application needing to store and analyze terabytes of time-series data, which GCP database service is more suitable?",
+    "choices": {
+      "A": "Cloud Bigtable",
+      "B": "Cloud SQL",
+      "C": "Cloud Spanner",
+      "D": "Cloud Firestore"
+    },
+    "topic": "Choosing Database in GCP",
+    "correct": "A",
+    "quick_explanation": "Cloud Bigtable is designed to handle large-scale, single-keyed data with low latency, making it suitable for time-series data."
+  },
+  {
+    "question": "Which GCP database service provides a serverless option?",
+    "choices": {
+      "A": "Cloud Bigtable",
+      "B": "Cloud SQL",
+      "C": "Cloud Spanner",
+      "D": "Cloud Firestore"
+    },
+    "topic": "Choosing Database in GCP",
+    "correct": "D",
+    "quick_explanation": "Cloud Firestore provides a serverless option, allowing for simplified operations and management."
+  },
+  {
+    "question": "For applications needing to manage large-scale, single-keyed data with low latency, which GCP database service would be the most appropriate?",
+    "choices": {
+      "A": "Cloud Bigtable",
+      "B": "Cloud SQL",
+      "C": "Cloud Spanner",
+      "D": "Cloud Firestore"
+    },
+    "topic": "Choosing Database in GCP",
+    "correct": "A",
+    "quick_explanation": "Cloud Bigtable is designed to manage large-scale, single-keyed data with low latency, making it suitable for such applications."
+  },
+  {
+    "question": "Which GCP database service is suitable for applications that require ACID transactions?",
+    "choices": {
+      "A": "Cloud Bigtable",
+      "B": "Cloud SQL",
+      "C": "Cloud Spanner",
+      "D": "Cloud Firestore"
+    },
+    "topic": "Choosing Database in GCP",
+    "correct": "C",
+    "quick_explanation": "Cloud Spanner provides ACID transactions, ensuring consistency and reliability in data management."
+  },
+  {
+    "question": "Which GCP database service is more suitable for applications that require a schemaless, NoSQL data model?",
+    "choices": {
+      "A": "Cloud Bigtable",
+      "B": "Cloud SQL",
+      "C": "Cloud Spanner",
+      "D": "Cloud Firestore"
+    },
+    "topic": "Choosing Database in GCP",
+    "correct": "D",
+    "quick_explanation": "Cloud Firestore is a NoSQL database, providing a schemaless data model that allows for flexible and dynamic data structures."
+  },
+  {
+    "question": "For a workload needing to handle both transactions and analytics, which GCP database service would be the most suitable?",
+    "choices": {
+      "A": "Cloud Bigtable",
+      "B": "Cloud SQL",
+      "C": "Cloud Spanner",
+      "D": "Cloud Firestore"
+    },
+    "topic": "Choosing Database in GCP",
+    "correct": "C",
+    "quick_explanation": "Cloud Spanner is designed to handle both transactional and analytical workloads, providing strong consistency and high performance."
+  },
+  {
+    "question": "Which GCP database service allows for the easiest migration from a traditional relational database?",
+    "choices": {
+      "A": "Cloud Bigtable",
+      "B": "Cloud SQL",
+      "C": "Cloud Spanner",
+      "D": "Cloud Firestore"
+    },
+    "topic": "Choosing Database in GCP",
+    "correct": "B",
+    "quick_explanation": "Cloud SQL provides a familiar environment for managing relational databases, making migration from traditional relational databases easier."
+  },
+  {
+    "question": "For a web application needing to serve user-generated content with low latency, which GCP database service is more suitable?",
+    "choices": {
+      "A": "Cloud Bigtable",
+      "B": "Cloud SQL",
+      "C": "Cloud Spanner",
+      "D": "Cloud Firestore"
+    },
+    "topic": "Choosing Database in GCP",
+    "correct": "D",
+    "quick_explanation": "Cloud Firestore provides low latency for data access, making it suitable for serving user-generated content in web applications."
+  },
+  {
+    "question": "Which GCP database service is designed for applications that require a wide-column storage model?",
+    "choices": {
+      "A": "Cloud Bigtable",
+      "B": "Cloud SQL",
+      "C": "Cloud Spanner",
+      "D": "Cloud Firestore"
+    },
+    "topic": "Choosing Database in GCP",
+    "correct": "A",
+    "quick_explanation": "Cloud Bigtable provides a wide-column storage model, making it ideal for applications needing such a data model."
   }
 ]
