@@ -2644,7 +2644,7 @@
     "quick_explanation": "The default scaling type for App Engine Standard is Automatic."
   },
   {
-    "question": "What is the maximum lifespan of an instance in App Engine Standard?",
+    "question": "What is the maximum lifespan of an instance in App Engine Standard (autoscaling)?",
     "choices": {
       "A": "15 minutes",
       "B": "24 hours",
@@ -2652,8 +2652,8 @@
       "D": "No limit"
     },
     "topic": "Google App Engine",
-    "correct": "B",
-    "quick_explanation": "The maximum lifespan of an instance is 24 hours."
+    "correct": "A",
+    "quick_explanation": "If your app uses automatic scaling, it takes approximately 15 minutes of inactivity for the idle instances to start shutting down."
   },
   {
     "question": "Which of the following is NOT a component of the App Engine SDK?",
@@ -2700,8 +2700,8 @@
       "D": "Firebase"
     },
     "topic": "Google App Engine",
-    "correct": "D",
-    "quick_explanation": "Firebase is not directly integrated with App Engine."
+    "correct": "C",
+    "quick_explanation": "App Engine provides its own caching service through Cloud Memorystore, which supports Memcached, so while not directly integrated, there's a path for utilizing Memcached within the App Engine environment through Memorystore."
   },
   {
     "question": "What does App Engine use to isolate resources between services?",
@@ -2750,5 +2750,233 @@
     "topic": "Google App Engine",
     "correct": "D",
     "quick_explanation": "Automated database sharding is not a feature of App Engine."
+  },
+  {
+    "question": "What is the primary purpose of Google Cloud Functions?",
+    "choices": {
+      "A": "To create virtual machines",
+      "B": "To establish private networks",
+      "C": "To deploy scalable pay-as-you-go functions",
+      "D": "To manage relational databases"
+    },
+    "topic": "Google Cloud Functions",
+    "correct": "C",
+    "quick_explanation": "Google Cloud Functions is a serverless execution environment for building and connecting cloud services."
+  },
+  {
+    "question": "What is the maximum execution timeout for a Google Cloud Function?",
+    "choices": {
+      "A": "1 minute",
+      "B": "9 minutes",
+      "C": "15 minutes",
+      "D": "60 minutes"
+    },
+    "topic": "Google Cloud Functions",
+    "correct": "D",
+    "quick_explanation": "The maximum execution timeout has been extended to 60 minutes for Google Cloud Functions (2nd gen) as of an update on February 17, 2022​."
+  },
+  {
+    "question": "Which of the following is a valid trigger for a Google Cloud Function?",
+    "choices": {
+      "A": "HTTP Request",
+      "B": "Database Update",
+      "C": "Email Received",
+      "D": "Both A and B"
+    },
+    "topic": "Google Cloud Functions",
+    "correct": "D",
+    "quick_explanation": "Google Cloud Functions can be triggered by HTTP requests or events from Firebase products and Google Cloud services."
+  },
+  {
+    "question": "In which scenario would you consider using Google Cloud Functions?",
+    "choices": {
+      "A": "When you need to create a REST API",
+      "B": "When you need real-time file processing",
+      "C": "When you need to orchestrate cloud services",
+      "D": "All of the above"
+    },
+    "topic": "Google Cloud Functions",
+    "correct": "D",
+    "quick_explanation": "Google Cloud Functions is useful for various scenarios like creating REST APIs, real-time file processing, and orchestrating cloud services."
+  },
+  {
+    "question": "How are Google Cloud Functions priced?",
+    "choices": {
+      "A": "Per function",
+      "B": "Per invocation",
+      "C": "Per 1000 invocations",
+      "D": "Monthly subscription"
+    },
+    "topic": "Google Cloud Functions",
+    "correct": "C",
+    "quick_explanation": "Google Cloud Functions are priced per 1000 invocations, along with other factors like network, compute and memory usage."
+  },
+  {
+    "question": "Which command deploys a Google Cloud Function?",
+    "choices": {
+      "A": "gcloud functions deploy",
+      "B": "gcloud deploy functions",
+      "C": "gcloud function deploy",
+      "D": "gcloud deploy function"
+    },
+    "topic": "Google Cloud Functions",
+    "correct": "A",
+    "quick_explanation": "The 'gcloud functions deploy' command is used to deploy a Google Cloud Function."
+  },
+  {
+    "question": "What is the default memory allocation for a Google Cloud Function?",
+    "choices": {
+      "A": "128MB",
+      "B": "256MB",
+      "C": "512MB",
+      "D": "1024MB"
+    },
+    "topic": "Google Cloud Functions",
+    "correct": "B",
+    "quick_explanation": "The default memory allocation for a Google Cloud Function is 256MB."
+  },
+  {
+    "question": "Which environment variable contains the name of the function being executed?",
+    "choices": {
+      "A": "FUNCTION_NAME",
+      "B": "FUNCTION_ID",
+      "C": "FUNCTION_EXEC",
+      "D": "FUNCTION_RUN"
+    },
+    "topic": "Google Cloud Functions",
+    "correct": "A",
+    "quick_explanation": "The environment variable FUNCTION_NAME contains the name of the function being executed."
+  },
+  {
+    "question": "Which of the following is a valid event data source for Google Cloud Functions?",
+    "choices": {
+      "A": "Google Cloud Storage",
+      "B": "Google Drive",
+      "C": "Google Sheets",
+      "D": "Google Maps"
+    },
+    "topic": "Google Cloud Functions",
+    "correct": "A",
+    "quick_explanation": "Google Cloud Functions can be triggered by events from Google Cloud Storage."
+  },
+  {
+    "question": "What is the primary role of the 'context' parameter in a Google Cloud Function?",
+    "choices": {
+      "A": "To provide event metadata",
+      "B": "To provide execution environment",
+      "C": "To provide error handling",
+      "D": "To provide request headers"
+    },
+    "topic": "Google Cloud Functions",
+    "correct": "A",
+    "quick_explanation": "The 'context' parameter provides event metadata including the event ID and timestamp."
+  },
+  {
+    "question": "Which of the following is NOT a recommended use case for Google Cloud Functions?",
+    "choices": {
+      "A": "Real-time file processing",
+      "B": "Long-running operations",
+      "C": "Data transformation",
+      "D": "Creating REST APIs"
+    },
+    "topic": "Google Cloud Functions",
+    "correct": "B",
+    "quick_explanation": "Google Cloud Functions are not designed for long-running operations as there's a maximum execution timeout."
+  },
+  {
+    "question": "What is the maximum number of functions that can be deployed per project?",
+    "choices": {
+      "A": "100",
+      "B": "500",
+      "C": "1000",
+      "D": "No limit"
+    },
+    "topic": "Google Cloud Functions",
+    "correct": "D",
+    "quick_explanation": "There is no hard limit on the number of functions you can deploy per project."
+  },
+  {
+    "question": "Which of the following Google Cloud products is typically used in conjunction with Cloud Functions for real-time analytics?",
+    "choices": {
+      "A": "BigQuery",
+      "B": "Dataflow",
+      "C": "Pub/Sub",
+      "D": "Cloud Spanner"
+    },
+    "topic": "Google Cloud Functions",
+    "correct": "C",
+    "quick_explanation": "Pub/Sub is often used with Cloud Functions to process events in real-time for analytics purposes."
+  },
+  {
+    "question": "What happens if a Google Cloud Function execution fails?",
+    "choices": {
+      "A": "It is retried automatically",
+      "B": "It is moved to a dead-letter queue",
+      "C": "It is logged and monitored",
+      "D": "Both A and C"
+    },
+    "topic": "Google Cloud Functions",
+    "correct": "D",
+    "quick_explanation": "If a Cloud Function execution fails, it may be retried automatically and the failure is logged and can be monitored."
+  },
+  {
+    "question": "Which of the following is a correct way to specify dependencies in a Node.js Google Cloud Function?",
+    "choices": {
+      "A": "In a requirements.txt file",
+      "B": "In a package.json file",
+      "C": "In a dependencies.yaml file",
+      "D": "In a modules.xml file"
+    },
+    "topic": "Google Cloud Functions",
+    "correct": "B",
+    "quick_explanation": "Dependencies for a Node.js Google Cloud Function are specified in a package.json file."
+  },
+  {
+    "question": "What is a typical use case for using environment variables in a Google Cloud Function?",
+    "choices": {
+      "A": "Storing sensitive data",
+      "B": "Controlling function behavior",
+      "C": "Communicating between functions",
+      "D": "All of the above"
+    },
+    "topic": "Google Cloud Functions",
+    "correct": "D",
+    "quick_explanation": "Environment variables in a Google Cloud Function can be used for storing sensitive data, controlling function behavior, and communicating between functions."
+  },
+  {
+    "question": "Which of the following is an example of a Google Cloud Function trigger?",
+    "choices": {
+      "A": "A new file is uploaded to a Cloud Storage bucket",
+      "B": "A new row is inserted into a Cloud Spanner database",
+      "C": "A new message is published to a Pub/Sub topic",
+      "D": "All of the above"
+    },
+    "topic": "Google Cloud Functions",
+    "correct": "D",
+    "quick_explanation": "Google Cloud Functions can be triggered by various events including new files in Cloud Storage, new rows in Cloud Spanner, and new messages in Pub/Sub."
+  },
+  {
+    "question": "What is the maximum number of concurrent executions per function?",
+    "choices": {
+      "A": "100",
+      "B": "500",
+      "C": "1000",
+      "D": "Unlimited"
+    },
+    "topic": "Google Cloud Functions",
+    "correct": "C",
+    "quick_explanation": "The maximum number of concurrent executions per function is 1000."
+  },
+  {
+    "question": "Which of the following is a valid way to authenticate a Google Cloud Function?",
+    "choices": {
+      "A": "Using OAuth 2.0",
+      "B": "Using an API key",
+      "C": "Using IAM roles",
+      "D": "All of the above"
+    },
+    "topic": "Google Cloud Functions",
+    "correct": "D",
+    "quick_explanation": "Google Cloud Functions can be authenticated using OAuth 2.0, API keys, or IAM roles."
   }
 ]
