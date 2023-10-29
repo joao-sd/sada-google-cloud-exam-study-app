@@ -2978,5 +2978,485 @@
     "topic": "Google Cloud Functions",
     "correct": "D",
     "quick_explanation": "Google Cloud Functions can be authenticated using OAuth 2.0, API keys, or IAM roles."
+  },
+  {
+    "question": "What is the primary role of a Kubernetes Master?",
+    "choices": {
+      "A": "Hosts application containers",
+      "B": "Manages the cluster control plane",
+      "C": "Routes external traffic",
+      "D": "Provides persistent storage"
+    },
+    "topic": "Google Kubernetes Engine",
+    "correct": "B",
+    "quick_explanation": "The Kubernetes Master manages the cluster control plane."
+  },
+  {
+    "question": "Which command is used to get the credentials for a GKE cluster?",
+    "choices": {
+      "A": "kubectl config get-credentials",
+      "B": "gcloud container clusters get-credentials",
+      "C": "gcloud auth login",
+      "D": "kubectl cluster-info"
+    },
+    "topic": "Google Kubernetes Engine",
+    "correct": "B",
+    "quick_explanation": "The 'gcloud container clusters get-credentials' command fetches credentials for a GKE cluster."
+  },
+  {
+    "question": "Which of these is not a component of a Kubernetes Pod?",
+    "choices": {
+      "A": "Init Container",
+      "B": "Volume",
+      "C": "Node",
+      "D": "Sidecar Container"
+    },
+    "topic": "Google Kubernetes Engine",
+    "correct": "C",
+    "quick_explanation": "A Node is not a component of a Pod; rather, Pods run on Nodes."
+  },
+  {
+    "question": "What type of policy is used to restrict Pod-to-Pod communication?",
+    "choices": {
+      "A": "RBAC",
+      "B": "NetworkPolicy",
+      "C": "IAM",
+      "D": "PodSecurityPolicy"
+    },
+    "topic": "Google Kubernetes Engine",
+    "correct": "B",
+    "quick_explanation": "NetworkPolicy is used for defining rules for Pod-to-Pod communication."
+  },
+  {
+    "question": "Which command scales a deployment?",
+    "choices": {
+      "A": "kubectl scale",
+      "B": "kubectl extend",
+      "C": "kubectl get deployments",
+      "D": "kubectl expose"
+    },
+    "topic": "Google Kubernetes Engine",
+    "correct": "A",
+    "quick_explanation": "The 'kubectl scale' command scales a deployment."
+  },
+  {
+    "question": "Which GKE feature automatically adjusts the cluster size?",
+    "choices": {
+      "A": "Cluster Resizer",
+      "B": "Cluster Autoscaler",
+      "C": "Node Auto-Provisioning",
+      "D": "Vertical Pod Autoscaling"
+    },
+    "topic": "Google Kubernetes Engine",
+    "correct": "B",
+    "quick_explanation": "Cluster Autoscaler automatically adjusts the size of the cluster."
+  },
+  {
+    "question": "Which of the following can be used to manage state in Kubernetes?",
+    "choices": {
+      "A": "ConfigMap",
+      "B": "Secrets",
+      "C": "PersistentVolume",
+      "D": "All of the above"
+    },
+    "topic": "Google Kubernetes Engine",
+    "correct": "D",
+    "quick_explanation": "ConfigMap, Secrets, and PersistentVolume can all be used to manage state."
+  },
+  {
+    "question": "How many replicas are created by default when deploying an application in Kubernetes?",
+    "choices": {
+      "A": "0",
+      "B": "1",
+      "C": "2",
+      "D": "3"
+    },
+    "topic": "Google Kubernetes Engine",
+    "correct": "B",
+    "quick_explanation": "By default, one replica is created when deploying an application."
+  },
+  {
+    "question": "What does the 'kubectl apply' command do?",
+    "choices": {
+      "A": "Deletes resources",
+      "B": "Lists resources",
+      "C": "Applies configuration changes",
+      "D": "Rolls back changes"
+    },
+    "topic": "Google Kubernetes Engine",
+    "correct": "C",
+    "quick_explanation": "'kubectl apply' is used to apply configuration changes."
+  },
+  {
+    "question": "What is a ConfigMap primarily used for?",
+    "choices": {
+      "A": "Storing sensitive information",
+      "B": "Storing configuration data",
+      "C": "Load balancing",
+      "D": "Managing cluster nodes"
+    },
+    "topic": "Google Kubernetes Engine",
+    "correct": "B",
+    "quick_explanation": "A ConfigMap is used primarily for storing configuration data."
+  },
+  {
+    "question": "Which GKE feature updates the nodes automatically?",
+    "choices": {
+      "A": "Node Repair",
+      "B": "Node Auto-Provisioning",
+      "C": "Node Upgrade",
+      "D": "Node Auto-Upgrades"
+    },
+    "topic": "Google Kubernetes Engine",
+    "correct": "D",
+    "quick_explanation": "Node Auto-Upgrades feature updates the nodes automatically."
+  },
+  {
+    "question": "Which of the following is a container runtime supported by GKE?",
+    "choices": {
+      "A": "Docker",
+      "B": "CRI-O",
+      "C": "containerd",
+      "D": "All of the above"
+    },
+    "topic": "Google Kubernetes Engine",
+    "correct": "D",
+    "quick_explanation": "Docker, CRI-O, and containerd are all supported container runtimes in GKE."
+  },
+  {
+    "question": "What is the scope of a ClusterRole in Kubernetes?",
+    "choices": {
+      "A": "Namespace",
+      "B": "Pod",
+      "C": "Cluster",
+      "D": "Node"
+    },
+    "topic": "Google Kubernetes Engine",
+    "correct": "C",
+    "quick_explanation": "A ClusterRole has a cluster-wide scope."
+  },
+  {
+    "question": "Which of the following is NOT a standard GKE cluster type?",
+    "choices": {
+      "A": "Zonal",
+      "B": "Regional",
+      "C": "Global",
+      "D": "Autopilot"
+    },
+    "topic": "Google Kubernetes Engine",
+    "correct": "C",
+    "quick_explanation": "Global is not a standard GKE cluster type."
+  },
+  {
+    "question": "Which GKE feature allows you to view cluster diagnostics?",
+    "choices": {
+      "A": "Stackdriver",
+      "B": "Cloud Logging",
+      "C": "Cloud Monitoring",
+      "D": "Both B and C"
+    },
+    "topic": "Google Kubernetes Engine",
+    "correct": "D",
+    "quick_explanation": "Both Cloud Logging and Cloud Monitoring allow you to view cluster diagnostics."
+  },
+  {
+    "question": "Which of the following is a component of a Kubernetes Master?",
+    "choices": {
+      "A": "kubelet",
+      "B": "etcd",
+      "C": "Docker",
+      "D": "CAdvisor"
+    },
+    "topic": "Google Kubernetes Engine",
+    "correct": "B",
+    "quick_explanation": "etcd is a component of the Kubernetes Master and acts as the storage backend for the cluster data."
+  },
+  {
+    "question": "What is the Kubernetes API Server responsible for?",
+    "choices": {
+      "A": "Container orchestration",
+      "B": "Routing internal cluster communication",
+      "C": "Exposing the Kubernetes API",
+      "D": "Logging and Monitoring"
+    },
+    "topic": "Google Kubernetes Engine",
+    "correct": "C",
+    "quick_explanation": "The Kubernetes API Server is responsible for exposing the Kubernetes API."
+  },
+  {
+    "question": "What does HPA stand for in the context of GKE?",
+    "choices": {
+      "A": "Highly Predictive Algorithm",
+      "B": "Horizontal Pod Autoscaler",
+      "C": "Highly Available Pods",
+      "D": "High Performance Architecture"
+    },
+    "topic": "Google Kubernetes Engine",
+    "correct": "B",
+    "quick_explanation": "HPA stands for Horizontal Pod Autoscaler."
+  },
+  {
+    "question": "Which of the following can be used to extend Kubernetes functionality?",
+    "choices": {
+      "A": "CustomResourceDefinitions",
+      "B": "Operators",
+      "C": "API Aggregation",
+      "D": "All of the above"
+    },
+    "topic": "Google Kubernetes Engine",
+    "correct": "D",
+    "quick_explanation": "CustomResourceDefinitions, Operators, and API Aggregation can all be used to extend Kubernetes functionality."
+  },
+  {
+    "question": "What command do you use to create a new GKE cluster?",
+    "choices": {
+      "A": "gcloud container clusters deploy",
+      "B": "gcloud container clusters create",
+      "C": "gcloud deploy cluster",
+      "D": "kubectl create cluster"
+    },
+    "topic": "Google Kubernetes Engine",
+    "correct": "B",
+    "quick_explanation": "The 'gcloud container clusters create' command is used to create a new GKE cluster."
+  },
+  {
+    "question": "What command is used to roll out a new update to a Deployment?",
+    "choices": {
+      "A": "kubectl set image",
+      "B": "kubectl rollout",
+      "C": "kubectl deploy",
+      "D": "kubectl update"
+    },
+    "topic": "Google Kubernetes Engine",
+    "correct": "A",
+    "quick_explanation": "The 'kubectl set image' command is used to update the image of a Deployment."
+  },
+  {
+    "question": "What does a 'NodeSelector' do in a Pod specification?",
+    "choices": {
+      "A": "Limits the CPU usage",
+      "B": "Assigns a Pod to specific Nodes",
+      "C": "Monitors Node health",
+      "D": "Enables auto-scaling"
+    },
+    "topic": "Google Kubernetes Engine",
+    "correct": "B",
+    "quick_explanation": "A 'NodeSelector' is used to schedule a Pod onto specific Nodes in the cluster."
+  },
+  {
+    "question": "What is a Kubernetes 'Service' primarily used for?",
+    "choices": {
+      "A": "Storage",
+      "B": "Networking",
+      "C": "Logging",
+      "D": "Monitoring"
+    },
+    "topic": "Google Kubernetes Engine",
+    "correct": "B",
+    "quick_explanation": "A Kubernetes 'Service' is primarily used for networking to provide a stable endpoint for Pods."
+  },
+  {
+    "question": "What is 'Pod Priority' used for?",
+    "choices": {
+      "A": "Scheduling Pods based on importance",
+      "B": "Scaling Pods automatically",
+      "C": "Managing Pod security",
+      "D": "Monitoring Pod resource usage"
+    },
+    "topic": "Google Kubernetes Engine",
+    "correct": "A",
+    "quick_explanation": "Pod Priority is used for scheduling Pods based on their importance."
+  },
+  {
+    "question": "Which of the following is a responsibility of the 'kube-proxy'?",
+    "choices": {
+      "A": "Networking",
+      "B": "Logging",
+      "C": "Storage",
+      "D": "Monitoring"
+    },
+    "topic": "Google Kubernetes Engine",
+    "correct": "A",
+    "quick_explanation": "The 'kube-proxy' is responsible for networking operations like load balancing between Pods."
+  },
+  {
+    "question": "What is the default backend for GKE storage?",
+    "choices": {
+      "A": "Google Cloud Storage",
+      "B": "Google Persistent Disk",
+      "C": "Bigtable",
+      "D": "Firestore"
+    },
+    "topic": "Google Kubernetes Engine",
+    "correct": "B",
+    "quick_explanation": "The default backend for GKE storage is Google Persistent Disk."
+  },
+  {
+    "question": "What type of load balancing does Kubernetes use by default?",
+    "choices": {
+      "A": "Network Load Balancer",
+      "B": "HTTP Load Balancer",
+      "C": "Round Robin",
+      "D": "None"
+    },
+    "topic": "Google Kubernetes Engine",
+    "correct": "C",
+    "quick_explanation": "By default, Kubernetes uses Round Robin load balancing for Services."
+  },
+  {
+    "question": "Which command provides an interactive shell to a running Pod?",
+    "choices": {
+      "A": "kubectl attach",
+      "B": "kubectl exec",
+      "C": "kubectl get shell",
+      "D": "kubectl run shell"
+    },
+    "topic": "Google Kubernetes Engine",
+    "correct": "B",
+    "quick_explanation": "The 'kubectl exec' command provides an interactive shell to a running Pod."
+  },
+  {
+    "question": "What are Kubernetes 'Taints' used for?",
+    "choices": {
+      "A": "To repel Pods from nodes",
+      "B": "To attract Pods to nodes",
+      "C": "For Pod autoscaling",
+      "D": "To secure Pods"
+    },
+    "topic": "Google Kubernetes Engine",
+    "correct": "A",
+    "quick_explanation": "Taints are used to repel Pods from certain nodes."
+  },
+  {
+    "question": "How can you set environment variables for a Pod?",
+    "choices": {
+      "A": "ConfigMap",
+      "B": "Secrets",
+      "C": "Annotations",
+      "D": "Both A and B"
+    },
+    "topic": "Google Kubernetes Engine",
+    "correct": "D",
+    "quick_explanation": "Both ConfigMap and Secrets can be used to set environment variables for a Pod."
+  },
+  {
+    "question": "What does the 'kube-scheduler' do?",
+    "choices": {
+      "A": "Allocates storage for Pods",
+      "B": "Schedules Pods to nodes",
+      "C": "Manages Kubernetes API",
+      "D": "Autoscales Pods"
+    },
+    "topic": "Google Kubernetes Engine",
+    "correct": "B",
+    "quick_explanation": "The 'kube-scheduler' is responsible for scheduling Pods to nodes in the cluster."
+  },
+  {
+    "question": "Which of these resource types is Namespaced?",
+    "choices": {
+      "A": "Node",
+      "B": "Pod",
+      "C": "ClusterRole",
+      "D": "PersistentVolume"
+    },
+    "topic": "Google Kubernetes Engine",
+    "correct": "B",
+    "quick_explanation": "Pods are namespaced resources."
+  },
+  {
+    "question": "What does 'GCR' stand for in the context of GKE?",
+    "choices": {
+      "A": "Google Cloud Registry",
+      "B": "Google Container Repository",
+      "C": "Google Container Registry",
+      "D": "Google Cloud Repository"
+    },
+    "topic": "Google Kubernetes Engine",
+    "correct": "C",
+    "quick_explanation": "GCR stands for Google Container Registry."
+  },
+  {
+    "question": "Which command retrieves logs for a specific Pod?",
+    "choices": {
+      "A": "kubectl describe pod",
+      "B": "kubectl get logs",
+      "C": "kubectl logs",
+      "D": "kubectl show logs"
+    },
+    "topic": "Google Kubernetes Engine",
+    "correct": "C",
+    "quick_explanation": "The 'kubectl logs' command retrieves logs for a specific Pod."
+  },
+  {
+    "question": "What is a 'StatefulSet' used for?",
+    "choices": {
+      "A": "Managing stateless applications",
+      "B": "Managing stateful applications",
+      "C": "Auto-scaling Pods",
+      "D": "Batch processing"
+    },
+    "topic": "Google Kubernetes Engine",
+    "correct": "B",
+    "quick_explanation": "A 'StatefulSet' is used for managing stateful applications."
+  },
+  {
+    "question": "How many Pods can run on a single Node by default?",
+    "choices": {
+      "A": "30",
+      "B": "50",
+      "C": "110",
+      "D": "None of the above"
+    },
+    "topic": "Google Kubernetes Engine",
+    "correct": "C",
+    "quick_explanation": "By default, up to 110 Pods can run on a single Node in GKE."
+  },
+  {
+    "question": "What do Kubernetes 'Affinity Rules' control?",
+    "choices": {
+      "A": "CPU allocation",
+      "B": "Pod placement",
+      "C": "Storage allocation",
+      "D": "Network policies"
+    },
+    "topic": "Google Kubernetes Engine",
+    "correct": "B",
+    "quick_explanation": "Affinity Rules are used to control the placement of Pods on Nodes."
+  },
+  {
+    "question": "What is 'RBAC' an abbreviation for?",
+    "choices": {
+      "A": "Resource-Based Access Control",
+      "B": "Role-Based Access Control",
+      "C": "Resource-Bound Access Control",
+      "D": "Role-Binding Access Control"
+    },
+    "topic": "Google Kubernetes Engine",
+    "correct": "B",
+    "quick_explanation": "RBAC stands for Role-Based Access Control."
+  },
+  {
+    "question": "Which of the following is a type of Kubernetes 'Volume'?",
+    "choices": {
+      "A": "NFS",
+      "B": "ext4",
+      "C": "Google Persistent Disk",
+      "D": "All of the above"
+    },
+    "topic": "Google Kubernetes Engine",
+    "correct": "D",
+    "quick_explanation": "NFS, ext4, and Google Persistent Disk are all types of Kubernetes Volumes."
+  },
+  {
+    "question": "Which of the following is a native GKE logging and monitoring solution?",
+    "choices": {
+      "A": "Prometheus",
+      "B": "CloudWatch",
+      "C": "Cloud Monitoring and Logging",
+      "D": "New Relic"
+    },
+    "topic": "Google Kubernetes Engine",
+    "correct": "C",
+    "quick_explanation": "Cloud Monitoring and Logging is the native GKE logging and monitoring solution."
   }
 ]
