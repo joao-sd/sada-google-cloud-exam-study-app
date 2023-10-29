@@ -1,3 +1,4 @@
+import { uniq } from 'lodash';
 import React, { useEffect, useState } from 'react';
 import { EXAM_MIN_PASS_SCORE_PERCENTAGE } from '../constants/ExamConstants';
 import { Question as QuestionType } from '../types';
@@ -13,7 +14,7 @@ const Quiz: React.FC<QuizProps> = ({ questionsData, selectedTopic }) => {
   const [score, setScore] = useState<number>(0);
 
   // Filter questions based on the selected topic
-  const filteredQuestions = selectedTopic === 'All' ? questionsData : questionsData.filter(q => q.topic === selectedTopic);
+  let filteredQuestions = uniq(selectedTopic === 'All' ? questionsData : questionsData.filter(q => q.topic === selectedTopic));
 
   const handleAnswerClick = (selected: string, isCorrect: boolean) => {
     console.log(selected, isCorrect);
@@ -33,8 +34,8 @@ const Quiz: React.FC<QuizProps> = ({ questionsData, selectedTopic }) => {
   const hasQuestion = filteredQuestions.length > 0 && currentQuestionIndex < filteredQuestions.length;
 
   return (
-    <div className="container mt-4">
-      <h2 className="text-center">Quiz Summary</h2>
+    <div className="container mt-4 mb-4">
+      <h2 className="text-center">Google Cloud Quiz App</h2>
 
       <div className="row justify-content-center">
         <div className="col-md-6">

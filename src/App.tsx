@@ -26,6 +26,24 @@ const App: React.FC = () => {
       <div className="row">
         <div className="col">
           <h1 className="mt-4">Quiz App</h1>
+
+          
+
+          <div className="alert alert-info mt-4" role="alert">
+            <ul>
+              <li>
+                <strong>Individual topics: </strong> Use them to practice for a specific topic.
+              </li>
+              <li>
+                <strong>All topics: </strong> Use them to practice for the entire exam.
+              </li>
+              <li>
+                <strong>Exam Simulation (important): </strong> These are the ones that most match the real exam. REQUIRED if you want to pass!
+              </li>
+            </ul>
+          </div>
+
+
           <label className="mt-4">Select Topic:</label>
           <select className="form-control" onChange={(e) => setSelectedTopic(e.target.value)}>
             {topics.map((topic, index) => (
