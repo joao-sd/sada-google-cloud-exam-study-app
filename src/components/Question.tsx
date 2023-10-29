@@ -55,7 +55,7 @@ const QuestionComponent: React.FC<QuestionProps> = ({ question: data, onAnswerSe
           ))}
           {answered && isIncorrect && (
             <div className={`alert alert-danger mt-4`}>
-              {data.quick_explanation ?? `Correct: ${data.correct}`}
+              {`Correct: ${data.correct}. ${data.quick_explanation}` ?? `Correct: ${data.correct}`}
             </div>
           )}
           {answered ? (
