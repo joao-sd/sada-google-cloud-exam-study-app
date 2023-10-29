@@ -3458,5 +3458,521 @@
     "topic": "Google Kubernetes Engine",
     "correct": "C",
     "quick_explanation": "Cloud Monitoring and Logging is the native GKE logging and monitoring solution."
+  },
+  {
+    "question": "Every employee of your company has a Google account. Your operational team needs to manage a large number of instances on Compute Engine. Each member of this team needs only administrative access to the servers. Your security team wants to ensure that the deployment of credentials is operationally efficient and must be able to determine who accessed a given instance. What should you do?",
+    "choices": {
+      "A": "Generate a new SSH key pair. Give the private key to each member of your team. Configure the public key in the metadata of each instance.",
+      "B": "Ask each member of the team to generate a new SSH key pair and to send you their public key. Use a configuration management tool to deploy those keys on each instance.",
+      "C": "Ask each member of the team to generate a new SSH key pair and to add the public key to their Google account. Grant the ג€compute.osAdminLoginג€ role to the Google group corresponding to this team.",
+      "D": "Generate a new SSH key pair. Give the private key to each member of your team. Configure the public key as a project-wide public SSH key in your Cloud Platform project and allow project-wide public SSH keys on each instance."
+    },
+    "topic": "Exam simulation",
+    "correct": "C",
+    "quick_explanation": "Option C allows for administrative access while maintaining a level of security and traceability for each user."
+  },
+  {
+    "question": "You need to create a custom VPC with a single subnet. The subnet's range must be as large as possible. Which range should you use?",
+    "choices": {
+      "A": "0.0.0.0/0",
+      "B": "10.0.0.0/8",
+      "C": "172.16.0.0/12",
+      "D": "192.168.0.0/16"
+    },
+    "topic": "Exam simulation",
+    "correct": "B",
+    "quick_explanation": "The 10.0.0.0/8 range gives you the largest possible private IP address space."
+  },
+  {
+    "question": "You want to select and configure a cost-effective solution for relational data on Google Cloud Platform. You are working with a small set of operational data in one geographic location. You need to support point-in-time recovery. What should you do?",
+    "choices": {
+      "A": "Select Cloud SQL (MySQL). Verify that the enable binary logging option is selected.",
+      "B": "Select Cloud SQL (MySQL). Select the create failover replicas option.",
+      "C": "Select Cloud Spanner. Set up your instance with 2 nodes.",
+      "D": "Select Cloud Spanner. Set up your instance as multi-regional."
+    },
+    "topic": "Exam simulation",
+    "correct": "A",
+    "quick_explanation": "Cloud SQL (MySQL) with binary logging enabled is cost-effective and supports point-in-time recovery."
+  },
+  {
+    "question": "You want to configure autohealing for network load balancing for a group of Compute Engine instances that run in multiple zones, using the fewest possible steps. You need to configure re-creation of VMs if they are unresponsive after 3 attempts of 10 seconds each. What should you do?",
+    "choices": {
+      "A": "Create an HTTP load balancer with a backend configuration that references an existing instance group. Set the health check to healthy (HTTP)",
+      "B": "Create an HTTP load balancer with a backend configuration that references an existing instance group. Define a balancing mode and set the maximum RPS to 10.",
+      "C": "Create a managed instance group. Set the Autohealing health check to healthy (HTTP)",
+      "D": "Create a managed instance group. Verify that the autoscaling setting is on."
+    },
+    "topic": "Exam simulation",
+    "correct": "C",
+    "quick_explanation": "Creating a managed instance group and setting up Autohealing health check achieves the goal with fewer steps."
+  },
+  {
+    "question": "You are using multiple configurations for gcloud. You want to review the configured Kubernetes Engine cluster of an inactive configuration using the fewest possible steps. What should you do?",
+    "choices": {
+      "A": "Use gcloud config configurations describe to review the output.",
+      "B": "Use gcloud config configurations activate and gcloud config list to review the output.",
+      "C": "Use kubectl config get-contexts to review the output.",
+      "D": "Use kubectl config use-context and kubectl config view to review the output."
+    },
+    "topic": "Exam simulation",
+    "correct": "D",
+    "quick_explanation": "Using 'kubectl config use-context' followed by 'kubectl config view' is the most efficient way to review the required Kubernetes cluster."
+  },
+  {
+    "question": "Your company uses Cloud Storage to store application backup files for disaster recovery purposes. You want to follow Google's recommended practices. Which storage option should you use?",
+    "choices": {
+      "A": "Multi-Regional Storage",
+      "B": "Regional Storage",
+      "C": "Nearline Storage",
+      "D": "Coldline Storage"
+    },
+    "topic": "Exam simulation",
+    "correct": "D",
+    "quick_explanation": "Coldline Storage is designed for data that you expect to access less frequently, making it suitable for disaster recovery purposes."
+  },
+  {
+    "question": "Several employees at your company have been creating projects with Cloud Platform and paying for it with their personal credit cards, which the company reimburses. The company wants to centralize all these projects under a single, new billing account. What should you do?",
+    "choices": {
+      "A": "Contact cloud-billing@google.com with your bank account details and request a corporate billing account for your company.",
+      "B": "Create a ticket with Google Support and wait for their call to share your credit card details over the phone.",
+      "C": "In the Google Platform Console, go to the Resource Manage and move all projects to the root Organizarion.",
+      "D": "In the Google Cloud Platform Console, create a new billing account and set up a payment method."
+    },
+    "topic": "Exam simulation",
+    "correct": "D",
+    "quick_explanation": "Creating a new billing account directly through the Google Cloud Platform Console is the most efficient and secure way to centralize billing."
+  },
+  {
+    "question": "You have an application that looks for its licensing server on the IP 10.0.3.21. You need to deploy the licensing server on Compute Engine. You do not want to change the configuration of the application and want the application to be able to reach the licensing server. What should you do?",
+    "choices": {
+      "A": "Reserve the IP 10.0.3.21 as a static internal IP address using gcloud and assign it to the licensing server.",
+      "B": "Reserve the IP 10.0.3.21 as a static public IP address using gcloud and assign it to the licensing server.",
+      "C": "Create a snapshot of the existing licensing server and deploy it as a Compute Engine instance. Assign a dynamic IP address and create an internal DNS entry pointing to it.",
+      "D": "Deploy a Compute Engine instance for the licensing server. Use a dynamic internal IP address. Use Google Cloud DNS to create a CNAME record pointing to 10.0.3.21."
+    },
+    "topic": "Exam simulation",
+    "correct": "A",
+    "quick_explanation": "Reserving 10.0.3.21 as a static internal IP and assigning it to the licensing server ensures that the application can reach the licensing server without any changes."
+  },
+  {
+    "question": "You need a dynamic way of provisioning VMs on Compute Engine. The exact specifications will be in a dedicated configuration file. You want to follow Google's recommended practices. Which method should you use?",
+    "choices": {
+      "A": "Deployment Manager",
+      "B": "Cloud Composer",
+      "C": "Managed Instance Group",
+      "D": "Unmanaged Instance Group"
+    },
+    "topic": "Exam simulation",
+    "correct": "A",
+    "quick_explanation": "Deployment Manager allows for infrastructure as code, enabling dynamic and automated VM provisioning based on configuration files."
+  },
+  {
+    "question": "You have a Dockerfile that you need to deploy on Kubernetes Engine. What should you do?",
+    "choices": {
+      "A": "Use kubectl app deploy <dockerfilename>.",
+      "B": "Use gcloud app deploy <dockerfilename>.",
+      "C": "Create a docker image from the Dockerfile and upload it to Container Registry. Create a Deployment YAML file to point to that image. Use kubectl to create the deployment with that file.",
+      "D": "Create a docker image from the Dockerfile and upload it to Cloud Storage. Create a Deployment YAML file to point to that image. Use kubectl to create the deployment with that file."
+    },
+    "topic": "Exam simulation",
+    "correct": "C",
+    "quick_explanation": "Kubernetes deployments are typically defined in a YAML file and images should be stored in a container registry, not Cloud Storage."
+  },
+  {
+    "question": "Your development team needs a new Jenkins server for their project. You need to deploy the server using the fewest steps possible. What should you do?",
+    "choices": {
+      "A": "Download and deploy the Jenkins Java WAR to App Engine Standard.",
+      "B": "Create a new Compute Engine instance and install Jenkins through the command line interface.",
+      "C": "Create a Kubernetes cluster on Compute Engine and create a deployment with the Jenkins Docker image.",
+      "D": "Use GCP Marketplace to launch the Jenkins solution."
+    },
+    "topic": "Exam simulation",
+    "correct": "D",
+    "quick_explanation": "Using GCP Marketplace reduces the number of manual steps involved in setting up Jenkins."
+  },
+  {
+    "question": "You need to update a deployment in Deployment Manager without any resource downtime in the deployment. Which command should you use?",
+    "choices": {
+      "A": "gcloud deployment-manager deployments create --config <deployment-config-path>",
+      "B": "gcloud deployment-manager deployments update --config <deployment-config-path>",
+      "C": "gcloud deployment-manager resources create --config <deployment-config-path>",
+      "D": "gcloud deployment-manager resources update --config <deployment-config-path>"
+    },
+    "topic": "Exam simulation",
+    "correct": "B",
+    "quick_explanation": "The update command will change the existing deployment without causing downtime."
+  },
+  {
+    "question": "You need to run an important query in BigQuery but expect it to return a lot of records. You want to find out how much it will cost to run the query. You are using on-demand pricing. What should you do?",
+    "choices": {
+      "A": "Arrange to switch to Flat-Rate pricing for this query, then move back to on-demand.",
+      "B": "Use the command line to run a dry run query to estimate the number of bytes read. Then convert that bytes estimate to dollars using the Pricing Calculator.",
+      "C": "Use the command line to run a dry run query to estimate the number of bytes returned. Then convert that bytes estimate to dollars using the Pricing Calculator.",
+      "D": "Run a select count (*) to get an idea of how many records your query will look through. Then convert that number of rows to dollars using the Pricing Calculator."
+    },
+    "topic": "Exam simulation",
+    "correct": "B",
+    "quick_explanation": "A dry run query will give an estimate of bytes read, which can be converted to cost using the Pricing Calculator."
+  },
+  {
+    "question": "You need a dynamic way of provisioning VMs on Compute Engine. The exact specifications will be in a dedicated configuration file. You want to follow Google's recommended practices. Which method should you use?",
+    "choices": {
+      "A": "Deployment Manager",
+      "B": "Cloud Composer",
+      "C": "Managed Instance Group",
+      "D": "Unmanaged Instance Group"
+    },
+    "topic": "Exam simulation",
+    "correct": "A",
+    "quick_explanation": "Deployment Manager allows you to define and deploy resources in your Google Cloud environment using YAML or Python templates."
+  },
+  {
+    "question": "You have a Dockerfile that you need to deploy on Kubernetes Engine. What should you do?",
+    "choices": {
+      "A": "Use kubectl app deploy <dockerfilename>.",
+      "B": "Use gcloud app deploy <dockerfilename>.",
+      "C": "Create a docker image from the Dockerfile and upload it to Container Registry. Create a Deployment YAML file to point to that image. Use kubectl to create the deployment with that file.",
+      "D": "Create a docker image from the Dockerfile and upload it to Cloud Storage. Create a Deployment YAML file to point to that image. Use kubectl to create the deployment with that file."
+    },
+    "topic": "Exam simulation",
+    "correct": "C",
+    "quick_explanation": "Kubernetes requires a container image to be present in a container registry. You also need a Deployment YAML to instruct how to manage the container instances."
+  },
+  {
+    "question": "Your development team needs a new Jenkins server for their project. You need to deploy the server using the fewest steps possible. What should you do?",
+    "choices": {
+      "A": "Download and deploy the Jenkins Java WAR to App Engine Standard.",
+      "B": "Create a new Compute Engine instance and install Jenkins through the command line interface.",
+      "C": "Create a Kubernetes cluster on Compute Engine and create a deployment with the Jenkins Docker image.",
+      "D": "Use GCP Marketplace to launch the Jenkins solution."
+    },
+    "topic": "Exam simulation",
+    "correct": "D",
+    "quick_explanation": "Using GCP Marketplace is the quickest method to deploy a fully configured Jenkins server."
+  },
+  {
+    "question": "You need to update a deployment in Deployment Manager without any resource downtime in the deployment. Which command should you use?",
+    "choices": {
+      "A": "gcloud deployment-manager deployments create --config <deployment-config-path>",
+      "B": "gcloud deployment-manager deployments update --config <deployment-config-path>",
+      "C": "gcloud deployment-manager resources create --config <deployment-config-path>",
+      "D": "gcloud deployment-manager resources update --config <deployment-config-path>"
+    },
+    "topic": "Exam simulation",
+    "correct": "B",
+    "quick_explanation": "The update command allows you to make changes without causing downtime for your resources."
+  },
+  {
+    "question": "You need to run an important query in BigQuery but expect it to return a lot of records. You want to find out how much it will cost to run the query. You are using on-demand pricing. What should you do?",
+    "choices": {
+      "A": "Arrange to switch to Flat-Rate pricing for this query, then move back to on-demand.",
+      "B": "Use the command line to run a dry run query to estimate the number of bytes read. Then convert that bytes estimate to dollars using the Pricing Calculator.",
+      "C": "Use the command line to run a dry run query to estimate the number of bytes returned. Then convert that bytes estimate to dollars using the Pricing Calculator.",
+      "D": "Run a select count (*) to get an idea of how many records your query will look through. Then convert that number of rows to dollars using the Pricing Calculator."
+    },
+    "topic": "Exam simulation",
+    "correct": "B",
+    "quick_explanation": "BigQuery charges are mainly based on the amount of data read during a query. A dry run query gives you an estimate of bytes read, which can be converted to cost."
+  },
+  {
+    "question": "You need to ensure data is encrypted in transit when moving data into Google Cloud Storage. Which of the following should you use?",
+    "choices": {
+      "A": "Google Cloud Endpoints",
+      "B": "Use HTTPS while transferring the data",
+      "C": "Customer-managed encryption keys (CMEK)",
+      "D": "Stunnel"
+    },
+    "topic": "Exam simulation",
+    "correct": "B",
+    "quick_explanation": "Using HTTPS ensures that the data is encrypted during transmission to Google Cloud Storage."
+  },
+  {
+    "question": "You need to create a static website using Google Cloud. Which service should you use?",
+    "choices": {
+      "A": "Cloud SQL",
+      "B": "Google Cloud Storage",
+      "C": "Compute Engine",
+      "D": "App Engine Standard"
+    },
+    "topic": "Exam simulation",
+    "correct": "B",
+    "quick_explanation": "Google Cloud Storage can serve as a simple and cost-effective static website host."
+  },
+  {
+    "question": "Your team wants to implement a new microservices architecture. You want to be able to trace requests through all microservices. Which Google Cloud product would you use?",
+    "choices": {
+      "A": "Cloud Monitoring",
+      "B": "Cloud Trace",
+      "C": "Cloud Debugger",
+      "D": "Cloud Profiler"
+    },
+    "topic": "Exam simulation",
+    "correct": "B",
+    "quick_explanation": "Cloud Trace allows you to view the latency distribution of your application, helping you monitor the flow of requests through various microservices."
+  },
+  {
+    "question": "You need to ensure that only specific service accounts can access a particular set of Google Cloud Storage buckets. What is the best practice?",
+    "choices": {
+      "A": "Use Cloud IAM with suitable roles",
+      "B": "Create signed URLs for all the objects",
+      "C": "Enable VPC Service Controls",
+      "D": "Use gsutil to set ACLs on the buckets"
+    },
+    "topic": "Exam simulation",
+    "correct": "A",
+    "quick_explanation": "Using Cloud IAM and setting roles specifically for the service accounts is the best practice for controlling access to GCS buckets."
+  },
+  {
+    "question": "You want to optimize the costs associated with storing large volumes of data that you rarely access. What Google Cloud Storage class should you use?",
+    "choices": {
+      "A": "Standard",
+      "B": "Multi-Regional",
+      "C": "Nearline",
+      "D": "Coldline"
+    },
+    "topic": "Exam simulation",
+    "correct": "D",
+    "quick_explanation": "Coldline storage is cost-effective for storing large volumes of data that is rarely accessed."
+  },
+  {
+    "question": "The required testing has succeeded and you want to create a new project to serve as your production environment. What should you do?",
+    "choices": {
+      "A": "Use gcloud to create the new project, and then deploy your application to the new project.",
+      "B": "Use gcloud to create the new project and to copy the deployed application to the new project.",
+      "C": "Create a Deployment Manager configuration file that copies the current App Engine deployment into a new project.",
+      "D": "Deploy your application again using gcloud and specify the project parameter with the new project name to create the new project."
+    },
+    "topic": "Exam simulation",
+    "correct": "A",
+    "quick_explanation": "Creating a new project using gcloud and deploying your application to it is the Google-recommended approach for setting up a production environment."
+  },
+  {
+    "question": "You need to configure IAM access audit logging in BigQuery for external auditors. What should you do?",
+    "choices": {
+      "A": "Add the auditors group to the 'logging.viewer' and 'bigQuery.dataViewer' predefined IAM roles.",
+      "B": "Add the auditors group to two new custom IAM roles.",
+      "C": "Add the auditor user accounts to the 'logging.viewer' and 'bigQuery.dataViewer' predefined IAM roles.",
+      "D": "Add the auditor user accounts to two new custom IAM roles."
+    },
+    "topic": "Exam simulation",
+    "correct": "A",
+    "quick_explanation": "Google's best practices recommend using predefined IAM roles wherever possible. In this case, adding the auditors group to the 'logging.viewer' and 'bigQuery.dataViewer' roles would be the most appropriate."
+  },
+  {
+    "question": "You need to set up permissions for a set of Compute Engine instances to enable them to write data into a particular Cloud Storage bucket. What should you do?",
+    "choices": {
+      "A": "Create a service account with an access scope. Use the access scope 'https://www.googleapis.com/auth/devstorage.write_only'.",
+      "B": "Create a service account with an access scope. Use the access scope 'https://www.googleapis.com/auth/cloud-platform'.",
+      "C": "Create a service account and add it to the IAM role 'storage.objectCreator' for that bucket.",
+      "D": "Create a service account and add it to the IAM role 'storage.objectAdmin' for that bucket."
+    },
+    "topic": "Exam simulation",
+    "correct": "C",
+    "quick_explanation": "Creating a service account and assigning it the 'storage.objectCreator' role on the specific bucket is the Google-recommended approach."
+  },
+  {
+    "question": "You want to verify activities for a particular user for these buckets, using the fewest possible steps. What should you do?",
+    "choices": {
+      "A": "Using the GCP Console, filter the Activity log to view the information.",
+      "B": "Using the GCP Console, filter the Stackdriver log to view the information.",
+      "C": "View the bucket in the Storage section of the GCP Console.",
+      "D": "Create a trace in Stackdriver to view the information."
+    },
+    "topic": "Exam simulation",
+    "correct": "A",
+    "quick_explanation": "Filtering the Activity log through the GCP Console will provide a focused view of user activities related to the bucket, in the least number of steps."
+  },
+  {
+    "question": "You are the project owner of a GCP project and want to delegate control to colleagues to manage buckets and files in Cloud Storage. What should you do?",
+    "choices": {
+      "A": "Project Editor",
+      "B": "Storage Admin",
+      "C": "Storage Object Admin",
+      "D": "Storage Object Creator"
+    },
+    "topic": "Exam simulation",
+    "correct": "B",
+    "quick_explanation": "The 'Storage Admin' role grants comprehensive permissions for managing storage resources, and is aligned with Google's best practices."
+  },
+  {
+    "question": "You have a project for your App Engine application that serves a development environment. The required testing has succeeded and you want to create a new project to serve as your production environment. What should you do?",
+    "choices": {
+      "A": "Use gcloud to create the new project, and then deploy your application to the new project.",
+      "B": "Use gcloud to create the new project and to copy the deployed application to the new project.",
+      "C": "Create a Deployment Manager configuration file that copies the current App Engine deployment into a new project.",
+      "D": "Deploy your application again using gcloud and specify the project parameter with the new project name to create the new project."
+    },
+    "topic": "Exam simulation",
+    "correct": "A",
+    "quick_explanation": "You should create a new project using gcloud and then deploy your application to this new project to serve as your production environment."
+  },
+  {
+    "question": "You have an instance group that you want to load balance. You want the load balancer to terminate the client SSL session. The instance group is used to serve a public web application over HTTPS. You want to follow Google-recommended practices. What should you do?",
+    "choices": {
+      "A": "Configure an HTTP(S) load balancer.",
+      "B": "Configure an internal TCP load balancer.",
+      "C": "Configure an external SSL proxy load balancer.",
+      "D": "Configure an external TCP proxy load balancer."
+    },
+    "topic": "Exam simulation",
+    "correct": "A",
+    "quick_explanation": "An HTTP(S) load balancer supports SSL termination and is best suited for public web applications."
+  },
+  {
+    "question": "You have 32 GB of data in a single file that you need to upload to a Nearline Storage bucket. The WAN connection you are using is rated at 1 Gbps, and you are the only one on the connection. You want to use as much of the rated 1 Gbps as possible to transfer the file rapidly. How should you upload the file?",
+    "choices": {
+      "A": "Use the GCP Console to transfer the file instead of gsutil.",
+      "B": "Enable parallel composite uploads using gsutil on the file transfer.",
+      "C": "Decrease the TCP window size on the machine initiating the transfer.",
+      "D": "Change the storage class of the bucket from Nearline to Multi-Regional."
+    },
+    "topic": "Exam simulation",
+    "correct": "B",
+    "quick_explanation": "Enabling parallel composite uploads using gsutil allows for faster data transfer by splitting the file and uploading parts in parallel."
+  },
+  {
+    "question": "You are running an application on multiple virtual machines within a managed instance group and have autoscaling enabled. The autoscaling policy is configured so that additional instances are added to the group if the CPU utilization of instances goes above 80%. VMs are added until the instance group reaches its maximum limit of five VMs or until CPU utilization of instances lowers to 80%. The initial delay for HTTP health checks against the instances is set to 30 seconds. The virtual machine instances take around three minutes to become available for users. You observe that when the instance group autoscales, it adds more instances then necessary to support the levels of end-user traffic. You want to properly maintain instance group sizes when autoscaling. What should you do?",
+    "choices": {
+      "A": "Set the maximum number of instances to 1.",
+      "B": "Decrease the maximum number of instances to 3.",
+      "C": "Use a TCP health check instead of an HTTP health check.",
+      "D": "Increase the initial delay of the HTTP health check to 200 seconds."
+    },
+    "topic": "Exam simulation",
+    "correct": "D",
+    "quick_explanation": "Increasing the initial delay for health checks allows VMs enough time to start serving before being included in the scaling metrics."
+  },
+  {
+    "question": "You need to select and configure compute resources for a set of batch processing jobs. These jobs take around 2 hours to complete and are run nightly. You want to minimize service costs. What should you do?",
+    "choices": {
+      "A": "Select Google Kubernetes Engine. Use a single-node cluster with a small instance type.",
+      "B": "Select Google Kubernetes Engine. Use a three-node cluster with micro instance types.",
+      "C": "Select Compute Engine. Use preemptible VM instances of the appropriate standard machine type.",
+      "D": "Select Compute Engine. Use VM instance types that support micro bursting."
+    },
+    "topic": "Exam simulation",
+    "correct": "C",
+    "quick_explanation": "Preemptible VM instances are short-lived and cost-effective, making them suitable for batch jobs that can tolerate interruptions."
+  },
+  {
+    "question": "You recently deployed a new version of an application to App Engine and then discovered a bug in the release. You need to immediately revert to the prior version of the application. What should you do?",
+    "choices": {
+      "A": "Run gcloud app restore.",
+      "B": "On the App Engine page of the GCP Console, select the application that needs to be reverted and click Revert.",
+      "C": "On the App Engine Versions page of the GCP Console, route 100% of the traffic to the previous version.",
+      "D": "Deploy the original version as a separate application. Then go to App Engine settings and split traffic between applications so that the original version serves 100% of the requests."
+    },
+    "topic": "Exam simulation",
+    "correct": "C",
+    "quick_explanation": "Routing 100% of the traffic to the previous version allows for an immediate rollback without deploying a separate application."
+  },
+  {
+    "question": "You deployed an App Engine application using gcloud app deploy, but it did not deploy to the intended project. You want to find out why this happened and where the application deployed. What should you do?",
+    "choices": {
+      "A": "Check the app.yaml file for your application and check project settings.",
+      "B": "Check the web-application.xml file for your application and check project settings.",
+      "C": "Go to Deployment Manager and review settings for deployment of applications.",
+      "D": "Go to Cloud Shell and run gcloud config list to review the Google Cloud configuration used for deployment."
+    },
+    "topic": "Exam simulation",
+    "correct": "D",
+    "quick_explanation": "Running 'gcloud config list' will display the Google Cloud configuration, helping you identify which project was used for the deployment."
+  },
+  {
+    "question": "You want to configure 10 Compute Engine instances for availability when maintenance occurs. Your requirements state that these instances should attempt to automatically restart if they crash. Also, the instances should be highly available including during system maintenance. What should you do?",
+    "choices": {
+      "A": "Create an instance template for the instances. Set the 'Automatic Restart' to on. Set the 'On-host maintenance' to Migrate VM instance. Add the instance template to an instance group.",
+      "B": "Create an instance template for the instances. Set 'Automatic Restart' to off. Set 'On-host maintenance' to Terminate VM instances. Add the instance template to an instance group.",
+      "C": "Create an instance group for the instances. Set the 'Autohealing' health check to healthy (HTTP).",
+      "D": "Create an instance group for the instance. Verify that the 'Advanced creation options' setting for 'do not retry machine creation' is set to off."
+    },
+    "topic": "Exam simulation",
+    "correct": "A",
+    "quick_explanation": "Setting 'Automatic Restart' to on and 'On-host maintenance' to Migrate ensures high availability during system maintenance and crashes."
+  },
+  {
+    "question": "You host a static website on Cloud Storage. Recently, you began to include some images that are used only on rare occasions. You want to optimize the cost of serving these images. What should you do?",
+    "choices": {
+      "A": "Change the storage class of the bucket to Coldline Storage.",
+      "B": "Use a lifecycle rule to move the images to Coldline Storage after 30 days.",
+      "C": "Change the storage class of the bucket to Multi-Regional.",
+      "D": "Use a lifecycle rule to move the images to Multi-Regional after 30 days."
+    },
+    "topic": "Exam simulation",
+    "correct": "B",
+    "quick_explanation": "Using a lifecycle rule to move rarely accessed images to Coldline Storage optimizes cost."
+  },
+  {
+    "question": "You need to create an autoscaling managed instance group for an HTTPS web application. You want to make sure that unhealthy VMs are recreated. What should you do?",
+    "choices": {
+      "A": "Create a health check on port 443 and use that when creating the Managed Instance Group.",
+      "B": "Select Multi-Zone instead of Single-Zone when creating the Managed Instance Group.",
+      "C": "In the Instance Template, add the label 'health-check'.",
+      "D": "In the Instance Template, add a startup script that sends a heartbeat to the metadata server."
+    },
+    "topic": "Exam simulation",
+    "correct": "A",
+    "quick_explanation": "Creating a health check on port 443 will allow the Managed Instance Group to identify and recreate unhealthy VMs."
+  },
+  {
+    "question": "Your company has a Google Cloud Platform project that uses BigQuery for data warehousing. Your data science team changes frequently and has few members. You need to allow members of this team to perform queries. You want to follow Google-recommended practices. What should you do?",
+    "choices": {
+      "A": "1. Create an IAM entry for each data scientist's user account. 2. Assign the BigQuery jobUser role to the group.",
+      "B": "1. Create an IAM entry for each data scientist's user account. 2. Assign the BigQuery dataViewer user role to the group.",
+      "C": "1. Create a dedicated Google group in Cloud Identity. 2. Add each data scientist's user account to the group. 3. Assign the BigQuery jobUser role to the group.",
+      "D": "1. Create a dedicated Google group in Cloud Identity. 2. Add each data scientist's user account to the group. 3. Assign the BigQuery dataViewer user role to the group."
+    },
+    "topic": "Exam simulation",
+    "correct": "C",
+    "quick_explanation": "Creating a dedicated Google group and assigning the appropriate role makes it easier to manage permissions."
+  },
+  {
+    "question": "You are hosting an application on bare-metal servers in your own data center. The application needs access to Cloud Storage. However, security policies prevent the servers hosting the application from having public IP addresses or access to the internet. You want to follow Google-recommended practices to provide the application with access to Cloud Storage. What should you do?",
+    "choices": {
+      "A": "1. Use nslookup to get the IP address for storage.googleapis.com. 2. Negotiate with the security team to be able to give a public IP address to the servers. 3. Only allow egress traffic from those servers to the IP addresses for storage.googleapis.com.",
+      "B": "1. Using Cloud VPN, create a VPN tunnel to a Virtual Private Cloud (VPC) in Google Cloud. 2. In this VPC, create a Compute Engine instance and install the Squid proxy server on this instance. 3. Configure your servers to use that instance as a proxy to access Cloud Storage.",
+      "C": "1. Use Migrate for Compute Engine (formerly known as Velostrata) to migrate those servers to Compute Engine. 2. Create an internal load balancer (ILB) that uses storage.googleapis.com as backend. 3. Configure your new instances to use this ILB as proxy.",
+      "D": "1. Using Cloud VPN or Interconnect, create a tunnel to a VPC in Google Cloud. 2. Use Cloud Router to create a custom route advertisement for 199.36.153.4/30. Announce that network to your on-premises network through the VPN tunnel. 3. In your on-premises network, configure your DNS server to resolve *.googleapis.com as a CNAME to restricted.googleapis.com."
+    },
+    "topic": "Exam simulation",
+    "correct": "D",
+    "quick_explanation": "Option D allows for secure connectivity without exposing your servers to the internet, in compliance with security policies."
+  },
+  {
+    "question": "You want to deploy an application on Cloud Run that processes messages from a Cloud Pub/Sub topic. You want to follow Google-recommended practices. What should you do?",
+    "choices": {
+      "A": "1. Create a Cloud Function that uses a Cloud Pub/Sub trigger on that topic. 2. Call your application on Cloud Run from the Cloud Function for every message.",
+      "B": "1. Grant the Pub/Sub Subscriber role to the service account used by Cloud Run. 2. Create a Cloud Pub/Sub subscription for that topic. 3. Make your application pull messages from that subscription.",
+      "C": "1. Create a service account. 2. Give the Cloud Run Invoker role to that service account for your Cloud Run application. 3. Create a Cloud Pub/Sub subscription that uses that service account and uses your Cloud Run application as the push endpoint.",
+      "D": "1. Deploy your application on Cloud Run on GKE with the connectivity set to Internal. 2. Create a Cloud Pub/Sub subscription for that topic. 3. In the same Google Kubernetes Engine cluster as your application, deploy a container that takes the messages and sends them to your application."
+    },
+    "topic": "Exam simulation",
+    "correct": "C",
+    "quick_explanation": "Option C allows for real-time message processing with proper security roles in line with Google best practices."
+  },
+  {
+    "question": "You need to deploy an application, which is packaged in a container image, in a new project. The application exposes an HTTP endpoint and receives very few requests per day. You want to minimize costs. What should you do?",
+    "choices": {
+      "A": "Deploy the container on Cloud Run.",
+      "B": "Deploy the container on Cloud Run on GKE.",
+      "C": "Deploy the container on App Engine Flexible.",
+      "D": "Deploy the container on GKE with cluster autoscaling and horizontal pod autoscaling enabled."
+    },
+    "topic": "Exam simulation",
+    "correct": "A",
+    "quick_explanation": "Cloud Run is the most cost-effective for low-traffic, event-driven applications as it scales down to zero when not in use."
+  },
+  {
+    "question": "Your company has an existing GCP organization with hundreds of projects and a billing account. Your company recently acquired another company that also has hundreds of projects and its own billing account. You would like to consolidate all GCP costs of both GCP organizations onto a single invoice. You would like to consolidate all costs as of tomorrow. What should you do?",
+    "choices": {
+      "A": "Link the acquired company's projects to your company's billing account.",
+      "B": "Configure the acquired company's billing account and your company's billing account to export the billing data into the same BigQuery dataset.",
+      "C": "Migrate the acquired company's projects into your company's GCP organization. Link the migrated projects to your company's billing account.",
+      "D": "Create a new GCP organization and a new billing account. Migrate the acquired company's projects and your company's projects into the new GCP organization and link the projects to the new billing account."
+    },
+    "topic": "Exam simulation",
+    "correct": "A",
+    "quick_explanation": "Linking the projects to your existing billing account is the most straightforward and quick way to consolidate costs onto a single invoice."
   }
 ]
