@@ -3974,5 +3974,353 @@
     "topic": "Exam simulation",
     "correct": "A",
     "quick_explanation": "Linking the projects to your existing billing account is the most straightforward and quick way to consolidate costs onto a single invoice."
+  },
+  {
+    "question": "Your company has an existing GCP organization with hundreds of projects and a billing account. Your company recently acquired another company that also has hundreds of projects and its own billing account. You would like to consolidate all GCP costs of both GCP organizations onto a single invoice. What should you do?",
+    "choices": {
+      "A": "Link the acquired company's projects to your company's billing account.",
+      "B": "Configure the acquired company's billing account and your company's billing account to export the billing data into the same BigQuery dataset.",
+      "C": "Migrate the acquired company's projects into your company's GCP organization. Link the migrated projects to your company's billing account.",
+      "D": "Create a new GCP organization and a new billing account. Migrate the acquired company's projects and your company's projects into the new GCP organization and link the projects to the new billing account."
+    },
+    "topic": "Exam simulation",
+    "correct": "A",
+    "quick_explanation": "Linking the projects to your company's billing account is the quickest way to consolidate costs."
+  },
+  {
+    "question": "You built an application on Google Cloud that uses Cloud Spanner. Your support team needs to monitor the environment but should not have access to table data. What should you do?",
+    "choices": {
+      "A": "Add the support team group to the roles/monitoring.viewer role",
+      "B": "Add the support team group to the roles/spanner.databaseUser role.",
+      "C": "Add the support team group to the roles/spanner.databaseReader role.",
+      "D": "Add the support team group to the roles/stackdriver.accounts.viewer role."
+    },
+    "topic": "Exam simulation",
+    "correct": "A",
+    "quick_explanation": "The roles/monitoring.viewer role allows the support team to monitor the environment without accessing table data."
+  },
+  {
+    "question": "For analysis purposes, you need to send all the logs from all of your Compute Engine instances to a BigQuery dataset called platform-logs. You want to minimize cost. What should you do?",
+    "choices": {
+      "A": "Give the BigQuery Data Editor role on the platform-logs dataset to the service accounts used by your instances. Update your instances' metadata to add the following value: logs-destination: bq://platform-logs.",
+      "B": "In Cloud Logging, create a logs export with a Cloud Pub/Sub topic called logs as a sink. Create a Cloud Function that is triggered by messages in the logs topic. Configure that Cloud Function to drop logs that are not from Compute Engine and to insert Compute Engine logs in the platform-logs dataset.",
+      "C": "In Cloud Logging, create a filter to view only Compute Engine logs. Click Create Export. Choose BigQuery as Sink Service, and the platform-logs dataset as Sink Destination.",
+      "D": "Create a Cloud Function that has the BigQuery User role on the platform-logs dataset. Configure this Cloud Function to create a BigQuery Job that executes this query: INSERT INTO dataset.platform-logs (timestamp, log) SELECT timestamp, log FROM compute.logs WHERE timestamp > DATE_SUB(CURRENT_DATE(), INTERVAL 1 DAY). Use Cloud Scheduler to trigger this Cloud Function once a day."
+    },
+    "topic": "Exam simulation",
+    "correct": "C",
+    "quick_explanation": "Creating a filter and export in Cloud Logging is the most straightforward and cost-effective way to send logs to BigQuery."
+  },
+  {
+    "question": "You are using Deployment Manager to create a Google Kubernetes Engine cluster. Using the same Deployment Manager deployment, you also want to create a DaemonSet in the kube-system namespace of the cluster. What should you do?",
+    "choices": {
+      "A": "Add the cluster's API as a new Type Provider in Deployment Manager, and use the new type to create the DaemonSet.",
+      "B": "Use the Deployment Manager Runtime Configurator to create a new Config resource that contains the DaemonSet definition.",
+      "C": "With Deployment Manager, create a Compute Engine instance with a startup script that uses kubectl to create the DaemonSet.",
+      "D": "In the cluster's definition in Deployment Manager, add a metadata that has kube-system as key and the DaemonSet manifest as value."
+    },
+    "topic": "Exam simulation",
+    "correct": "A",
+    "quick_explanation": "Adding the cluster's API as a new Type Provider allows you to manage the DaemonSet within the same Deployment Manager deployment."
+  },
+  {
+    "question": "You are building an application that will run in your data center. The application will use Google Cloud Platform (GCP) services like AutoML. You need to enable authentication to the APIs from your on-premises environment. What should you do?",
+    "choices": {
+      "A": "Use service account credentials in your on-premises application.",
+      "B": "Use gcloud to create a key file for the service account that has appropriate permissions.",
+      "C": "Set up direct interconnect between your data center and Google Cloud Platform to enable authentication for your on-premises applications.",
+      "D": "Go to the IAM & admin console, grant a user account permissions similar to the service account permissions, and use this user account for authentication from your data center."
+    },
+    "topic": "Exam simulation",
+    "correct": "B",
+    "quick_explanation": "Creating a key file for the service account provides the necessary credentials for on-premises applications to authenticate to GCP services."
+  },
+  {
+    "question": "You are using Container Registry to centrally store your company's container images in a separate project. In another project, you want to create a Google Kubernetes Engine (GKE) cluster. You want to ensure that Kubernetes can download images from Container Registry. What should you do?",
+    "choices": {
+      "A": "In the project where the images are stored, grant the Storage Object Viewer IAM role to the service account used by the Kubernetes nodes.",
+      "B": "When you create the GKE cluster, choose the Allow full access to all Cloud APIs option under 'Access scopes'.",
+      "C": "Create a service account, and give it access to Cloud Storage. Create a P12 key for this service account and use it as an imagePullSecrets in Kubernetes.",
+      "D": "Configure the ACLs on each image in Cloud Storage to give read-only access to the default Compute Engine service account."
+    },
+    "topic": "Exam simulation",
+    "correct": "A",
+    "quick_explanation": "Granting the Storage Object Viewer IAM role to the service account used by the Kubernetes nodes allows them to download images from the Container Registry."
+  },
+  {
+    "question": "You are setting up a Windows VM on Compute Engine and want to make sure you can log in to the VM via RDP. What should you do?",
+    "choices": {
+      "A": "After the VM has been created, use your Google Account credentials to log in into the VM.",
+      "B": "After the VM has been created, use gcloud compute reset-windows-password to retrieve the login credentials for the VM.",
+      "C": "When creating the VM, add metadata to the instance using 'windows-password' as the key and a password as the value.",
+      "D": "After the VM has been created, download the JSON private key for the default Compute Engine service account. Use the credentials in the JSON file to log in to the VM."
+    },
+    "topic": "Exam simulation",
+    "correct": "B",
+    "quick_explanation": "Using the gcloud compute reset-windows-password command allows you to retrieve the login credentials for the Windows VM."
+  },
+  {
+    "question": "You want to configure an SSH connection to a single Compute Engine instance for users in the dev1 group. This instance is the only resource in this particular Google Cloud Platform project that the dev1 users should be able to connect to. What should you do?",
+    "choices": {
+      "A": "Set metadata to enable-oslogin=true for the instance. Grant the dev1 group the compute.osLogin role. Direct them to use the Cloud Shell to ssh to that instance.",
+      "B": "Set metadata to enable-oslogin=true for the instance. Set the service account to no service account for that instance. Direct them to use the Cloud Shell to ssh to that instance.",
+      "C": "Enable block project wide keys for the instance. Generate an SSH key for each user in the dev1 group. Distribute the keys to dev1 users and direct them to use their third-party tools to connect.",
+      "D": "Enable block project wide keys for the instance. Generate an SSH key and associate the key with that instance. Distribute the key to dev1 users and direct them to use their third-party tools to connect."
+    },
+    "topic": "Exam simulation",
+    "correct": "A",
+    "quick_explanation": "Setting metadata to enable-oslogin=true and granting the compute.osLogin role to the dev1 group allows them to SSH into the instance using Cloud Shell."
+  },
+  {
+    "question": "You need to produce a list of the enabled Google Cloud Platform APIs for a GCP project using the gcloud command line in the Cloud Shell. The project name is my-project. What should you do?",
+    "choices": {
+      "A": "Run gcloud projects list to get the project ID, and then run gcloud services list --project <project ID>.",
+      "B": "Run gcloud init to set the current project to my-project, and then run gcloud services list --available.",
+      "C": "Run gcloud info to view the account value, and then run gcloud services list --account <Account>.",
+      "D": "Run gcloud projects describe <project ID> to verify the project value, and then run gcloud services list --available."
+    },
+    "topic": "Exam simulation",
+    "correct": "A",
+    "quick_explanation": "Running gcloud projects list to get the project ID, followed by gcloud services list with the project ID will list the enabled APIs."
+  },
+  {
+    "question": "You are building a new version of an application hosted in an App Engine environment. You want to test the new version with 1% of users before you completely switch your application over to the new version. What should you do?",
+    "choices": {
+      "A": "Deploy a new version of your application in Google Kubernetes Engine instead of App Engine and then use GCP Console to split traffic.",
+      "B": "Deploy a new version of your application in a Compute Engine instance instead of App Engine and then use GCP Console to split traffic.",
+      "C": "Deploy a new version as a separate app in App Engine. Then configure App Engine using GCP Console to split traffic between the two apps.",
+      "D": "Deploy a new version of your application in App Engine. Then go to App Engine settings in GCP Console and split traffic between the current version and newly deployed versions accordingly."
+    },
+    "topic": "Exam simulation",
+    "correct": "D",
+    "quick_explanation": "Deploying a new version in App Engine and using the GCP Console to split traffic allows you to test the new version with a subset of users."
+  },
+  {
+    "question": "You need to provide a cost estimate for a Kubernetes cluster using the GCP pricing calculator for Kubernetes. Your workload requires high IOPs, and you will also be using disk snapshots. You start by entering the number of nodes, average hours, and average days. What should you do next?",
+    "choices": {
+      "A": "Fill in local SSD. Fill in persistent disk storage and snapshot storage.",
+      "B": "Fill in local SSD. Add estimated cost for cluster management.",
+      "C": "Select Add GPUs. Fill in persistent disk storage and snapshot storage.",
+      "D": "Select Add GPUs. Add estimated cost for cluster management."
+    },
+    "topic": "Exam simulation",
+    "correct": "A",
+    "quick_explanation": "Filling in local SSD, persistent disk storage, and snapshot storage will provide a more accurate cost estimate for a high IOPs workload with disk snapshots."
+  },
+  {
+    "question": "You are using Google Kubernetes Engine with autoscaling enabled to host a new application. You want to expose this new application to the public, using HTTPS on a public IP address. What should you do?",
+    "choices": {
+      "A": "Create a Kubernetes Service of type NodePort for your application, and a Kubernetes Ingress to expose this Service via a Cloud Load Balancer.",
+      "B": "Create a Kubernetes Service of type ClusterIP for your application. Configure the public DNS name of your application using the IP of this Service.",
+      "C": "Create a Kubernetes Service of type NodePort to expose the application on port 443 of each node of the Kubernetes cluster. Configure the public DNS name of your application with the IP of every node of the cluster to achieve load-balancing.",
+      "D": "Create a HAProxy pod in the cluster to load-balance the traffic to all the pods of the application. Forward the public traffic to HAProxy with an iptable rule. Configure the DNS name of your application using the public IP of the node HAProxy is running on."
+    },
+    "topic": "Exam simulation",
+    "correct": "A",
+    "quick_explanation": "Creating a Kubernetes Service of type NodePort and a Kubernetes Ingress allows you to expose the application via a Cloud Load Balancer, enabling HTTPS on a public IP."
+  },
+  {
+    "question": "You need to enable traffic between multiple groups of Compute Engine instances that are currently running two different GCP projects. Each group of Compute Engine instances is running in its own VPC. What should you do?",
+    "choices": {
+      "A": "Verify that both projects are in a GCP Organization. Create a new VPC and add all instances.",
+      "B": "Verify that both projects are in a GCP Organization. Share the VPC from one project and request that the Compute Engine instances in the other project use this shared VPC.",
+      "C": "Verify that you are the Project Administrator of both projects. Create two new VPCs and add all instances.",
+      "D": "Verify that you are the Project Administrator of both projects. Create a new VPC and add all instances."
+    },
+    "topic": "Exam simulation",
+    "correct": "B",
+    "quick_explanation": "Sharing the VPC from one project and having the Compute Engine instances in the other project use this shared VPC enables traffic between them."
+  },
+  {
+    "question": "You want to add a new auditor to a Google Cloud Platform project. The auditor should be allowed to read, but not modify, all project items. How should you configure the auditor's permissions?",
+    "choices": {
+      "A": "Create a custom role with view-only project permissions. Add the user's account to the custom role.",
+      "B": "Create a custom role with view-only service permissions. Add the user's account to the custom role.",
+      "C": "Select the built-in IAM project Viewer role. Add the user's account to this role.",
+      "D": "Select the built-in IAM service Viewer role. Add the user's account to this role."
+    },
+    "topic": "Exam simulation",
+    "correct": "C",
+    "quick_explanation": "Selecting the built-in IAM project Viewer role and adding the user's account to this role allows the auditor to read all project items without modifying them."
+  },
+  {
+    "question": "Your organization uses G Suite for communication and collaboration. All users in your organization have a G Suite account. You want to grant some G Suite users access to your Cloud Platform project. What should you do?",
+    "choices": {
+      "A": "Enable Cloud Identity in the GCP Console for your domain.",
+      "B": "Grant them the required IAM roles using their G Suite email address.",
+      "C": "Create a CSV sheet with all users' email addresses. Use the gcloud command line tool to convert them into Google Cloud Platform accounts.",
+      "D": "In the G Suite console, add the users to a special group called cloud-console-users@yourdomain.com. Rely on the default behavior of the Cloud Platform to grant users access if they are members of this group."
+    },
+    "topic": "Exam simulation",
+    "correct": "B",
+    "quick_explanation": "Granting the required IAM roles using their G Suite email addresses allows you to give specific G Suite users access to your Cloud Platform project."
+  },
+  {
+    "question": "You have a Google Cloud Platform account with access to both production and development projects. You need to create an automated process to list all compute instances in development and production projects on a daily basis. What should you do?",
+    "choices": {
+      "A": "Create two configurations using gcloud config. Write a script that sets configurations as active, individually. For each configuration, use gcloud compute instances list to get a list of compute resources.",
+      "B": "Create two configurations using gsutil config. Write a script that sets configurations as active, individually. For each configuration, use gsutil compute instances list to get a list of compute resources.",
+      "C": "Go to Cloud Shell and export this information to Cloud Storage on a daily basis.",
+      "D": "Go to GCP Console and export this information to Cloud SQL on a daily basis."
+    },
+    "topic": "Exam simulation",
+    "correct": "A",
+    "quick_explanation": "Creating two configurations using gcloud config and writing a script allows you to list all compute instances in both projects."
+  },
+  {
+    "question": "You have a large 5-TB AVRO file stored in a Cloud Storage bucket. Your analysts are proficient only in SQL and need access to the data stored in this file. You want to find a cost-effective way to complete their request as soon as possible. What should you do?",
+    "choices": {
+      "A": "Load data in Cloud Datastore and run a SQL query against it.",
+      "B": "Create a BigQuery table and load data in BigQuery. Run a SQL query on this table and drop this table after you complete your request.",
+      "C": "Create external tables in BigQuery that point to Cloud Storage buckets and run a SQL query on these external tables to complete your request.",
+      "D": "Create a Hadoop cluster and copy the AVRO file to NDFS by compressing it. Load the file in a hive table and provide access to your analysts so that they can run SQL queries."
+    },
+    "topic": "Exam simulation",
+    "correct": "C",
+    "quick_explanation": "Creating external tables in BigQuery that point to the Cloud Storage buckets allows your analysts to run SQL queries without the need for data migration, making it a cost-effective solution."
+  },
+  {
+    "question": "You need to verify that a Google Cloud Platform service account was created at a particular time. What should you do?",
+    "choices": {
+      "A": "Filter the Activity log to view the Configuration category. Filter the Resource type to Service Account.",
+      "B": "Filter the Activity log to view the Configuration category. Filter the Resource type to Google Project.",
+      "C": "Filter the Activity log to view the Data Access category. Filter the Resource type to Service Account.",
+      "D": "Filter the Activity log to view the Data Access category. Filter the Resource type to Google Project."
+    },
+    "topic": "Exam simulation",
+    "correct": "A",
+    "quick_explanation": "To verify the creation time of a service account, you should filter the Activity log by Configuration category and Resource type to Service Account."
+  },
+  {
+    "question": "You deployed an LDAP server on Compute Engine that is reachable via TLS through port 636 using UDP. You want to make sure it is reachable by clients over that port. What should you do?",
+    "choices": {
+      "A": "Add the network tag allow-udp-636 to the VM instance running the LDAP server.",
+      "B": "Create a route called allow-udp-636 and set the next hop to be the VM instance running the LDAP server.",
+      "C": "Add a network tag of your choice to the instance. Create a firewall rule to allow ingress on UDP port 636 for that network tag.",
+      "D": "Add a network tag of your choice to the instance running the LDAP server. Create a firewall rule to allow egress on UDP port 636 for that network tag."
+    },
+    "topic": "Exam simulation",
+    "correct": "C",
+    "quick_explanation": "To ensure the LDAP server is reachable, you should add a network tag to the instance and create a firewall rule to allow ingress on UDP port 636."
+  },
+  {
+    "question": "You need to set a budget alert for use of Compute Engineer services on one of the three Google Cloud Platform projects that you manage. All three projects are linked to a single billing account. What should you do?",
+    "choices": {
+      "A": "Verify that you are the project billing administrator. Select the associated billing account and create a budget and alert for the appropriate project.",
+      "B": "Verify that you are the project billing administrator. Select the associated billing account and create a budget and a custom alert.",
+      "C": "Verify that you are the project administrator. Select the associated billing account and create a budget for the appropriate project.",
+      "D": "Verify that you are project administrator. Select the associated billing account and create a budget and a custom alert."
+    },
+    "topic": "Exam simulation",
+    "correct": "A",
+    "quick_explanation": "You should verify your role as the project billing administrator and then create a budget and alert for the specific project."
+  },
+  {
+    "question": "You are migrating a production-critical on-premises application that requires 96 vCPUs to perform its task. You want to make sure the application runs in a similar environment on GCP. What should you do?",
+    "choices": {
+      "A": "When creating the VM, use machine type n1-standard-96.",
+      "B": "When creating the VM, use Intel Skylake as the CPU platform.",
+      "C": "Create the VM using Compute Engine default settings. Use gcloud to modify the running instance to have 96 vCPUs.",
+      "D": "Start the VM using Compute Engine default settings, and adjust as you go based on Rightsizing Recommendations."
+    },
+    "topic": "Exam simulation",
+    "correct": "A",
+    "quick_explanation": "To ensure the application runs in a similar environment, you should use the machine type n1-standard-96 when creating the VM."
+  },
+  {
+    "question": "You want to configure a solution for archiving data in a Cloud Storage bucket. The solution must be cost-effective. Data with multiple versions should be archived after 30 days. Previous versions are accessed once a month for reporting. This archive data is also occasionally updated at month-end. What should you do?",
+    "choices": {
+      "A": "Add a bucket lifecycle rule that archives data with newer versions after 30 days to Coldline Storage.",
+      "B": "Add a bucket lifecycle rule that archives data with newer versions after 30 days to Nearline Storage.",
+      "C": "Add a bucket lifecycle rule that archives data from regional storage after 30 days to Coldline Storage.",
+      "D": "Add a bucket lifecycle rule that archives data from regional storage after 30 days to Nearline Storage."
+    },
+    "topic": "Exam simulation",
+    "correct": "B",
+    "quick_explanation": "To meet the requirements, you should add a bucket lifecycle rule that archives data with newer versions after 30 days to Nearline Storage."
+  },
+  {
+    "question": "Your company's infrastructure is on-premises, but all machines are running at maximum capacity. You want to burst to Google Cloud. The workloads on Google Cloud must be able to directly communicate to the workloads on-premises using a private IP range. What should you do?",
+    "choices": {
+      "A": "In Google Cloud, configure the VPC as a host for Shared VPC.",
+      "B": "In Google Cloud, configure the VPC for VPC Network Peering.",
+      "C": "Create bastion hosts both in your on-premises environment and on Google Cloud. Configure both as proxy servers using their public IP addresses.",
+      "D": "Set up Cloud VPN between the infrastructure on-premises and Google Cloud."
+    },
+    "topic": "Exam simulation",
+    "correct": "D",
+    "quick_explanation": "To enable direct communication between on-premises and Google Cloud workloads using private IPs, setting up a Cloud VPN is the most appropriate solution."
+  },
+  {
+    "question": "You want to select and configure a solution for storing and archiving data on Google Cloud Platform. You need to support compliance objectives for data from one geographic location. This data is archived after 30 days and needs to be accessed annually. What should you do?",
+    "choices": {
+      "A": "Select Multi-Regional Storage. Add a bucket lifecycle rule that archives data after 30 days to Coldline Storage.",
+      "B": "Select Multi-Regional Storage. Add a bucket lifecycle rule that archives data after 30 days to Nearline Storage.",
+      "C": "Select Regional Storage. Add a bucket lifecycle rule that archives data after 30 days to Nearline Storage.",
+      "D": "Select Regional Storage. Add a bucket lifecycle rule that archives data after 30 days to Coldline Storage."
+    },
+    "topic": "Exam simulation",
+    "correct": "D",
+    "quick_explanation": "To meet compliance objectives and access requirements, you should select Regional Storage and archive data to Coldline Storage after 30 days."
+  },
+  {
+    "question": "Your company uses BigQuery for data warehousing. Over time, many different business units in your company have created 1000+ datasets across hundreds of projects. Your CIO wants you to examine all datasets to find tables that contain an employee_ssn column. You want to minimize effort in performing this task. What should you do?",
+    "choices": {
+      "A": "Go to Data Catalog and search for employee_ssn in the search box.",
+      "B": "Write a shell script that uses the bq command line tool to loop through all the projects in your organization.",
+      "C": "Write a script that loops through all the projects in your organization and runs a query on INFORMATION_SCHEMA.COLUMNS view to find the employee_ssn column.",
+      "D": "Write a Cloud Dataflow job that loops through all the projects in your organization and runs a query on INFORMATION_SCHEMA.COLUMNS view to find employee_ssn column."
+    },
+    "topic": "Exam simulation",
+    "correct": "A",
+    "quick_explanation": "Using Data Catalog to search for the employee_ssn column is the most efficient way to perform this task."
+  },
+  {
+    "question": "You want to find out when users were added to Cloud Spanner Identity Access Management (IAM) roles on your Google Cloud Platform (GCP) project. What should you do in the GCP Console?",
+    "choices": {
+      "A": "Open the Cloud Spanner console to review configurations.",
+      "B": "Open the IAM & admin console to review IAM policies for Cloud Spanner roles.",
+      "C": "Go to the Stackdriver Monitoring console and review information for Cloud Spanner.",
+      "D": "Go to the Stackdriver Logging console, review admin activity logs, and filter them for Cloud Spanner IAM roles."
+    },
+    "topic": "Exam simulation",
+    "correct": "D",
+    "quick_explanation": "To find out when users were added to Cloud Spanner IAM roles, you should go to the Stackdriver Logging console and filter the admin activity logs for Cloud Spanner IAM roles."
+  },
+  {
+    "question": "You are building a product on top of Google Kubernetes Engine (GKE). You have a single GKE cluster. For each of your customers, a Pod is running in that cluster, and your customers can run arbitrary code inside their Pod. You want to maximize the isolation between your customers' Pods. What should you do?",
+    "choices": {
+      "A": "Use Binary Authorization and whitelist only the container images used by your customers' Pods.",
+      "B": "Use the Container Analysis API to detect vulnerabilities in the containers used by your customers' Pods.",
+      "C": "Create a GKE node pool with a sandbox type configured to gvisor. Add the parameter runtimeClassName: gvisor to the specification of your customers' Pods.",
+      "D": "Use the cos_containerd image for your GKE nodes. Add a nodeSelector with the value cloud.google.com/gke-os-distribution: cos_containerd to the specification of your customers' Pods."
+    },
+    "topic": "Exam simulation",
+    "correct": "C",
+    "quick_explanation": "To maximize isolation between customer Pods, you should use gvisor as the sandbox type for the GKE node pool and specify it in the Pod specifications."
+  },
+  {
+    "question": "Your finance team wants to view the billing report for your projects. You want to make sure that the finance team does not get additional permissions to the project. What should you do?",
+    "choices": {
+      "A": "Add the group for the finance team to roles/billing user role.",
+      "B": "Add the group for the finance team to roles/billing admin role.",
+      "C": "Add the group for the finance team to roles/billing viewer role.",
+      "D": "Add the group for the finance team to roles/billing project/Manager role."
+    },
+    "topic": "Exam simulation",
+    "correct": "C",
+    "quick_explanation": "To allow the finance team to view billing reports without granting additional permissions, you should add them to the roles/billing viewer role."
+  },
+  {
+    "question": "Your organization has strict requirements to control access to Google Cloud projects. You need to enable your Site Reliability Engineers (SREs) to approve requests from the Google Cloud support team when an SRE opens a support case. You want to follow Google-recommended practices. What should you do?",
+    "choices": {
+      "A": "Add your SREs to roles/iam.roleAdmin role.",
+      "B": "Add your SREs to roles/accessapproval.approver role.",
+      "C": "Add your SREs to a group and then add this group to roles/iam.roleAdmin.role.",
+      "D": "Add your SREs to a group and then add this group to roles/accessapproval.approver role."
+    },
+    "topic": "Exam simulation",
+    "correct": "D",
+    "quick_explanation": "To follow Google-recommended practices for controlling access, you should add your SREs to a group and then add this group to the roles/accessapproval.approver role."
   }
 ]
