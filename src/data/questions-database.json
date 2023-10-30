@@ -37,7 +37,6 @@
     },
     "topic": "Google Compute Engine",
     "exam": "Associate Cloud Engineer",
-    "exam": "Associate Cloud Engineer",
     "provider": "Google Cloud",
     "correct": "C",
     "quick_explanation": "Preemptible VMs are designed for short-lived tasks as they can be terminated at any time."
@@ -51,7 +50,6 @@
       "D": "Regional persistent disk"
     },
     "topic": "Google Compute Engine",
-    "exam": "Associate Cloud Engineer",
     "exam": "Associate Cloud Engineer",
     "provider": "Google Cloud",
     "correct": "A",
