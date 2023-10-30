@@ -35,7 +35,7 @@ const App: React.FC = () => {
                 <strong>Individual topics: </strong> Use them to practice for a specific topic.
               </li>
               <li>
-                <strong>All topics: </strong> Use them to practice for the entire exam.
+                <strong>All topics: </strong> AI generated questions (Individual topics shuffled with Exam simulation ones)
               </li>
               <li>
                 <strong>Exam Simulation (important): </strong> These are the ones that most match the real exam. REQUIRED if you want to pass!

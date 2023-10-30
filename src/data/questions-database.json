@@ -8,6 +8,8 @@
       "D": "Custom"
     },
     "topic": "Google Compute Engine",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "C",
     "quick_explanation": "Google Compute Engine offers machine types categorized as 'Predefined' machine types. These predefined machine types come with specific amounts of vCPUs (virtual CPUs) and memory, making it easier for users to select a suitable configuration for their needs."
   },
@@ -20,6 +22,8 @@
       "D": "Zonal Resources"
     },
     "topic": "Google Compute Engine",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "A",
     "quick_explanation": "Reserving instances allows you to reserve resources for future use."
   },
@@ -32,6 +36,9 @@
       "D": "Real-time processing"
     },
     "topic": "Google Compute Engine",
+    "exam": "Associate Cloud Engineer",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "C",
     "quick_explanation": "Preemptible VMs are designed for short-lived tasks as they can be terminated at any time."
   },
@@ -44,6 +51,9 @@
       "D": "Regional persistent disk"
     },
     "topic": "Google Compute Engine",
+    "exam": "Associate Cloud Engineer",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "A",
     "quick_explanation": "Standard persistent disks offer the best price-performance ratio for most workloads."
   },
@@ -56,6 +66,8 @@
       "D": "Google Cloud Functions"
     },
     "topic": "Google Compute Engine",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "A",
     "quick_explanation": "Google Kubernetes Engine (GKE) is specifically designed to manage containerized applications across a cluster of machines."
   },
@@ -68,6 +80,8 @@
       "D": "bq"
     },
     "topic": "Google Compute Engine",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "C",
     "quick_explanation": "The 'gcloud' command-line tool is used for interacting with GCE and other Google Cloud services."
   },
@@ -80,6 +94,8 @@
       "D": "Cannot be added; must select a GPU-optimized instance"
     },
     "topic": "Google Compute Engine",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "B",
     "quick_explanation": "GPUs can be added at any time but the instance needs to be restarted for the changes to take effect."
   },
@@ -92,6 +108,8 @@
       "D": "128"
     },
     "topic": "Google Compute Engine",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "D",
     "quick_explanation": "You can attach up to 128 persistent disks to a Compute Engine instance."
   },
@@ -104,6 +122,8 @@
       "D": "Machine type"
     },
     "topic": "Google Compute Engine",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "B",
     "quick_explanation": "Instance templates do not include the region; this is specified when creating an instance group."
   },
@@ -116,6 +136,8 @@
       "D": "Internal and Zonal"
     },
     "topic": "Google Compute Engine",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "B",
     "quick_explanation": "Compute Engine instances can use Internal and External types of load balancers."
   },
@@ -128,6 +150,8 @@
       "D": "Per millisecond"
     },
     "topic": "Google Compute Engine",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "C",
     "quick_explanation": "Costs for running Compute Engine instances are calculated on a per-second basis."
   },
@@ -140,6 +164,8 @@
       "D": "Default network"
     },
     "topic": "Google Compute Engine",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "A",
     "quick_explanation": "The default network for new GCE projects is an Auto mode VPC network."
   },
@@ -152,6 +178,8 @@
       "D": "Phishing attacks"
     },
     "topic": "Google Compute Engine",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "B",
     "quick_explanation": "Shielded VMs in GCE protect against boot-level and firmware-level vulnerabilities."
   },
@@ -164,6 +192,8 @@
       "D": "All of the above"
     },
     "topic": "Google Compute Engine",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "D",
     "quick_explanation": "All the mentioned methods can be used to connect your on-premises network to Google Cloud."
   },
@@ -176,6 +206,8 @@
       "D": "Monitor CPU usage"
     },
     "topic": "Google Compute Engine",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "B",
     "quick_explanation": "Google Cloud's OS patch management is designed to apply operating system patches."
   },
@@ -188,6 +220,8 @@
       "D": "None of the above"
     },
     "topic": "Google Compute Engine",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "B",
     "quick_explanation": "Sustained use discounts are automatic discounts that you get for running specific Compute Engine resources a significant portion of the billing month."
   },
@@ -200,6 +234,8 @@
       "D": "Unlimited"
     },
     "topic": "Google Compute Engine",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "D",
     "quick_explanation": "There is no limit on the number of networks per GCP project."
   },
@@ -212,6 +248,8 @@
       "D": "All of the above"
     },
     "topic": "Google Compute Engine",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "D",
     "quick_explanation": "You can use public images, custom images, and both Google-managed and user-managed images to create VM instances."
   },
@@ -224,6 +262,8 @@
       "D": "gcloud initialize"
     },
     "topic": "GCP - CLI",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "C"
   },
   {
@@ -235,6 +275,8 @@
       "D": "gcloud compute --zone=us-central1-a instances list"
     },
     "topic": "GCP - CLI",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "A"
   },
   {
@@ -246,6 +288,8 @@
       "D": "gcloud projects iam add-policy-binding"
     },
     "topic": "GCP - CLI",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "A"
   },
   {
@@ -257,6 +301,8 @@
       "D": "gcloud project set-id project-id"
     },
     "topic": "GCP - CLI",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "C"
   },
   {
@@ -268,6 +314,8 @@
       "D": "gcloud deploy --app-engine"
     },
     "topic": "GCP - CLI",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "B"
   },
   {
@@ -279,6 +327,8 @@
       "D": "gcloud service-account create"
     },
     "topic": "GCP - CLI",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "B"
   },
   {
@@ -290,6 +340,8 @@
       "D": "gcloud instance ssh instance-name"
     },
     "topic": "GCP - CLI",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "A"
   },
   {
@@ -301,6 +353,8 @@
       "D": "gcloud compute instances scp"
     },
     "topic": "GCP - CLI",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "A"
   },
   {
@@ -312,6 +366,8 @@
       "D": "gcloud container clusters create"
     },
     "topic": "GCP - CLI",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "D"
   },
   {
@@ -323,6 +379,8 @@
       "D": "bq mk table"
     },
     "topic": "GCP - CLI",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "A"
   },
   {
@@ -334,6 +392,8 @@
       "D": "gcloud list-config"
     },
     "topic": "GCP - CLI",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "B"
   },
   {
@@ -345,6 +405,8 @@
       "D": "gcloud datastore indexes create index.yaml"
     },
     "topic": "GCP - CLI",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "D"
   },
   {
@@ -356,6 +418,8 @@
       "D": "gcloud create firestore-database"
     },
     "topic": "GCP - CLI",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "B"
   },
   {
@@ -367,6 +431,8 @@
       "D": "gcloud update kubernetes-cluster"
     },
     "topic": "GCP - CLI",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "A"
   },
   {
@@ -378,6 +444,8 @@
       "D": "gcloud storage cp"
     },
     "topic": "GCP - CLI",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "A"
   },
   {
@@ -389,6 +457,8 @@
       "D": "gcloud remove pubsub-topic"
     },
     "topic": "GCP - CLI",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "A"
   },
   {
@@ -400,6 +470,8 @@
       "D": "gcloud vpc create"
     },
     "topic": "GCP - CLI",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "A"
   },
   {
@@ -411,6 +483,8 @@
       "D": "gcloud enable service"
     },
     "topic": "GCP - CLI",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "A"
   },
   {
@@ -422,6 +496,8 @@
       "D": "gcloud kubernetes describe cluster"
     },
     "topic": "GCP - CLI",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "A"
   },
   {
@@ -433,6 +509,8 @@
       "D": "gcloud vpn-tunnels new"
     },
     "topic": "GCP - CLI",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "A"
   },
   {
@@ -444,6 +522,8 @@
       "D": "4"
     },
     "topic": "Cloud Regions and Zones",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "D",
     "quick_explanation": "The maximum number of zones in a Google Cloud region is typically 4."
   },
@@ -456,6 +536,8 @@
       "D": "Pub/Sub"
     },
     "topic": "Cloud Regions and Zones",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "D",
     "quick_explanation": "Google Cloud Pub/Sub is Regional by default."
   },
@@ -468,6 +550,8 @@
       "D": "Higher availability"
     },
     "topic": "Cloud Regions and Zones",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "D",
     "quick_explanation": "The primary reason for deploying resources across multiple regions is to achieve higher availability."
   },
@@ -480,6 +564,8 @@
       "D": "None of the above"
     },
     "topic": "Cloud Regions and Zones",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "A",
     "quick_explanation": "Cloud regions are globally distributed."
   },
@@ -492,6 +578,8 @@
       "D": "Cloud Spanner"
     },
     "topic": "Cloud Regions and Zones",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "D",
     "quick_explanation": "Cloud Spanner allows for automatic multi-regional deployment."
   },
@@ -504,6 +592,8 @@
       "D": "None of the above"
     },
     "topic": "Cloud Regions and Zones",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "B",
     "quick_explanation": "For Dev/Test environments, it may be suitable to deploy resources in a single zone to minimize costs and complexity."
   },
@@ -516,6 +606,8 @@
       "D": "Set in app.yaml"
     },
     "topic": "Cloud Regions and Zones",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "B",
     "quick_explanation": "You can specify the region for an App Engine application using the gcloud CLI."
   },
@@ -528,6 +620,8 @@
       "D": "Cloud Pub/Sub"
     },
     "topic": "Cloud Regions and Zones",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "C",
     "quick_explanation": "Compute Engine offers both Zonal and Regional deployments."
   },
@@ -540,6 +634,8 @@
       "D": "Compute Engine"
     },
     "topic": "Cloud Regions and Zones",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "D",
     "quick_explanation": "Compute Engine instances are zonal resources."
   },
@@ -552,6 +648,8 @@
       "D": "4"
     },
     "topic": "Cloud Regions and Zones",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "C",
     "quick_explanation": "A Google Cloud region typically has a minimum of three zones."
   },
@@ -564,6 +662,8 @@
       "D": "Cloud Spanner"
     },
     "topic": "Cloud Regions and Zones",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "C",
     "quick_explanation": "Google Cloud Datastore is a NoSQL database service that is not designed to be multi-regional. It offers strong consistency but is localized to specific regions."
   },
@@ -576,6 +676,8 @@
       "D": "Neither A nor B"
     },
     "topic": "Cloud Regions and Zones",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "C",
     "quick_explanation": "You can use both 'gcloud compute zones list' and 'gcloud compute regions list' to list available regions and zones."
   },
@@ -588,6 +690,8 @@
       "D": "us-east"
     },
     "topic": "Cloud Regions and Zones",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "A",
     "quick_explanation": "us-central1 is a valid Google Cloud region."
   },
@@ -600,6 +704,8 @@
       "D": "Only in VPC-SC"
     },
     "topic": "Cloud Regions and Zones",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "A",
     "quick_explanation": "Yes, you can deploy Google Kubernetes Engine clusters in multiple zones within a single region."
   },
@@ -612,6 +718,8 @@
       "D": "Local SSD"
     },
     "topic": "Cloud Regions and Zones",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "A",
     "quick_explanation": "SSD Persistent Disks can be configured to be Regional."
   },
@@ -624,6 +732,8 @@
       "D": "gcloud region set-default"
     },
     "topic": "Cloud Regions and Zones",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "C",
     "quick_explanation": "The command 'gcloud config set compute/region' is used to set a default region."
   },
@@ -636,6 +746,8 @@
       "D": "App Engine"
     },
     "topic": "Cloud Regions and Zones",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "B",
     "quick_explanation": "Google Kubernetes Engine can be used to manage resources across multiple zones."
   },
@@ -648,6 +760,8 @@
       "D": "Yes, only within the same region"
     },
     "topic": "Cloud Regions and Zones",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "C",
     "quick_explanation": "It is possible but with limitations, such as needing to snapshot the disk and create a new instance in the target zone."
   },
@@ -660,6 +774,8 @@
       "D": "Cloud Spanner"
     },
     "topic": "Cloud Regions and Zones",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "D",
     "quick_explanation": "Cloud Spanner is designed for globally distributed databases."
   },
@@ -672,6 +788,8 @@
       "D": "None of the above"
     },
     "topic": "Cloud Regions and Zones",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "B",
     "quick_explanation": "For high availability, it's best practice to use multiple regions."
   },
@@ -684,6 +802,8 @@
       "D": "Data Analysis"
     },
     "topic": "Cloud IAM",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "B",
     "quick_explanation": "Cloud IAM is primarily used for identity and access management."
   },
@@ -696,6 +816,8 @@
       "D": "Custom"
     },
     "topic": "Cloud IAM",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "B",
     "quick_explanation": "The 'Viewer' role allows users to view but not edit resources."
   },
@@ -708,6 +830,8 @@
       "D": "Project Manager"
     },
     "topic": "Cloud IAM",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "B",
     "quick_explanation": "Project Editor is a predefined role in Cloud IAM."
   },
@@ -720,6 +844,8 @@
       "D": "Custom roles are predefined by Google."
     },
     "topic": "Cloud IAM",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "C",
     "quick_explanation": "Custom roles can be tailored to fit specific needs, unlike predefined roles."
   },
@@ -732,6 +858,8 @@
       "D": "Group"
     },
     "topic": "Cloud IAM",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "C",
     "quick_explanation": "Resource Account is not a type of identity in Cloud IAM."
   },
@@ -744,6 +872,8 @@
       "D": "Both B and C"
     },
     "topic": "Cloud IAM",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "C",
     "quick_explanation": "Only 'Owner' can assign roles in a GCP Project."
   },
@@ -756,6 +886,8 @@
       "D": "Grant everyone Editor role"
     },
     "topic": "Cloud IAM",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "B",
     "quick_explanation": "Using the principle of least privilege minimizes the risk of privilege escalation."
   },
@@ -768,6 +900,8 @@
       "D": "Service Account Viewer"
     },
     "topic": "Cloud IAM",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "C",
     "quick_explanation": "Service Account Admin is the minimum role required to create service accounts."
   },
@@ -780,6 +914,8 @@
       "D": "Resource Policy"
     },
     "topic": "Cloud IAM",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "D",
     "quick_explanation": "Resource-level policies have the lowest level of precedence."
   },
@@ -792,6 +928,8 @@
       "D": "The user's account is deleted."
     },
     "topic": "Cloud IAM",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "C",
     "quick_explanation": "Removing a role means the user loses permissions associated with that specific role."
   },
@@ -804,6 +942,8 @@
       "D": "Identity API"
     },
     "topic": "Cloud IAM",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "B",
     "quick_explanation": "IAM API is used for managing Cloud IAM."
   },
@@ -816,6 +956,8 @@
       "D": "Google Workspace"
     },
     "topic": "Cloud IAM",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "C",
     "quick_explanation": "Policy files can be used to make bulk changes to IAM roles."
   },
@@ -828,6 +970,8 @@
       "D": "The user who created them"
     },
     "topic": "Cloud IAM",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "D",
     "quick_explanation": "The user who created the Service Account keys is responsible for managing them."
   },
@@ -840,6 +984,8 @@
       "D": "Explicit Policy"
     },
     "topic": "Cloud IAM",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "D",
     "quick_explanation": "Explicit Policy is a type of IAM policy."
   },
@@ -852,6 +998,8 @@
       "D": "Inspector"
     },
     "topic": "Cloud IAM",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "C",
     "quick_explanation": "The 'Browser' role allows a user to browse GCP resources."
   },
@@ -864,6 +1012,8 @@
       "D": "The policies conflict, and access is denied."
     },
     "topic": "Cloud IAM",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "B",
     "quick_explanation": "If multiple policies are applied, they are merged, and the user gets the union of permissions."
   },
@@ -876,6 +1026,8 @@
       "D": "Compute Editor"
     },
     "topic": "Cloud IAM",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "C",
     "quick_explanation": "Compute Operator allows users to start and stop VM instances but not delete them."
   },
@@ -888,6 +1040,8 @@
       "D": "Follow the principle of least privilege"
     },
     "topic": "Cloud IAM",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "B",
     "quick_explanation": "Using broad roles like 'Owner' for everyone is not recommended."
   },
@@ -900,6 +1054,8 @@
       "D": "Unlimited"
     },
     "topic": "Cloud IAM",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "D",
     "quick_explanation": "There is no limit to the number of policies that can be attached to a single resource."
   },
@@ -912,6 +1068,8 @@
       "D": "Grant Service Account access to all resources"
     },
     "topic": "Cloud IAM",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "B",
     "quick_explanation": "Best practice is to use the principle of least privilege when managing Service Account permissions."
   },
@@ -924,6 +1082,8 @@
       "D": "Sole-Tenant Nodes"
     },
     "topic": "Cost and Performance Optimization",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "B",
     "quick_explanation": "Preemptible instances are cost-effective but short-lived instances suitable for fault-tolerant workloads."
   },
@@ -936,6 +1096,8 @@
       "D": "Cloud Monitoring"
     },
     "topic": "Cost and Performance Optimization",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "B",
     "quick_explanation": "Cost Explorer can provide insights and recommendations for optimizing costs."
   },
@@ -948,6 +1110,8 @@
       "D": "M2"
     },
     "topic": "Cost and Performance Optimization",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "C",
     "quick_explanation": "C2 machine types are optimized for compute-intensive workloads."
   },
@@ -960,6 +1124,8 @@
       "D": "Higher availability"
     },
     "topic": "Cost and Performance Optimization",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "C",
     "quick_explanation": "Custom machine types allow you to tailor resources based on need, potentially leading to cost savings."
   },
@@ -972,6 +1138,8 @@
       "D": "To incentivize the use of specific machine types"
     },
     "topic": "Cost and Performance Optimization",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "B",
     "quick_explanation": "Sustained use discounts automatically give you discounted prices for long-running workloads."
   },
@@ -984,6 +1152,8 @@
       "D": "Cloud Bigtable"
     },
     "topic": "Cost and Performance Optimization",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "C",
     "quick_explanation": "Local SSDs offer the highest performance and lowest latency."
   },
@@ -996,6 +1166,8 @@
       "D": "Custom Metric"
     },
     "topic": "Cost and Performance Optimization",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "D",
     "quick_explanation": "A custom metric can be defined to closely align with your specific Cost and Performance Optimization goals."
   },
@@ -1008,6 +1180,8 @@
       "D": "Committed Use"
     },
     "topic": "Cost and Performance Optimization",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "B",
     "quick_explanation": "Preemptible instances are cost-effective and run on spare Google Cloud resources."
   },
@@ -1020,6 +1194,8 @@
       "D": "High-Memory"
     },
     "topic": "Cost and Performance Optimization",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "C",
     "quick_explanation": "E2 machine types are cost-effective and are well-suited for workloads that can burst."
   },
@@ -1032,6 +1208,8 @@
       "D": "Cloud Console"
     },
     "topic": "Cost and Performance Optimization",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "A",
     "quick_explanation": "Cloud Monitoring can be used to visualize and manage your cloud costs."
   },
@@ -1044,6 +1222,8 @@
       "D": "Preemptible"
     },
     "topic": "Cost and Performance Optimization",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "B",
     "quick_explanation": "Committed Use Discounts offer cost savings in exchange for a commitment to use resources for an extended period."
   },
@@ -1056,6 +1236,8 @@
       "D": "Cloud Builder"
     },
     "topic": "Cost and Performance Optimization",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "C",
     "quick_explanation": "Cloud Recommender provides recommendations to optimize the configurations of your Google Cloud resources."
   },
@@ -1068,6 +1250,8 @@
       "D": "Neither A nor B"
     },
     "topic": "Cost and Performance Optimization",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "C",
     "quick_explanation": "Budgets and Alerts can be used to set thresholds, while Cloud Functions can automate actions based on those thresholds."
   },
@@ -1080,6 +1264,8 @@
       "D": "Switching to the latest machine types"
     },
     "topic": "Cost and Performance Optimization",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "C",
     "quick_explanation": "Right-sizing is about matching your workloads to the most efficient instance types and sizes."
   },
@@ -1092,6 +1278,8 @@
       "D": "HDD"
     },
     "topic": "Cost and Performance Optimization",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "C",
     "quick_explanation": "SSD Persistent Disk offers higher performance and is suitable for performance-sensitive applications."
   },
@@ -1104,6 +1292,8 @@
       "D": "Taking advantage of sustained use discounts"
     },
     "topic": "Cost and Performance Optimization",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "B",
     "quick_explanation": "The latest machine type is not necessarily the most cost-effective; it depends on your specific workload."
   },
@@ -1116,6 +1306,8 @@
       "D": "Data loss prevention"
     },
     "topic": "Cost and Performance Optimization",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "C",
     "quick_explanation": "Cloud CDN leverages Google’s globally distributed system to accelerate content delivery, thereby improving application performance."
   },
@@ -1128,6 +1320,8 @@
       "D": "Neither A nor B"
     },
     "topic": "Cost and Performance Optimization",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "C",
     "quick_explanation": "Autoscaler can adjust the number of VM instances available to your application up and down within minimum and maximum range, optimizing both cost and performance."
   },
@@ -1140,6 +1334,8 @@
       "D": "All of the above"
     },
     "topic": "Cost and Performance Optimization",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "D",
     "quick_explanation": "All these options can help in reducing the cost of data egress from Google Cloud."
   },
@@ -1152,6 +1348,8 @@
       "D": "All of the above"
     },
     "topic": "Cost and Performance Optimization",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "D",
     "quick_explanation": "Budgets, Alerts, Billing Export to BigQuery, and Quotas can all be used for enabling cost controls on a Google Cloud project."
   },
@@ -1164,6 +1362,8 @@
       "D": "Cloud SQL"
     },
     "topic": "Block, file cloud storage and etc",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "B",
     "quick_explanation": "Persistent Disk is the block storage service in GCP."
   },
@@ -1176,6 +1376,8 @@
       "D": "Cloud SQL"
     },
     "topic": "Block, file cloud storage and etc",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "A",
     "quick_explanation": "Cloud Filestore is a fully managed file storage service."
   },
@@ -1188,6 +1390,8 @@
       "D": "256 TB"
     },
     "topic": "Block, file cloud storage and etc",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "A",
     "quick_explanation": "The maximum size of a zonal persistent disk is 64 TB."
   },
@@ -1200,6 +1404,8 @@
       "D": "Hotline"
     },
     "topic": "Block, file cloud storage and etc",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "D",
     "quick_explanation": "Hotline is not a storage class in Cloud Storage."
   },
@@ -1212,6 +1418,8 @@
       "D": "Cloud SQL"
     },
     "topic": "Block, file cloud storage and etc",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "A",
     "quick_explanation": "Cloud Filestore provides NFS support."
   },
@@ -1224,6 +1432,8 @@
       "D": "Balanced"
     },
     "topic": "Block, file cloud storage and etc",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "B",
     "quick_explanation": "SSD Persistent Disk offers the highest performance."
   },
@@ -1236,6 +1446,8 @@
       "D": "Backup capabilities"
     },
     "topic": "Block, file cloud storage and etc",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "C",
     "quick_explanation": "Cloud Filestore does not offer object storage."
   },
@@ -1248,6 +1460,8 @@
       "D": "200 GB"
     },
     "topic": "Block, file cloud storage and etc",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "A",
     "quick_explanation": "The minimum size of a Persistent Disk is 1 GB."
   },
@@ -1260,6 +1474,8 @@
       "D": "Cloud SQL"
     },
     "topic": "Block, file cloud storage and etc",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "B",
     "quick_explanation": "Cloud Storage is best for storing large blobs."
   },
@@ -1272,6 +1488,8 @@
       "D": "Balanced"
     },
     "topic": "Block, file cloud storage and etc",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "A",
     "quick_explanation": "Standard Persistent Disk is the most cost-effective for frequently accessed data."
   },
@@ -1284,6 +1502,8 @@
       "D": "Cloud SQL"
     },
     "topic": "Block, file cloud storage and etc",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "A",
     "quick_explanation": "Cloud Filestore allows you to create a file share."
   },
@@ -1296,6 +1516,8 @@
       "D": "256 TB"
     },
     "topic": "Block, file cloud storage and etc",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "B",
     "quick_explanation": "The maximum size of a regional persistent disk is 64 TB."
   },
@@ -1308,6 +1530,8 @@
       "D": "All of the above"
     },
     "topic": "Block, file cloud storage and etc",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "D",
     "quick_explanation": "All listed services provide automatic encryption at rest."
   },
@@ -1320,6 +1544,8 @@
       "D": "Encryption at rest"
     },
     "topic": "Block, file cloud storage and etc",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "C",
     "quick_explanation": "Persistent Disk does not offer object storage."
   },
@@ -1332,6 +1558,8 @@
       "D": "Cloud SQL"
     },
     "topic": "Block, file cloud storage and etc",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "B",
     "quick_explanation": "Cloud Storage is best for storing unstructured data."
   },
@@ -1344,6 +1572,8 @@
       "D": "Balanced"
     },
     "topic": "Block, file cloud storage and etc",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "B",
     "quick_explanation": "SSD Persistent Disk offers the lowest latency."
   },
@@ -1356,6 +1586,8 @@
       "D": "Cloud SQL"
     },
     "topic": "Block, file cloud storage and etc",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "A",
     "quick_explanation": "Cloud Filestore allows you to store data in a hierarchical namespace."
   },
@@ -1368,6 +1600,8 @@
       "D": "None of the above"
     },
     "topic": "Block, file cloud storage and etc",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "C",
     "quick_explanation": "Persistent Disk does not offer multi-regional replication."
   },
@@ -1380,6 +1614,8 @@
       "D": "Cloud SQL"
     },
     "topic": "Block, file cloud storage and etc",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "B",
     "quick_explanation": "Cloud Storage with Coldline or Archive class is best for storing large files that are rarely accessed."
   },
@@ -1392,6 +1628,8 @@
       "D": "Cloud SQL"
     },
     "topic": "Block, file cloud storage and etc",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "B",
     "quick_explanation": "Persistent Disk supports block-level operations."
   },
@@ -1404,6 +1642,8 @@
       "D": "Archive"
     },
     "topic": "Block, file cloud storage and etc",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "C",
     "quick_explanation": "Coldline storage is designed for data that is infrequently accessed but requires fast retrieval when needed."
   },
@@ -1416,6 +1656,8 @@
       "D": "Database Storage"
     },
     "topic": "Block, file cloud storage and etc",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "C",
     "quick_explanation": "Google Filestore is a managed file storage service for applications that require a file system interface."
   },
@@ -1428,6 +1670,8 @@
       "D": "BigQuery"
     },
     "topic": "Block, file cloud storage and etc",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "B",
     "quick_explanation": "Google Compute Engine provides features to create, delete, and manage VM images."
   },
@@ -1440,6 +1684,8 @@
       "D": "Archive Storage"
     },
     "topic": "Block, file cloud storage and etc",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "D",
     "quick_explanation": "Archive Storage is designed for long-term storage of data that won't be accessed frequently."
   },
@@ -1452,6 +1698,8 @@
       "D": "Cloud SQL"
     },
     "topic": "Block, file cloud storage and etc",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "A",
     "quick_explanation": "Persistent Disk provides block storage that can be dynamically attached to VM instances."
   },
@@ -1464,6 +1712,8 @@
       "D": "Cloud Storage"
     },
     "topic": "Block, file cloud storage and etc",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "D",
     "quick_explanation": "Cloud Storage is optimized for storing large amounts of unstructured data, such as videos, images, and backups."
   },
@@ -1476,6 +1726,8 @@
       "D": "Archive"
     },
     "topic": "Block, file cloud storage and etc",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "A",
     "quick_explanation": "The default storage class for new objects in a multi-regional bucket is Standard."
   },
@@ -1488,6 +1740,8 @@
       "D": "Cloud Pub/Sub"
     },
     "topic": "Block, file cloud storage and etc",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "A",
     "quick_explanation": "Object Lifecycle Management policies allow you to transition objects between storage classes automatically based on specified conditions."
   },
@@ -1500,6 +1754,8 @@
       "D": "Cloud Bigtable"
     },
     "topic": "Block, file cloud storage and etc",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "A",
     "quick_explanation": "Google Filestore allows you to create read-only replicas of your file system."
   },
@@ -1512,6 +1768,8 @@
       "D": "Sharing across projects"
     },
     "topic": "Block, file cloud storage and etc",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "B",
     "quick_explanation": "Machine Images capture the disk, metadata, and permissions but do not inherently have auto-scaling capabilities."
   },
@@ -1524,6 +1782,8 @@
       "D": "Enhanced Security"
     },
     "topic": "Instance Groups",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "C",
     "quick_explanation": "Managed Instance Groups automatically manage the scaling and deployment of instances."
   },
@@ -1536,6 +1796,8 @@
       "D": "Regional Unmanaged Instance Group"
     },
     "topic": "Instance Groups",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "B",
     "quick_explanation": "Regional Managed Instance Groups deploy instances across multiple zones within a region."
   },
@@ -1548,6 +1810,8 @@
       "D": "Use Instance Templates"
     },
     "topic": "Instance Groups",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "A",
     "quick_explanation": "For Unmanaged Instance Groups, you have to manually manage and update each instance."
   },
@@ -1560,6 +1824,8 @@
       "D": "Responsive Scaling"
     },
     "topic": "Instance Groups",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "D",
     "quick_explanation": "Responsive Scaling is not a recognized scaling option for Managed Instance Groups in Google Cloud."
   },
@@ -1572,6 +1838,8 @@
       "D": "Using a VPC"
     },
     "topic": "Instance Groups",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "B",
     "quick_explanation": "Instance Templates define the configuration for instances in Managed Instance Groups."
   },
@@ -1584,6 +1852,8 @@
       "D": "3"
     },
     "topic": "Instance Groups",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "A",
     "quick_explanation": "A Managed Instance Group can have zero instances. This is particularly useful when you want to scale down to zero instances during periods of low traffic or when you want to prepare the group for future scaling without immediately running any instances."
   },
@@ -1596,6 +1866,8 @@
       "D": "Instances needing automatic failover"
     },
     "topic": "Instance Groups",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "B",
     "quick_explanation": "Unmanaged Instance Groups are suitable for instances with heterogeneous configurations."
   },
@@ -1608,6 +1880,8 @@
       "D": "Data Analysis"
     },
     "topic": "Instance Groups",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "A",
     "quick_explanation": "Instance Groups are primarily used for load balancing."
   },
@@ -1620,6 +1894,8 @@
       "D": "There is no maximum limit"
     },
     "topic": "Instance Groups",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "B",
     "quick_explanation": "A single Managed Instance Group can have up to 5000 instances."
   },
@@ -1632,6 +1908,8 @@
       "D": "`gcloud instance-group managed create`"
     },
     "topic": "Instance Groups",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "B",
     "quick_explanation": "The command `gcloud compute instance-groups managed create` is used to create a Managed Instance Group."
   },
@@ -1644,6 +1922,8 @@
       "D": "Autoscaling policy"
     },
     "topic": "Instance Groups",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "B",
     "quick_explanation": "Machine Type is a required field when creating an Instance Template."
   },
@@ -1656,6 +1936,8 @@
       "D": "Zone Distribution Policy"
     },
     "topic": "Instance Groups",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "D",
     "quick_explanation": "Zone Distribution Policy allows for even distribution of instances across zones."
   },
@@ -1668,6 +1950,8 @@
       "D": "Only in Regional Managed Instance Groups"
     },
     "topic": "Instance Groups",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "B",
     "quick_explanation": "You can associate only one Instance Template with a Managed Instance Group."
   },
@@ -1680,6 +1964,8 @@
       "D": "Cost"
     },
     "topic": "Instance Groups",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "C",
     "quick_explanation": "The key difference is the scope of availability. Zonal exists in a single zone, whereas Regional exists across multiple zones."
   },
@@ -1692,6 +1978,8 @@
       "D": "Using App Engine"
     },
     "topic": "Instance Groups",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "B",
     "quick_explanation": "Autoscaler is used to configure autoscaling for a Managed Instance Group."
   },
@@ -1704,6 +1992,8 @@
       "D": "The instance is isolated from the load balancer"
     },
     "topic": "Instance Groups",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "B",
     "quick_explanation": "The instance is automatically recreated when it becomes UNHEALTHY."
   },
@@ -1716,6 +2006,8 @@
       "D": "Customization of individual instances"
     },
     "topic": "Instance Groups",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "D",
     "quick_explanation": "Per-Instance Configurations allow you to customize individual instances within a Managed Instance Group."
   },
@@ -1728,6 +2020,8 @@
       "D": "For instances that need autoscaling"
     },
     "topic": "Instance Groups",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "A",
     "quick_explanation": "Unmanaged Instance Groups are used for instances that require manual configuration."
   },
@@ -1740,6 +2034,8 @@
       "D": "Health checks"
     },
     "topic": "Instance Groups",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "C",
     "quick_explanation": "Unmanaged instance groups are used when you need fine-grained control over the instances."
   },
@@ -1752,6 +2048,8 @@
       "D": "Stateful applications"
     },
     "topic": "Instance Groups",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "D",
     "quick_explanation": "Managed instance groups are not designed to maintain stateful applications."
   },
@@ -1764,6 +2062,8 @@
       "D": "Predefined image"
     },
     "topic": "Instance Groups",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "B",
     "quick_explanation": "Instances in a managed instance group are created from an instance template."
   },
@@ -1776,6 +2076,8 @@
       "D": "When you need fine-grained control"
     },
     "topic": "Instance Groups",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "B",
     "quick_explanation": "Zonal managed instance groups are often used to minimize costs."
   },
@@ -1788,6 +2090,8 @@
       "D": "10000"
     },
     "topic": "Instance Groups",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "A",
     "quick_explanation": "The maximum number of instances for an unmanaged instance group is 5000."
   },
@@ -1800,6 +2104,8 @@
       "D": "Can be used for high availability"
     },
     "topic": "Instance Groups",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "C",
     "quick_explanation": "Regional managed instance groups spread instances across multiple zones, not limited to one."
   },
@@ -1812,6 +2118,8 @@
       "D": "Metrics"
     },
     "topic": "Instance Groups",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "A",
     "quick_explanation": "Managed instance groups use health checks to determine the health of instances."
   },
@@ -1824,6 +2132,8 @@
       "D": "Queue depth"
     },
     "topic": "Instance Groups",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "D",
     "quick_explanation": "Queue depth is not a directly supported autoscaling policy for managed instance groups."
   },
@@ -1836,6 +2146,8 @@
       "D": "Proactive update"
     },
     "topic": "Instance Groups",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "A",
     "quick_explanation": "Rolling update is the default update mechanism for instances in a managed instance group."
   },
@@ -1848,6 +2160,8 @@
       "D": "VPC Peering"
     },
     "topic": "Instance Groups",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "D",
     "quick_explanation": "VPC Peering is not a way to control traffic distribution with instance groups."
   },
@@ -1860,6 +2174,8 @@
       "D": "Database transactions"
     },
     "topic": "Instance Groups",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "D",
     "quick_explanation": "Database transactions are not a directly supported metric for autoscaling in managed instance groups."
   },
@@ -1872,6 +2188,8 @@
       "D": "They are moved to another group"
     },
     "topic": "Instance Groups",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "B",
     "quick_explanation": "When an unmanaged instance group is deleted, the instances become standalone and are not deleted."
   },
@@ -1884,6 +2202,8 @@
       "D": "High availability"
     },
     "topic": "Instance Groups",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "B",
     "quick_explanation": "Managed instance groups are not designed to maintain stateful applications."
   },
@@ -1896,6 +2216,8 @@
       "D": "Single-zone instance group"
     },
     "topic": "Instance Groups",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "B",
     "quick_explanation": "For running fault-tolerant applications, a regional managed instance group is recommended."
   },
@@ -1908,6 +2230,8 @@
       "D": "Firebase"
     },
     "topic": "Instance Groups",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "D",
     "quick_explanation": "Firebase is not a method for creating instance groups in GCP."
   },
@@ -1920,6 +2244,8 @@
       "D": "Restart the group"
     },
     "topic": "Instance Groups",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "B",
     "quick_explanation": "You can change the instance template by performing a rolling update."
   },
@@ -1932,6 +2258,8 @@
       "D": "It is moved to another group"
     },
     "topic": "Instance Groups",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "A",
     "quick_explanation": "When manually removed, the instance gets deleted."
   },
@@ -1944,6 +2272,8 @@
       "D": "To save energy"
     },
     "topic": "Instance Groups",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "B",
     "quick_explanation": "A 'cool-down period' is meant to stabilize the system after scaling actions."
   },
@@ -1956,6 +2286,8 @@
       "D": "Buffers the requests"
     },
     "topic": "Instance Groups",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "C",
     "quick_explanation": "The instance group scales up to handle the increased traffic."
   },
@@ -1968,6 +2300,8 @@
       "D": "Health checks"
     },
     "topic": "Instance Groups",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "A",
     "quick_explanation": "Load balancing is a feature that's available for both managed and unmanaged instance groups."
   },
@@ -1980,6 +2314,8 @@
       "D": "It's not possible"
     },
     "topic": "Instance Groups",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "A",
     "quick_explanation": "Rolling updates in Managed Instance Groups can be performed by specifying an update policy."
   },
@@ -1992,6 +2328,8 @@
       "D": "DNS Load Balancing"
     },
     "topic": "Instance Groups",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "D",
     "quick_explanation": "DNS Load Balancing is not a native Google Cloud load balancing option suitable for Managed Instance Groups."
   },
@@ -2004,6 +2342,8 @@
       "D": "On the individual VM instances"
     },
     "topic": "Load Balancing",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "A",
     "quick_explanation": "HTTP(S) Load Balancing is performed at the edge of Google's network in their network edge locations."
   },
@@ -2016,6 +2356,8 @@
       "D": "HTTPS"
     },
     "topic": "Load Balancing",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "D",
     "quick_explanation": "SSL Proxy Load Balancer is designed for HTTPS traffic."
   },
@@ -2028,6 +2370,8 @@
       "D": "SSL Proxy Load Balancing"
     },
     "topic": "Load Balancing",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "C",
     "quick_explanation": "External TCP/UDP Load Balancing is used for distributing TCP and UDP traffic over regional backends."
   },
@@ -2040,6 +2384,8 @@
       "D": "SSL offloading"
     },
     "topic": "Load Balancing",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "B",
     "quick_explanation": "Centralized logging is not a feature provided by Cloud Load Balancing, it's generally achieved using Cloud Logging."
   },
@@ -2052,6 +2398,8 @@
       "D": "To authenticate user requests"
     },
     "topic": "Load Balancing",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "B",
     "quick_explanation": "Health checks in Cloud Load Balancing ensure that traffic is only sent to healthy backends."
   },
@@ -2064,6 +2412,8 @@
       "D": "SSL offloading"
     },
     "topic": "Load Balancing",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "C",
     "quick_explanation": "Cloud Armor provides DDoS protection when used with Cloud Load Balancing."
   },
@@ -2076,6 +2426,8 @@
       "D": "SSL Proxy Load Balancing"
     },
     "topic": "Load Balancing",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "B",
     "quick_explanation": "Internal TCP/UDP Load Balancing is suitable for distributing traffic to instances within the same region."
   },
@@ -2088,6 +2440,8 @@
       "D": "SSL Proxy Load Balancing"
     },
     "topic": "Load Balancing",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "A",
     "quick_explanation": "HTTP(S) Load Balancing supports content-based routing."
   },
@@ -2100,6 +2454,8 @@
       "D": "Unlimited"
     },
     "topic": "Load Balancing",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "D",
     "quick_explanation": "There is no specified limit on the number of forwarding rules you can create per project in GCP."
   },
@@ -2112,6 +2468,8 @@
       "D": "To authenticate user requests"
     },
     "topic": "Load Balancing",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "B",
     "quick_explanation": "Backend services in Cloud Load Balancing define the set of instances or endpoints to receive traffic."
   },
@@ -2124,6 +2482,8 @@
       "D": "Shared secret"
     },
     "topic": "Load Balancing",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "C",
     "quick_explanation": "OAuth tokens are not a method for backend authentication in GCP Load Balancing."
   },
@@ -2136,6 +2496,8 @@
       "D": "All of the above"
     },
     "topic": "Load Balancing",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "D",
     "quick_explanation": "All the options provided are prerequisites for setting up Cloud Load Balancing in GCP."
   },
@@ -2148,6 +2510,8 @@
       "D": "SSL offloading"
     },
     "topic": "Load Balancing",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "D",
     "quick_explanation": "SSL offloading is not a feature of Cloud CDN, it's a feature of Cloud Load Balancing."
   },
@@ -2160,6 +2524,8 @@
       "D": "SSL Proxy Load Balancing"
     },
     "topic": "Load Balancing",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "A",
     "quick_explanation": "HTTP(S) Load Balancing can be used to distribute traffic to backends across multiple regions."
   },
@@ -2172,6 +2538,8 @@
       "D": "SSL Proxy Load Balancing"
     },
     "topic": "Load Balancing",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "A",
     "quick_explanation": "HTTP(S) Load Balancing is an example of a Layer 7 Load Balancer."
   },
@@ -2184,6 +2552,8 @@
       "D": "To increase the security of the load balancer"
     },
     "topic": "Load Balancing",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "B",
     "quick_explanation": "Session Affinity ensures that all requests from a client are directed to the same backend."
   },
@@ -2196,6 +2566,8 @@
       "D": "Google-managed SSL certificates"
     },
     "topic": "Load Balancing",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "D",
     "quick_explanation": "Google-managed SSL certificates is used to manage SSL/TLS certificates for HTTPS Load Balancing."
   },
@@ -2208,6 +2580,8 @@
       "D": "On a third-party server"
     },
     "topic": "Load Balancing",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "B",
     "quick_explanation": "SSL certificates are installed on the load balancer for SSL Proxy and HTTPS Load Balancing in GCP."
   },
@@ -2220,6 +2594,8 @@
       "D": "SMTP"
     },
     "topic": "Load Balancing",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "D",
     "quick_explanation": "SMTP is not a supported protocol by Cloud Load Balancing in GCP."
   },
@@ -2232,6 +2608,8 @@
       "D": "Cloud Firestore"
     },
     "topic": "Choosing Database in GCP",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "C",
     "quick_explanation": "Cloud Spanner is fully managed, allowing for seamless scaling and strong consistency across rows, regions, and continents."
   },
@@ -2244,6 +2622,8 @@
       "D": "Cloud Firestore"
     },
     "topic": "Choosing Database in GCP",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "B",
     "quick_explanation": "Cloud SQL supports MySQL, PostgreSQL, and SQL Server, making it ideal for relational database management."
   },
@@ -2256,6 +2636,8 @@
       "D": "Cloud Firestore"
     },
     "topic": "Choosing Database in GCP",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "C",
     "quick_explanation": "Cloud Spanner provides strong consistency at global scale, making it suitable for applications that require such consistency."
   },
@@ -2268,6 +2650,8 @@
       "D": "Cloud Firestore"
     },
     "topic": "Choosing Database in GCP",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "A",
     "quick_explanation": "Cloud Bigtable is optimized for both analytical and operational workloads with high throughput requirements."
   },
@@ -2280,6 +2664,8 @@
       "D": "When needing a fully-managed database service"
     },
     "topic": "Choosing Database in GCP",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "C",
     "quick_explanation": "Cloud Firestore provides real-time updates, making it a better choice over Cloud Datastore for such requirements."
   },
@@ -2292,6 +2678,8 @@
       "D": "Cloud Firestore"
     },
     "topic": "Choosing Database in GCP",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "B",
     "quick_explanation": "Cloud SQL is ideal for managing relational databases as it supports MySQL, PostgreSQL, and SQL Server."
   },
@@ -2304,6 +2692,8 @@
       "D": "Cloud Firestore"
     },
     "topic": "Choosing Database in GCP",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "C",
     "quick_explanation": "Cloud Spanner provides strong consistency across rows, regions, and continents, making it ideal for global applications."
   },
@@ -2316,6 +2706,8 @@
       "D": "Cloud Firestore"
     },
     "topic": "Choosing Database in GCP",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "D",
     "quick_explanation": "Cloud Firestore provides real-time updates, making it suitable for applications that require such features."
   },
@@ -2328,6 +2720,8 @@
       "D": "Cloud Firestore"
     },
     "topic": "Choosing Database in GCP",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "C",
     "quick_explanation": "Cloud Spanner is fully managed and allows for seamless scaling with strong consistency across rows, regions, and continents."
   },
@@ -2340,6 +2734,8 @@
       "D": "Cloud Firestore"
     },
     "topic": "Choosing Database in GCP",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "D",
     "quick_explanation": "Cloud Firestore is a NoSQL database that provides real-time updates, making it ideal for mobile gaming applications."
   },
@@ -2352,6 +2748,8 @@
       "D": "Cloud Firestore"
     },
     "topic": "Choosing Database in GCP",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "C",
     "quick_explanation": "Cloud Spanner provides strong transactional consistency and high availability, making it suitable for mission-critical applications."
   },
@@ -2364,6 +2762,8 @@
       "D": "Cloud Firestore"
     },
     "topic": "Choosing Database in GCP",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "D",
     "quick_explanation": "Cloud Firestore provides automatic sharding and scaling, along with a serverless option for simplified operations."
   },
@@ -2376,6 +2776,8 @@
       "D": "Cloud Firestore"
     },
     "topic": "Choosing Database in GCP",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "C",
     "quick_explanation": "Cloud Spanner is globally distributed and horizontally scalable, making it ideal for such requirements."
   },
@@ -2388,6 +2790,8 @@
       "D": "Cloud Firestore"
     },
     "topic": "Choosing Database in GCP",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "A",
     "quick_explanation": "Cloud Bigtable is designed to handle large analytical and operational workloads, providing high throughput for both types of workloads."
   },
@@ -2400,6 +2804,8 @@
       "D": "Cloud Firestore"
     },
     "topic": "Choosing Database in GCP",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "C",
     "quick_explanation": "It's a fully managed, scalable, globally distributed, and strongly consistent database service. It supports SQL queries and automatic scaling, thus meeting both criteria."
   },
@@ -2412,6 +2818,8 @@
       "D": "Cloud Firestore"
     },
     "topic": "Choosing Database in GCP",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "A",
     "quick_explanation": "Cloud Bigtable is designed to handle large-scale, single-keyed data with low latency, making it suitable for time-series data."
   },
@@ -2424,6 +2832,8 @@
       "D": "Cloud Firestore"
     },
     "topic": "Choosing Database in GCP",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "D",
     "quick_explanation": "Cloud Firestore provides a serverless option, allowing for simplified operations and management."
   },
@@ -2436,6 +2846,8 @@
       "D": "Cloud Firestore"
     },
     "topic": "Choosing Database in GCP",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "A",
     "quick_explanation": "Cloud Bigtable is designed to manage large-scale, single-keyed data with low latency, making it suitable for such applications."
   },
@@ -2448,6 +2860,8 @@
       "D": "Cloud Firestore"
     },
     "topic": "Choosing Database in GCP",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "C",
     "quick_explanation": "Cloud Spanner provides ACID transactions, ensuring consistency and reliability in data management, and is also globally distributed."
   },
@@ -2460,6 +2874,8 @@
       "D": "Cloud Firestore"
     },
     "topic": "Choosing Database in GCP",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "D",
     "quick_explanation": "Cloud Firestore is a NoSQL database, providing a schemaless data model that allows for flexible and dynamic data structures."
   },
@@ -2472,6 +2888,8 @@
       "D": "Cloud Firestore"
     },
     "topic": "Choosing Database in GCP",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "C",
     "quick_explanation": "Cloud Spanner is designed to handle both transactional and analytical workloads, providing strong consistency and high performance."
   },
@@ -2484,6 +2902,8 @@
       "D": "Cloud Firestore"
     },
     "topic": "Choosing Database in GCP",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "B",
     "quick_explanation": "Cloud SQL provides a familiar environment for managing relational databases, making migration from traditional relational databases easier."
   },
@@ -2496,6 +2916,8 @@
       "D": "Cloud Firestore"
     },
     "topic": "Choosing Database in GCP",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "D",
     "quick_explanation": "Cloud Firestore provides low latency for data access, making it suitable for serving user-generated content in web applications."
   },
@@ -2508,6 +2930,8 @@
       "D": "Cloud Firestore"
     },
     "topic": "Choosing Database in GCP",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "A",
     "quick_explanation": "Cloud Bigtable provides a wide-column storage model, making it ideal for applications needing such a data model."
   },
@@ -2520,6 +2944,8 @@
       "D": "Node.js"
     },
     "topic": "Google App Engine",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "C",
     "quick_explanation": "Google App Engine Standard does not support C++."
   },
@@ -2532,6 +2958,8 @@
       "D": "Dynamic"
     },
     "topic": "Google App Engine",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "D",
     "quick_explanation": "Dynamic scaling is not an option in Google App Engine."
   },
@@ -2544,6 +2972,8 @@
       "D": "Initialize database connections"
     },
     "topic": "Google App Engine",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "C",
     "quick_explanation": "The `app.yaml` file is primarily used for application configuration."
   },
@@ -2556,6 +2986,8 @@
       "D": "Use App Engine Custom Domains"
     },
     "topic": "Google App Engine",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "D",
     "quick_explanation": "You can map a custom domain by using App Engine Custom Domains."
   },
@@ -2568,6 +3000,8 @@
       "D": "Services can share a single `app.yaml` file"
     },
     "topic": "Google App Engine",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "D",
     "quick_explanation": "Each service must have its own `app.yaml` file."
   },
@@ -2580,6 +3014,8 @@
       "D": "MongoDB"
     },
     "topic": "Google App Engine",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "D",
     "quick_explanation": "MongoDB is not natively supported in Google App Engine."
   },
@@ -2592,6 +3028,8 @@
       "D": "128 MB"
     },
     "topic": "Google App Engine",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "B",
     "quick_explanation": "The maximum allowed size is 32 MB."
   },
@@ -2604,6 +3042,8 @@
       "D": "API Calls"
     },
     "topic": "Google App Engine",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "C",
     "quick_explanation": "Ingress data is generally free."
   },
@@ -2616,6 +3056,8 @@
       "D": "None of the above"
     },
     "topic": "Google App Engine",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "C",
     "quick_explanation": "Automatic scaling can scale down to zero instances."
   },
@@ -2628,6 +3070,8 @@
       "D": "Modify the pricing plan"
     },
     "topic": "Google App Engine",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "D",
     "quick_explanation": "`gcloud app` does not provide a way to modify the pricing plan."
   },
@@ -2640,6 +3084,8 @@
       "D": "None of the above"
     },
     "topic": "Google App Engine",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "C",
     "quick_explanation": "The default scaling type for App Engine Standard is Automatic."
   },
@@ -2652,6 +3098,8 @@
       "D": "No limit"
     },
     "topic": "Google App Engine",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "A",
     "quick_explanation": "If your app uses automatic scaling, it takes approximately 15 minutes of inactivity for the idle instances to start shutting down."
   },
@@ -2664,6 +3112,8 @@
       "D": "Virtual machine manager"
     },
     "topic": "Google App Engine",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "D",
     "quick_explanation": "Virtual machine manager is not a component of the App Engine SDK."
   },
@@ -2676,6 +3126,8 @@
       "D": "None of the above"
     },
     "topic": "Google App Engine",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "D",
     "quick_explanation": "App Engine does not provide filesystem-based storage."
   },
@@ -2688,6 +3140,8 @@
       "D": "GAE_ENV"
     },
     "topic": "Google App Engine",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "A",
     "quick_explanation": "GAE_SERVICE is used to determine the service name."
   },
@@ -2700,6 +3154,8 @@
       "D": "Firebase"
     },
     "topic": "Google App Engine",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "C",
     "quick_explanation": "App Engine provides its own caching service through Cloud Memorystore, which supports Memcached, so while not directly integrated, there's a path for utilizing Memcached within the App Engine environment through Memorystore."
   },
@@ -2712,6 +3168,8 @@
       "D": "Service Accounts"
     },
     "topic": "Google App Engine",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "B",
     "quick_explanation": "App Engine uses containers to isolate resources."
   },
@@ -2724,6 +3182,8 @@
       "D": "instance_type"
     },
     "topic": "Google App Engine",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "D",
     "quick_explanation": "`instance_type` is not a valid field in `app.yaml` for App Engine Standard."
   },
@@ -2736,6 +3196,8 @@
       "D": "All of the above"
     },
     "topic": "Google App Engine",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "D",
     "quick_explanation": "All listed methods are valid ways to perform authentication in App Engine."
   },
@@ -2748,6 +3210,8 @@
       "D": "Automated database sharding"
     },
     "topic": "Google App Engine",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "D",
     "quick_explanation": "Automated database sharding is not a feature of App Engine."
   },
@@ -2760,6 +3224,8 @@
       "D": "To manage relational databases"
     },
     "topic": "Google Cloud Functions",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "C",
     "quick_explanation": "Google Cloud Functions is a serverless execution environment for building and connecting cloud services."
   },
@@ -2772,6 +3238,8 @@
       "D": "60 minutes"
     },
     "topic": "Google Cloud Functions",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "D",
     "quick_explanation": "The maximum execution timeout has been extended to 60 minutes for Google Cloud Functions (2nd gen) as of an update on February 17, 2022​."
   },
@@ -2784,6 +3252,8 @@
       "D": "Both A and B"
     },
     "topic": "Google Cloud Functions",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "D",
     "quick_explanation": "Google Cloud Functions can be triggered by HTTP requests or events from Firebase products and Google Cloud services."
   },
@@ -2796,6 +3266,8 @@
       "D": "All of the above"
     },
     "topic": "Google Cloud Functions",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "D",
     "quick_explanation": "Google Cloud Functions is useful for various scenarios like creating REST APIs, real-time file processing, and orchestrating cloud services."
   },
@@ -2808,6 +3280,8 @@
       "D": "Monthly subscription"
     },
     "topic": "Google Cloud Functions",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "C",
     "quick_explanation": "Google Cloud Functions are priced per 1000 invocations, along with other factors like network, compute and memory usage."
   },
@@ -2820,6 +3294,8 @@
       "D": "gcloud deploy function"
     },
     "topic": "Google Cloud Functions",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "A",
     "quick_explanation": "The 'gcloud functions deploy' command is used to deploy a Google Cloud Function."
   },
@@ -2832,6 +3308,8 @@
       "D": "1024MB"
     },
     "topic": "Google Cloud Functions",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "B",
     "quick_explanation": "The default memory allocation for a Google Cloud Function is 256MB."
   },
@@ -2844,6 +3322,8 @@
       "D": "FUNCTION_RUN"
     },
     "topic": "Google Cloud Functions",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "A",
     "quick_explanation": "The environment variable FUNCTION_NAME contains the name of the function being executed."
   },
@@ -2856,6 +3336,8 @@
       "D": "Google Maps"
     },
     "topic": "Google Cloud Functions",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "A",
     "quick_explanation": "Google Cloud Functions can be triggered by events from Google Cloud Storage."
   },
@@ -2868,6 +3350,8 @@
       "D": "To provide request headers"
     },
     "topic": "Google Cloud Functions",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "A",
     "quick_explanation": "The 'context' parameter provides event metadata including the event ID and timestamp."
   },
@@ -2880,6 +3364,8 @@
       "D": "Creating REST APIs"
     },
     "topic": "Google Cloud Functions",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "B",
     "quick_explanation": "Google Cloud Functions are not designed for long-running operations as there's a maximum execution timeout."
   },
@@ -2892,6 +3378,8 @@
       "D": "No limit"
     },
     "topic": "Google Cloud Functions",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "D",
     "quick_explanation": "There is no hard limit on the number of functions you can deploy per project."
   },
@@ -2904,6 +3392,8 @@
       "D": "Cloud Spanner"
     },
     "topic": "Google Cloud Functions",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "C",
     "quick_explanation": "Pub/Sub is often used with Cloud Functions to process events in real-time for analytics purposes."
   },
@@ -2916,6 +3406,8 @@
       "D": "Both A and C"
     },
     "topic": "Google Cloud Functions",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "D",
     "quick_explanation": "If a Cloud Function execution fails, it may be retried automatically and the failure is logged and can be monitored."
   },
@@ -2928,6 +3420,8 @@
       "D": "In a modules.xml file"
     },
     "topic": "Google Cloud Functions",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "B",
     "quick_explanation": "Dependencies for a Node.js Google Cloud Function are specified in a package.json file."
   },
@@ -2940,6 +3434,8 @@
       "D": "All of the above"
     },
     "topic": "Google Cloud Functions",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "D",
     "quick_explanation": "Environment variables in a Google Cloud Function can be used for storing sensitive data, controlling function behavior, and communicating between functions."
   },
@@ -2952,6 +3448,8 @@
       "D": "All of the above"
     },
     "topic": "Google Cloud Functions",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "D",
     "quick_explanation": "Google Cloud Functions can be triggered by various events including new files in Cloud Storage, new rows in Cloud Spanner, and new messages in Pub/Sub."
   },
@@ -2964,6 +3462,8 @@
       "D": "Unlimited"
     },
     "topic": "Google Cloud Functions",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "C",
     "quick_explanation": "The maximum number of concurrent executions per function is 1000."
   },
@@ -2976,6 +3476,8 @@
       "D": "All of the above"
     },
     "topic": "Google Cloud Functions",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "D",
     "quick_explanation": "Google Cloud Functions can be authenticated using OAuth 2.0, API keys, or IAM roles."
   },
@@ -2988,6 +3490,8 @@
       "D": "Provides persistent storage"
     },
     "topic": "Google Kubernetes Engine",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "B",
     "quick_explanation": "The Kubernetes Master manages the cluster control plane."
   },
@@ -3000,6 +3504,8 @@
       "D": "kubectl cluster-info"
     },
     "topic": "Google Kubernetes Engine",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "B",
     "quick_explanation": "The 'gcloud container clusters get-credentials' command fetches credentials for a GKE cluster."
   },
@@ -3012,6 +3518,8 @@
       "D": "Sidecar Container"
     },
     "topic": "Google Kubernetes Engine",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "C",
     "quick_explanation": "A Node is not a component of a Pod; rather, Pods run on Nodes."
   },
@@ -3024,6 +3532,8 @@
       "D": "PodSecurityPolicy"
     },
     "topic": "Google Kubernetes Engine",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "B",
     "quick_explanation": "NetworkPolicy is used for defining rules for Pod-to-Pod communication."
   },
@@ -3036,6 +3546,8 @@
       "D": "kubectl expose"
     },
     "topic": "Google Kubernetes Engine",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "A",
     "quick_explanation": "The 'kubectl scale' command scales a deployment."
   },
@@ -3048,6 +3560,8 @@
       "D": "Vertical Pod Autoscaling"
     },
     "topic": "Google Kubernetes Engine",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "B",
     "quick_explanation": "Cluster Autoscaler automatically adjusts the size of the cluster."
   },
@@ -3060,6 +3574,8 @@
       "D": "All of the above"
     },
     "topic": "Google Kubernetes Engine",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "D",
     "quick_explanation": "ConfigMap, Secrets, and PersistentVolume can all be used to manage state."
   },
@@ -3072,6 +3588,8 @@
       "D": "3"
     },
     "topic": "Google Kubernetes Engine",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "B",
     "quick_explanation": "By default, one replica is created when deploying an application."
   },
@@ -3084,6 +3602,8 @@
       "D": "Rolls back changes"
     },
     "topic": "Google Kubernetes Engine",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "C",
     "quick_explanation": "'kubectl apply' is used to apply configuration changes."
   },
@@ -3096,6 +3616,8 @@
       "D": "Managing cluster nodes"
     },
     "topic": "Google Kubernetes Engine",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "B",
     "quick_explanation": "A ConfigMap is used primarily for storing configuration data."
   },
@@ -3108,6 +3630,8 @@
       "D": "Node Auto-Upgrades"
     },
     "topic": "Google Kubernetes Engine",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "D",
     "quick_explanation": "Node Auto-Upgrades feature updates the nodes automatically."
   },
@@ -3120,6 +3644,8 @@
       "D": "All of the above"
     },
     "topic": "Google Kubernetes Engine",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "D",
     "quick_explanation": "Docker, CRI-O, and containerd are all supported container runtimes in GKE."
   },
@@ -3132,6 +3658,8 @@
       "D": "Node"
     },
     "topic": "Google Kubernetes Engine",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "C",
     "quick_explanation": "A ClusterRole has a cluster-wide scope."
   },
@@ -3144,6 +3672,8 @@
       "D": "Autopilot"
     },
     "topic": "Google Kubernetes Engine",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "C",
     "quick_explanation": "Global is not a standard GKE cluster type."
   },
@@ -3156,6 +3686,8 @@
       "D": "Both B and C"
     },
     "topic": "Google Kubernetes Engine",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "D",
     "quick_explanation": "Both Cloud Logging and Cloud Monitoring allow you to view cluster diagnostics."
   },
@@ -3168,6 +3700,8 @@
       "D": "CAdvisor"
     },
     "topic": "Google Kubernetes Engine",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "B",
     "quick_explanation": "etcd is a component of the Kubernetes Master and acts as the storage backend for the cluster data."
   },
@@ -3180,6 +3714,8 @@
       "D": "Logging and Monitoring"
     },
     "topic": "Google Kubernetes Engine",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "C",
     "quick_explanation": "The Kubernetes API Server is responsible for exposing the Kubernetes API."
   },
@@ -3192,6 +3728,8 @@
       "D": "High Performance Architecture"
     },
     "topic": "Google Kubernetes Engine",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "B",
     "quick_explanation": "HPA stands for Horizontal Pod Autoscaler."
   },
@@ -3204,6 +3742,8 @@
       "D": "All of the above"
     },
     "topic": "Google Kubernetes Engine",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "D",
     "quick_explanation": "CustomResourceDefinitions, Operators, and API Aggregation can all be used to extend Kubernetes functionality."
   },
@@ -3216,6 +3756,8 @@
       "D": "kubectl create cluster"
     },
     "topic": "Google Kubernetes Engine",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "B",
     "quick_explanation": "The 'gcloud container clusters create' command is used to create a new GKE cluster."
   },
@@ -3228,6 +3770,8 @@
       "D": "kubectl update"
     },
     "topic": "Google Kubernetes Engine",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "A",
     "quick_explanation": "The 'kubectl set image' command is used to update the image of a Deployment."
   },
@@ -3240,6 +3784,8 @@
       "D": "Enables auto-scaling"
     },
     "topic": "Google Kubernetes Engine",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "B",
     "quick_explanation": "A 'NodeSelector' is used to schedule a Pod onto specific Nodes in the cluster."
   },
@@ -3252,6 +3798,8 @@
       "D": "Monitoring"
     },
     "topic": "Google Kubernetes Engine",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "B",
     "quick_explanation": "A Kubernetes 'Service' is primarily used for networking to provide a stable endpoint for Pods."
   },
@@ -3264,6 +3812,8 @@
       "D": "Monitoring Pod resource usage"
     },
     "topic": "Google Kubernetes Engine",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "A",
     "quick_explanation": "Pod Priority is used for scheduling Pods based on their importance."
   },
@@ -3276,6 +3826,8 @@
       "D": "Monitoring"
     },
     "topic": "Google Kubernetes Engine",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "A",
     "quick_explanation": "The 'kube-proxy' is responsible for networking operations like load balancing between Pods."
   },
@@ -3288,6 +3840,8 @@
       "D": "Firestore"
     },
     "topic": "Google Kubernetes Engine",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "B",
     "quick_explanation": "The default backend for GKE storage is Google Persistent Disk."
   },
@@ -3300,6 +3854,8 @@
       "D": "None"
     },
     "topic": "Google Kubernetes Engine",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "C",
     "quick_explanation": "By default, Kubernetes uses Round Robin load balancing for Services."
   },
@@ -3312,6 +3868,8 @@
       "D": "kubectl run shell"
     },
     "topic": "Google Kubernetes Engine",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "B",
     "quick_explanation": "The 'kubectl exec' command provides an interactive shell to a running Pod."
   },
@@ -3324,6 +3882,8 @@
       "D": "To secure Pods"
     },
     "topic": "Google Kubernetes Engine",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "A",
     "quick_explanation": "Taints are used to repel Pods from certain nodes."
   },
@@ -3336,6 +3896,8 @@
       "D": "Both A and B"
     },
     "topic": "Google Kubernetes Engine",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "D",
     "quick_explanation": "Both ConfigMap and Secrets can be used to set environment variables for a Pod."
   },
@@ -3348,6 +3910,8 @@
       "D": "Autoscales Pods"
     },
     "topic": "Google Kubernetes Engine",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "B",
     "quick_explanation": "The 'kube-scheduler' is responsible for scheduling Pods to nodes in the cluster."
   },
@@ -3360,6 +3924,8 @@
       "D": "PersistentVolume"
     },
     "topic": "Google Kubernetes Engine",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "B",
     "quick_explanation": "Pods are namespaced resources."
   },
@@ -3372,6 +3938,8 @@
       "D": "Google Cloud Repository"
     },
     "topic": "Google Kubernetes Engine",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "C",
     "quick_explanation": "GCR stands for Google Container Registry."
   },
@@ -3384,6 +3952,8 @@
       "D": "kubectl show logs"
     },
     "topic": "Google Kubernetes Engine",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "C",
     "quick_explanation": "The 'kubectl logs' command retrieves logs for a specific Pod."
   },
@@ -3396,6 +3966,8 @@
       "D": "Batch processing"
     },
     "topic": "Google Kubernetes Engine",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "B",
     "quick_explanation": "A 'StatefulSet' is used for managing stateful applications."
   },
@@ -3408,6 +3980,8 @@
       "D": "None of the above"
     },
     "topic": "Google Kubernetes Engine",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "C",
     "quick_explanation": "By default, up to 110 Pods can run on a single Node in GKE."
   },
@@ -3420,6 +3994,8 @@
       "D": "Network policies"
     },
     "topic": "Google Kubernetes Engine",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "B",
     "quick_explanation": "Affinity Rules are used to control the placement of Pods on Nodes."
   },
@@ -3432,6 +4008,8 @@
       "D": "Role-Binding Access Control"
     },
     "topic": "Google Kubernetes Engine",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "B",
     "quick_explanation": "RBAC stands for Role-Based Access Control."
   },
@@ -3444,6 +4022,8 @@
       "D": "All of the above"
     },
     "topic": "Google Kubernetes Engine",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "D",
     "quick_explanation": "NFS, ext4, and Google Persistent Disk are all types of Kubernetes Volumes."
   },
@@ -3456,6 +4036,8 @@
       "D": "New Relic"
     },
     "topic": "Google Kubernetes Engine",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "C",
     "quick_explanation": "Cloud Monitoring and Logging is the native GKE logging and monitoring solution."
   },
@@ -3468,6 +4050,8 @@
       "D": "Generate a new SSH key pair. Give the private key to each member of your team. Configure the public key as a project-wide public SSH key in your Cloud Platform project and allow project-wide public SSH keys on each instance."
     },
     "topic": "Exam simulation",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "C",
     "quick_explanation": "Option C allows for administrative access while maintaining a level of security and traceability for each user."
   },
@@ -3480,6 +4064,8 @@
       "D": "192.168.0.0/16"
     },
     "topic": "Exam simulation",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "B",
     "quick_explanation": "The 10.0.0.0/8 range gives you the largest possible private IP address space."
   },
@@ -3492,6 +4078,8 @@
       "D": "Select Cloud Spanner. Set up your instance as multi-regional."
     },
     "topic": "Exam simulation",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "A",
     "quick_explanation": "Cloud SQL (MySQL) with binary logging enabled is cost-effective and supports point-in-time recovery."
   },
@@ -3504,6 +4092,8 @@
       "D": "Create a managed instance group. Verify that the autoscaling setting is on."
     },
     "topic": "Exam simulation",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "C",
     "quick_explanation": "Creating a managed instance group and setting up Autohealing health check achieves the goal with fewer steps."
   },
@@ -3516,6 +4106,8 @@
       "D": "Use kubectl config use-context and kubectl config view to review the output."
     },
     "topic": "Exam simulation",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "D",
     "quick_explanation": "Using 'kubectl config use-context' followed by 'kubectl config view' is the most efficient way to review the required Kubernetes cluster."
   },
@@ -3528,6 +4120,8 @@
       "D": "Coldline Storage"
     },
     "topic": "Exam simulation",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "D",
     "quick_explanation": "Coldline Storage is designed for data that you expect to access less frequently, making it suitable for disaster recovery purposes."
   },
@@ -3540,6 +4134,8 @@
       "D": "In the Google Cloud Platform Console, create a new billing account and set up a payment method."
     },
     "topic": "Exam simulation",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "D",
     "quick_explanation": "Creating a new billing account directly through the Google Cloud Platform Console is the most efficient and secure way to centralize billing."
   },
@@ -3552,6 +4148,8 @@
       "D": "Deploy a Compute Engine instance for the licensing server. Use a dynamic internal IP address. Use Google Cloud DNS to create a CNAME record pointing to 10.0.3.21."
     },
     "topic": "Exam simulation",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "A",
     "quick_explanation": "Reserving 10.0.3.21 as a static internal IP and assigning it to the licensing server ensures that the application can reach the licensing server without any changes."
   },
@@ -3564,6 +4162,8 @@
       "D": "Unmanaged Instance Group"
     },
     "topic": "Exam simulation",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "A",
     "quick_explanation": "Deployment Manager allows for infrastructure as code, enabling dynamic and automated VM provisioning based on configuration files."
   },
@@ -3576,6 +4176,8 @@
       "D": "Create a docker image from the Dockerfile and upload it to Cloud Storage. Create a Deployment YAML file to point to that image. Use kubectl to create the deployment with that file."
     },
     "topic": "Exam simulation",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "C",
     "quick_explanation": "Kubernetes deployments are typically defined in a YAML file and images should be stored in a container registry, not Cloud Storage."
   },
@@ -3588,6 +4190,8 @@
       "D": "Use GCP Marketplace to launch the Jenkins solution."
     },
     "topic": "Exam simulation",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "D",
     "quick_explanation": "Using GCP Marketplace reduces the number of manual steps involved in setting up Jenkins."
   },
@@ -3600,6 +4204,8 @@
       "D": "gcloud deployment-manager resources update --config <deployment-config-path>"
     },
     "topic": "Exam simulation",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "B",
     "quick_explanation": "The update command will change the existing deployment without causing downtime."
   },
@@ -3612,6 +4218,8 @@
       "D": "Run a select count (*) to get an idea of how many records your query will look through. Then convert that number of rows to dollars using the Pricing Calculator."
     },
     "topic": "Exam simulation",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "B",
     "quick_explanation": "A dry run query will give an estimate of bytes read, which can be converted to cost using the Pricing Calculator."
   },
@@ -3624,6 +4232,8 @@
       "D": "Unmanaged Instance Group"
     },
     "topic": "Exam simulation",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "A",
     "quick_explanation": "Deployment Manager allows you to define and deploy resources in your Google Cloud environment using YAML or Python templates."
   },
@@ -3636,6 +4246,8 @@
       "D": "Create a docker image from the Dockerfile and upload it to Cloud Storage. Create a Deployment YAML file to point to that image. Use kubectl to create the deployment with that file."
     },
     "topic": "Exam simulation",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "C",
     "quick_explanation": "Kubernetes requires a container image to be present in a container registry. You also need a Deployment YAML to instruct how to manage the container instances."
   },
@@ -3648,6 +4260,8 @@
       "D": "Use GCP Marketplace to launch the Jenkins solution."
     },
     "topic": "Exam simulation",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "D",
     "quick_explanation": "Using GCP Marketplace is the quickest method to deploy a fully configured Jenkins server."
   },
@@ -3660,6 +4274,8 @@
       "D": "gcloud deployment-manager resources update --config <deployment-config-path>"
     },
     "topic": "Exam simulation",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "B",
     "quick_explanation": "The update command allows you to make changes without causing downtime for your resources."
   },
@@ -3672,6 +4288,8 @@
       "D": "Run a select count (*) to get an idea of how many records your query will look through. Then convert that number of rows to dollars using the Pricing Calculator."
     },
     "topic": "Exam simulation",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "B",
     "quick_explanation": "BigQuery charges are mainly based on the amount of data read during a query. A dry run query gives you an estimate of bytes read, which can be converted to cost."
   },
@@ -3684,6 +4302,8 @@
       "D": "Stunnel"
     },
     "topic": "Exam simulation",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "B",
     "quick_explanation": "Using HTTPS ensures that the data is encrypted during transmission to Google Cloud Storage."
   },
@@ -3696,6 +4316,8 @@
       "D": "App Engine Standard"
     },
     "topic": "Exam simulation",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "B",
     "quick_explanation": "Google Cloud Storage can serve as a simple and cost-effective static website host."
   },
@@ -3708,6 +4330,8 @@
       "D": "Cloud Profiler"
     },
     "topic": "Exam simulation",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "B",
     "quick_explanation": "Cloud Trace allows you to view the latency distribution of your application, helping you monitor the flow of requests through various microservices."
   },
@@ -3720,6 +4344,8 @@
       "D": "Use gsutil to set ACLs on the buckets"
     },
     "topic": "Exam simulation",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "A",
     "quick_explanation": "Using Cloud IAM and setting roles specifically for the service accounts is the best practice for controlling access to GCS buckets."
   },
@@ -3732,6 +4358,8 @@
       "D": "Coldline"
     },
     "topic": "Exam simulation",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "D",
     "quick_explanation": "Coldline storage is cost-effective for storing large volumes of data that is rarely accessed."
   },
@@ -3744,6 +4372,8 @@
       "D": "Deploy your application again using gcloud and specify the project parameter with the new project name to create the new project."
     },
     "topic": "Exam simulation",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "A",
     "quick_explanation": "Creating a new project using gcloud and deploying your application to it is the Google-recommended approach for setting up a production environment."
   },
@@ -3756,6 +4386,8 @@
       "D": "Add the auditor user accounts to two new custom IAM roles."
     },
     "topic": "Exam simulation",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "A",
     "quick_explanation": "Google's best practices recommend using predefined IAM roles wherever possible. In this case, adding the auditors group to the 'logging.viewer' and 'bigQuery.dataViewer' roles would be the most appropriate."
   },
@@ -3768,6 +4400,8 @@
       "D": "Create a service account and add it to the IAM role 'storage.objectAdmin' for that bucket."
     },
     "topic": "Exam simulation",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "C",
     "quick_explanation": "Creating a service account and assigning it the 'storage.objectCreator' role on the specific bucket is the Google-recommended approach."
   },
@@ -3780,6 +4414,8 @@
       "D": "Create a trace in Stackdriver to view the information."
     },
     "topic": "Exam simulation",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "A",
     "quick_explanation": "Filtering the Activity log through the GCP Console will provide a focused view of user activities related to the bucket, in the least number of steps."
   },
@@ -3792,6 +4428,8 @@
       "D": "Storage Object Creator"
     },
     "topic": "Exam simulation",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "B",
     "quick_explanation": "The 'Storage Admin' role grants comprehensive permissions for managing storage resources, and is aligned with Google's best practices."
   },
@@ -3804,6 +4442,8 @@
       "D": "Deploy your application again using gcloud and specify the project parameter with the new project name to create the new project."
     },
     "topic": "Exam simulation",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "A",
     "quick_explanation": "You should create a new project using gcloud and then deploy your application to this new project to serve as your production environment."
   },
@@ -3816,6 +4456,8 @@
       "D": "Configure an external TCP proxy load balancer."
     },
     "topic": "Exam simulation",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "A",
     "quick_explanation": "An HTTP(S) load balancer supports SSL termination and is best suited for public web applications."
   },
@@ -3828,6 +4470,8 @@
       "D": "Change the storage class of the bucket from Nearline to Multi-Regional."
     },
     "topic": "Exam simulation",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "B",
     "quick_explanation": "Enabling parallel composite uploads using gsutil allows for faster data transfer by splitting the file and uploading parts in parallel."
   },
@@ -3840,6 +4484,8 @@
       "D": "Increase the initial delay of the HTTP health check to 200 seconds."
     },
     "topic": "Exam simulation",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "D",
     "quick_explanation": "Increasing the initial delay for health checks allows VMs enough time to start serving before being included in the scaling metrics."
   },
@@ -3852,6 +4498,8 @@
       "D": "Select Compute Engine. Use VM instance types that support micro bursting."
     },
     "topic": "Exam simulation",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "C",
     "quick_explanation": "Preemptible VM instances are short-lived and cost-effective, making them suitable for batch jobs that can tolerate interruptions."
   },
@@ -3864,6 +4512,8 @@
       "D": "Deploy the original version as a separate application. Then go to App Engine settings and split traffic between applications so that the original version serves 100% of the requests."
     },
     "topic": "Exam simulation",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "C",
     "quick_explanation": "Routing 100% of the traffic to the previous version allows for an immediate rollback without deploying a separate application."
   },
@@ -3876,6 +4526,8 @@
       "D": "Go to Cloud Shell and run gcloud config list to review the Google Cloud configuration used for deployment."
     },
     "topic": "Exam simulation",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "D",
     "quick_explanation": "Running 'gcloud config list' will display the Google Cloud configuration, helping you identify which project was used for the deployment."
   },
@@ -3888,6 +4540,8 @@
       "D": "Create an instance group for the instance. Verify that the 'Advanced creation options' setting for 'do not retry machine creation' is set to off."
     },
     "topic": "Exam simulation",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "A",
     "quick_explanation": "Setting 'Automatic Restart' to on and 'On-host maintenance' to Migrate ensures high availability during system maintenance and crashes."
   },
@@ -3900,6 +4554,8 @@
       "D": "Use a lifecycle rule to move the images to Multi-Regional after 30 days."
     },
     "topic": "Exam simulation",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "B",
     "quick_explanation": "Using a lifecycle rule to move rarely accessed images to Coldline Storage optimizes cost."
   },
@@ -3912,6 +4568,8 @@
       "D": "In the Instance Template, add a startup script that sends a heartbeat to the metadata server."
     },
     "topic": "Exam simulation",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "A",
     "quick_explanation": "Creating a health check on port 443 will allow the Managed Instance Group to identify and recreate unhealthy VMs."
   },
@@ -3924,6 +4582,8 @@
       "D": "1. Create a dedicated Google group in Cloud Identity. 2. Add each data scientist's user account to the group. 3. Assign the BigQuery dataViewer user role to the group."
     },
     "topic": "Exam simulation",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "C",
     "quick_explanation": "Creating a dedicated Google group and assigning the appropriate role makes it easier to manage permissions."
   },
@@ -3936,6 +4596,8 @@
       "D": "1. Using Cloud VPN or Interconnect, create a tunnel to a VPC in Google Cloud. 2. Use Cloud Router to create a custom route advertisement for 199.36.153.4/30. Announce that network to your on-premises network through the VPN tunnel. 3. In your on-premises network, configure your DNS server to resolve *.googleapis.com as a CNAME to restricted.googleapis.com."
     },
     "topic": "Exam simulation",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "D",
     "quick_explanation": "Option D allows for secure connectivity without exposing your servers to the internet, in compliance with security policies."
   },
@@ -3948,6 +4610,8 @@
       "D": "1. Deploy your application on Cloud Run on GKE with the connectivity set to Internal. 2. Create a Cloud Pub/Sub subscription for that topic. 3. In the same Google Kubernetes Engine cluster as your application, deploy a container that takes the messages and sends them to your application."
     },
     "topic": "Exam simulation",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "C",
     "quick_explanation": "Option C allows for real-time message processing with proper security roles in line with Google best practices."
   },
@@ -3960,6 +4624,8 @@
       "D": "Deploy the container on GKE with cluster autoscaling and horizontal pod autoscaling enabled."
     },
     "topic": "Exam simulation",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "A",
     "quick_explanation": "Cloud Run is the most cost-effective for low-traffic, event-driven applications as it scales down to zero when not in use."
   },
@@ -3972,6 +4638,8 @@
       "D": "Create a new GCP organization and a new billing account. Migrate the acquired company's projects and your company's projects into the new GCP organization and link the projects to the new billing account."
     },
     "topic": "Exam simulation",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "A",
     "quick_explanation": "Linking the projects to your existing billing account is the most straightforward and quick way to consolidate costs onto a single invoice."
   },
@@ -3984,6 +4652,8 @@
       "D": "Create a new GCP organization and a new billing account. Migrate the acquired company's projects and your company's projects into the new GCP organization and link the projects to the new billing account."
     },
     "topic": "Exam simulation",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "A",
     "quick_explanation": "Linking the projects to your company's billing account is the quickest way to consolidate costs."
   },
@@ -3996,6 +4666,8 @@
       "D": "Add the support team group to the roles/stackdriver.accounts.viewer role."
     },
     "topic": "Exam simulation",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "A",
     "quick_explanation": "The roles/monitoring.viewer role allows the support team to monitor the environment without accessing table data."
   },
@@ -4008,6 +4680,8 @@
       "D": "Create a Cloud Function that has the BigQuery User role on the platform-logs dataset. Configure this Cloud Function to create a BigQuery Job that executes this query: INSERT INTO dataset.platform-logs (timestamp, log) SELECT timestamp, log FROM compute.logs WHERE timestamp > DATE_SUB(CURRENT_DATE(), INTERVAL 1 DAY). Use Cloud Scheduler to trigger this Cloud Function once a day."
     },
     "topic": "Exam simulation",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "C",
     "quick_explanation": "Creating a filter and export in Cloud Logging is the most straightforward and cost-effective way to send logs to BigQuery."
   },
@@ -4020,6 +4694,8 @@
       "D": "In the cluster's definition in Deployment Manager, add a metadata that has kube-system as key and the DaemonSet manifest as value."
     },
     "topic": "Exam simulation",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "A",
     "quick_explanation": "Adding the cluster's API as a new Type Provider allows you to manage the DaemonSet within the same Deployment Manager deployment."
   },
@@ -4032,6 +4708,8 @@
       "D": "Go to the IAM & admin console, grant a user account permissions similar to the service account permissions, and use this user account for authentication from your data center."
     },
     "topic": "Exam simulation",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "B",
     "quick_explanation": "Creating a key file for the service account provides the necessary credentials for on-premises applications to authenticate to GCP services."
   },
@@ -4044,6 +4722,8 @@
       "D": "Configure the ACLs on each image in Cloud Storage to give read-only access to the default Compute Engine service account."
     },
     "topic": "Exam simulation",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "A",
     "quick_explanation": "Granting the Storage Object Viewer IAM role to the service account used by the Kubernetes nodes allows them to download images from the Container Registry."
   },
@@ -4056,6 +4736,8 @@
       "D": "After the VM has been created, download the JSON private key for the default Compute Engine service account. Use the credentials in the JSON file to log in to the VM."
     },
     "topic": "Exam simulation",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "B",
     "quick_explanation": "Using the gcloud compute reset-windows-password command allows you to retrieve the login credentials for the Windows VM."
   },
@@ -4068,6 +4750,8 @@
       "D": "Enable block project wide keys for the instance. Generate an SSH key and associate the key with that instance. Distribute the key to dev1 users and direct them to use their third-party tools to connect."
     },
     "topic": "Exam simulation",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "A",
     "quick_explanation": "Setting metadata to enable-oslogin=true and granting the compute.osLogin role to the dev1 group allows them to SSH into the instance using Cloud Shell."
   },
@@ -4080,6 +4764,8 @@
       "D": "Run gcloud projects describe <project ID> to verify the project value, and then run gcloud services list --available."
     },
     "topic": "Exam simulation",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "A",
     "quick_explanation": "Running gcloud projects list to get the project ID, followed by gcloud services list with the project ID will list the enabled APIs."
   },
@@ -4092,6 +4778,8 @@
       "D": "Deploy a new version of your application in App Engine. Then go to App Engine settings in GCP Console and split traffic between the current version and newly deployed versions accordingly."
     },
     "topic": "Exam simulation",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "D",
     "quick_explanation": "Deploying a new version in App Engine and using the GCP Console to split traffic allows you to test the new version with a subset of users."
   },
@@ -4104,6 +4792,8 @@
       "D": "Select Add GPUs. Add estimated cost for cluster management."
     },
     "topic": "Exam simulation",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "A",
     "quick_explanation": "Filling in local SSD, persistent disk storage, and snapshot storage will provide a more accurate cost estimate for a high IOPs workload with disk snapshots."
   },
@@ -4116,6 +4806,8 @@
       "D": "Create a HAProxy pod in the cluster to load-balance the traffic to all the pods of the application. Forward the public traffic to HAProxy with an iptable rule. Configure the DNS name of your application using the public IP of the node HAProxy is running on."
     },
     "topic": "Exam simulation",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "A",
     "quick_explanation": "Creating a Kubernetes Service of type NodePort and a Kubernetes Ingress allows you to expose the application via a Cloud Load Balancer, enabling HTTPS on a public IP."
   },
@@ -4128,6 +4820,8 @@
       "D": "Verify that you are the Project Administrator of both projects. Create a new VPC and add all instances."
     },
     "topic": "Exam simulation",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "B",
     "quick_explanation": "Sharing the VPC from one project and having the Compute Engine instances in the other project use this shared VPC enables traffic between them."
   },
@@ -4140,6 +4834,8 @@
       "D": "Select the built-in IAM service Viewer role. Add the user's account to this role."
     },
     "topic": "Exam simulation",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "C",
     "quick_explanation": "Selecting the built-in IAM project Viewer role and adding the user's account to this role allows the auditor to read all project items without modifying them."
   },
@@ -4152,6 +4848,8 @@
       "D": "In the G Suite console, add the users to a special group called cloud-console-users@yourdomain.com. Rely on the default behavior of the Cloud Platform to grant users access if they are members of this group."
     },
     "topic": "Exam simulation",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "B",
     "quick_explanation": "Granting the required IAM roles using their G Suite email addresses allows you to give specific G Suite users access to your Cloud Platform project."
   },
@@ -4164,6 +4862,8 @@
       "D": "Go to GCP Console and export this information to Cloud SQL on a daily basis."
     },
     "topic": "Exam simulation",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "A",
     "quick_explanation": "Creating two configurations using gcloud config and writing a script allows you to list all compute instances in both projects."
   },
@@ -4176,6 +4876,8 @@
       "D": "Create a Hadoop cluster and copy the AVRO file to NDFS by compressing it. Load the file in a hive table and provide access to your analysts so that they can run SQL queries."
     },
     "topic": "Exam simulation",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "C",
     "quick_explanation": "Creating external tables in BigQuery that point to the Cloud Storage buckets allows your analysts to run SQL queries without the need for data migration, making it a cost-effective solution."
   },
@@ -4188,6 +4890,8 @@
       "D": "Filter the Activity log to view the Data Access category. Filter the Resource type to Google Project."
     },
     "topic": "Exam simulation",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "A",
     "quick_explanation": "To verify the creation time of a service account, you should filter the Activity log by Configuration category and Resource type to Service Account."
   },
@@ -4200,6 +4904,8 @@
       "D": "Add a network tag of your choice to the instance running the LDAP server. Create a firewall rule to allow egress on UDP port 636 for that network tag."
     },
     "topic": "Exam simulation",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "C",
     "quick_explanation": "To ensure the LDAP server is reachable, you should add a network tag to the instance and create a firewall rule to allow ingress on UDP port 636."
   },
@@ -4212,6 +4918,8 @@
       "D": "Verify that you are project administrator. Select the associated billing account and create a budget and a custom alert."
     },
     "topic": "Exam simulation",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "A",
     "quick_explanation": "You should verify your role as the project billing administrator and then create a budget and alert for the specific project."
   },
@@ -4224,6 +4932,8 @@
       "D": "Start the VM using Compute Engine default settings, and adjust as you go based on Rightsizing Recommendations."
     },
     "topic": "Exam simulation",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "A",
     "quick_explanation": "To ensure the application runs in a similar environment, you should use the machine type n1-standard-96 when creating the VM."
   },
@@ -4236,6 +4946,8 @@
       "D": "Add a bucket lifecycle rule that archives data from regional storage after 30 days to Nearline Storage."
     },
     "topic": "Exam simulation",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "B",
     "quick_explanation": "To meet the requirements, you should add a bucket lifecycle rule that archives data with newer versions after 30 days to Nearline Storage."
   },
@@ -4248,6 +4960,8 @@
       "D": "Set up Cloud VPN between the infrastructure on-premises and Google Cloud."
     },
     "topic": "Exam simulation",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "D",
     "quick_explanation": "To enable direct communication between on-premises and Google Cloud workloads using private IPs, setting up a Cloud VPN is the most appropriate solution."
   },
@@ -4260,6 +4974,8 @@
       "D": "Select Regional Storage. Add a bucket lifecycle rule that archives data after 30 days to Coldline Storage."
     },
     "topic": "Exam simulation",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "D",
     "quick_explanation": "To meet compliance objectives and access requirements, you should select Regional Storage and archive data to Coldline Storage after 30 days."
   },
@@ -4272,6 +4988,8 @@
       "D": "Write a Cloud Dataflow job that loops through all the projects in your organization and runs a query on INFORMATION_SCHEMA.COLUMNS view to find employee_ssn column."
     },
     "topic": "Exam simulation",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "A",
     "quick_explanation": "Using Data Catalog to search for the employee_ssn column is the most efficient way to perform this task."
   },
@@ -4284,6 +5002,8 @@
       "D": "Go to the Stackdriver Logging console, review admin activity logs, and filter them for Cloud Spanner IAM roles."
     },
     "topic": "Exam simulation",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "D",
     "quick_explanation": "To find out when users were added to Cloud Spanner IAM roles, you should go to the Stackdriver Logging console and filter the admin activity logs for Cloud Spanner IAM roles."
   },
@@ -4296,6 +5016,8 @@
       "D": "Use the cos_containerd image for your GKE nodes. Add a nodeSelector with the value cloud.google.com/gke-os-distribution: cos_containerd to the specification of your customers' Pods."
     },
     "topic": "Exam simulation",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "C",
     "quick_explanation": "To maximize isolation between customer Pods, you should use gvisor as the sandbox type for the GKE node pool and specify it in the Pod specifications."
   },
@@ -4308,6 +5030,8 @@
       "D": "Add the group for the finance team to roles/billing project/Manager role."
     },
     "topic": "Exam simulation",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "C",
     "quick_explanation": "To allow the finance team to view billing reports without granting additional permissions, you should add them to the roles/billing viewer role."
   },
@@ -4320,6 +5044,8 @@
       "D": "Add your SREs to a group and then add this group to roles/accessapproval.approver role."
     },
     "topic": "Exam simulation",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "D",
     "quick_explanation": "To follow Google-recommended practices for controlling access, you should add your SREs to a group and then add this group to the roles/accessapproval.approver role."
   },
@@ -4332,6 +5058,8 @@
       "D": "Enable deletion protection on the instance."
     },
     "topic": "Exam simulation",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "D",
     "quick_explanation": "Enabling deletion protection prevents accidental deletion of the instance, ensuring uptime."
   },
@@ -4344,6 +5072,8 @@
       "D": "Create a custom role by removing delete permissions. Add users to the group, and then add the group to the custom role."
     },
     "topic": "Exam simulation",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "D",
     "quick_explanation": "Creating a custom role and adding users to a group provides fine-grained control and follows Google's best practices."
   },
@@ -4356,6 +5086,8 @@
       "D": "Install the cloud-datastore-emulator component using the gcloud components install command."
     },
     "topic": "Exam simulation",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "C",
     "quick_explanation": "Installing the datastore-emulator component using apt allows you to test Cloud Datastore locally."
   },
@@ -4368,6 +5100,8 @@
       "D": "Add the users to a group, and add this group to roles/iam.roleViewer role."
     },
     "topic": "Exam simulation",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "C",
     "quick_explanation": "Adding users to a group and assigning that group to roles/browser is the recommended practice for minimal permissions."
   },
@@ -4380,6 +5114,8 @@
       "D": "Create a temporary account for the auditor in Cloud Identity, and give that account the Security Reviewer role on the project."
     },
     "topic": "Exam simulation",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "C",
     "quick_explanation": "Creating a temporary Cloud Identity account and assigning the Viewer role ensures that the auditor can only view the resources."
   },
@@ -4392,6 +5128,8 @@
       "D": "1. Verify that you are assigned the Organizational Administrators IAM role for this project. 2. Switch to the project in the GCP console, locate the resources and delete them."
     },
     "topic": "Exam simulation",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "A",
     "quick_explanation": "Shutting down the project after verifying the Project Owners IAM role is the quickest way to turn off all configured services."
   },
@@ -4404,6 +5142,8 @@
       "D": "Give bigquery.dataViewer role to crm-databases-proj and appropriate roles to web-applications."
     },
     "topic": "Exam simulation",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "D",
     "quick_explanation": "Assigning the least privilege necessary for the task is the recommended practice. Therefore, giving bigquery.dataViewer role to crm-databases-proj and appropriate roles to web-applications is the correct approach."
   },
@@ -4416,6 +5156,8 @@
       "D": "View the Admin Activity log in Cloud Logging. Search for the service account associated with the user."
     },
     "topic": "Exam simulation",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "C",
     "quick_explanation": "Data Access audit logs specifically track access to sensitive data. Searching for the user's email as the principal will help identify any unauthorized access."
   },
@@ -4428,6 +5170,8 @@
       "D": "Use permissions in your role that use the 'testing' support level for role permissions. Set the role stage to BETA while testing the role permissions."
     },
     "topic": "Exam simulation",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "A",
     "quick_explanation": "Using 'supported' permissions ensures that the role is suitable for production. Setting the role stage to ALPHA allows for testing and clearly communicates the role's status."
   },
@@ -4440,6 +5184,8 @@
       "D": "Upload the data into Cloud Spanner using the import function in the console."
     },
     "topic": "Exam simulation",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "B",
     "quick_explanation": "Cloud Storage is suitable for storing unstructured data and can be easily accessed by Dataflow for ETL transformations."
   },
@@ -4452,6 +5198,8 @@
       "D": "1. Use the default configuration for one project you need to manage. 2. Use gcloud init to update the configuration values when you need to work with a non-default project."
     },
     "topic": "Exam simulation",
+    "exam": "Associate Cloud Engineer",
+    "provider": "Google Cloud",
     "correct": "A",
     "quick_explanation": "Creating a separate configuration for each project and activating the appropriate one as needed is the most efficient way to manage multiple Google Cloud projects."
   }
