@@ -7,8 +7,9 @@ interface Question {
     D: string;
   };
   topic: string;
+  exam: string;
   correct: string;
-  quick_explanation: string;
+  quick_explanation?: string;
 }
 
 type QuestionsData = Question[];

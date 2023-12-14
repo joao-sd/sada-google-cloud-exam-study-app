@@ -35,7 +35,7 @@ const Quiz: React.FC<QuizProps> = ({ questionsData, selectedTopic }) => {
 
   return (
     <div className="container mt-4 mb-4">
-      <h2 className="text-center">Google Cloud Quiz App</h2>
+      <h2 className="text-center">{filteredQuestions[0].exam} Exam Questions</h2>
 
       <div className="row justify-content-center">
         <div className="col-md-6">
@@ -48,6 +48,7 @@ const Quiz: React.FC<QuizProps> = ({ questionsData, selectedTopic }) => {
               <span className={`h6 ${((score / filteredQuestions.length) * 100) >= EXAM_MIN_PASS_SCORE_PERCENTAGE ? 'text-success' : 'text-danger'}`}>
                 ({((score / filteredQuestions.length) * 100).toFixed(2)}%)
               </span>
+              <h5 className="card-title">Questions answered : { currentQuestionIndex } </h5>
             </div>
           </div>
         </div>

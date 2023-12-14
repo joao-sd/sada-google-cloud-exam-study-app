@@ -5200,5 +5200,844 @@
     "provider": "Google Cloud",
     "correct": "A",
     "quick_explanation": "Creating a separate configuration for each project and activating the appropriate one as needed is the most efficient way to manage multiple Google Cloud projects."
-  }
+  },
+  {
+      "question": "Which Google Cloud service allows you to deploy, monitor, and manage APIs and services?",
+      "choices": {
+          "A": "Cloud Endpoints",
+          "B": "App Engine",
+          "C": "Compute Engine",
+          "D": "Kubernetes Engine"
+      },
+      "topic": "Cloud services",
+      "exam": "Professional Cloud Architect",
+      "provider": "Google Cloud",
+      "correct": "A",
+      "quick_explanation": "Cloud Endpoints allows you to develop, deploy, and manage APIs on any Google Cloud backend."
+  },
+  {
+      "question": "You want to store sensitive data. Which Google Cloud storage service provides automatic encryption at rest?",
+      "choices": {
+          "A": "Google Drive",
+          "B": "Cloud SQL",
+          "C": "BigQuery",
+          "D": "Cloud Storage"
+      },
+      "topic": "Cloud services",
+      "exam": "Professional Cloud Architect",
+      "provider": "Google Cloud",
+      "correct": "D",
+      "quick_explanation": "Google Cloud Storage automatically encrypts data before it writes it to disk. It uses Advanced Encryption Standard (AES) and each encryption key is itself encrypted."
+  },
+  {
+      "question": "Which service in Google Cloud allows you to interconnect your virtual private cloud (VPC) to your on-premises data center privately?",
+      "choices": {
+          "A": "Cloud VPN",
+          "B": "Cloud Interconnect",
+          "C": "Cloud CDN",
+          "D": "Cloud Pub/Sub"
+      },
+      "topic": "Cloud services",
+      "exam": "Professional Cloud Architect",
+      "provider": "Google Cloud",
+      "correct": "B",
+      "quick_explanation": "Cloud Interconnect provides direct physical connectivity between your on-premises network and Google’s network."
+  },
+  {
+      "question": "When considering the migration of VMs from on-premises to Google Cloud, which tool facilitates the process?",
+      "choices": {
+          "A": "Cloud Data Transfer",
+          "B": "Velostrata",
+          "C": "Cloud Pub/Sub",
+          "D": "Cloud Spanner"
+      },
+      "topic": "Cloud services",
+      "exam": "Professional Cloud Architect",
+      "provider": "Google Cloud",
+      "correct": "B",
+      "quick_explanation": "Google Cloud’s Velostrata provides no-downtime migration from on-premises to Google Cloud."
+  },
+  {
+      "question": "Which Google Cloud product can be used to implement a distributed SQL database for global online transaction processing?",
+      "choices": {
+          "A": "BigQuery",
+          "B": "Cloud Bigtable",
+          "C": "Firestore",
+          "D": "Cloud Spanner"
+      },
+      "topic": "Cloud services",
+      "exam": "Professional Cloud Architect",
+      "provider": "Google Cloud",
+      "correct": "D",
+      "quick_explanation": "Cloud Spanner is the only enterprise-grade, globally-distributed, and strongly-consistent database service."
+  },
+  {
+      "question": "You need to enforce that all VMs are deployed with a specific tag. Which Google Cloud service will help you enforce this policy?",
+      "choices": {
+          "A": "Cloud Deployment Manager",
+          "B": "Cloud IAM",
+          "C": "Cloud Audit Logs",
+          "D": "Cloud Security Command Center"
+      },
+      "topic": "Cloud services",
+      "exam": "Professional Cloud Architect",
+      "provider": "Google Cloud",
+      "correct": "A",
+      "quick_explanation": "Cloud Deployment Manager allows you to specify and deploy resources, including specifying VM instances and configurations."
+  },
+  {
+      "question": "You want to identify security threats and vulnerabilities in your GCP environment. Which tool should you use?",
+      "choices": {
+          "A": "Cloud Trace",
+          "B": "Cloud Profiler",
+          "C": "Security Command Center",
+          "D": "Cloud Debugger"
+      },
+      "topic": "Cloud services",
+      "exam": "Professional Cloud Architect",
+      "provider": "Google Cloud",
+      "correct": "C",
+      "quick_explanation": "Security Command Center is the canonical security and risk database for Google Cloud."
+  },
+  {
+      "question": "Your application requires a NoSQL database to store large amounts of single-keyed data with low latency. Which service should you use?",
+      "choices": {
+          "A": "Cloud Spanner",
+          "B": "Firestore",
+          "C": "BigQuery",
+          "D": "Cloud Bigtable"
+      },
+      "topic": "Cloud services",
+      "exam": "Professional Cloud Architect",
+      "provider": "Google Cloud",
+      "correct": "D",
+      "quick_explanation": "Cloud Bigtable is ideal for storing very large amounts of single-keyed data with low latency."
+  },
+  {
+      "question": "Which Google Cloud service provides a serverless environment to build and run applications?",
+      "choices": {
+          "A": "Compute Engine",
+          "B": "Cloud Functions",
+          "C": "Kubernetes Engine",
+          "D": "Cloud VPN"
+      },
+      "topic": "Cloud services",
+      "exam": "Professional Cloud Architect",
+      "provider": "Google Cloud",
+      "correct": "B",
+      "quick_explanation": "Cloud Functions is Google Cloud's event-driven serverless compute platform."
+  },
+  {
+      "question": "To analyze large datasets interactively, which Google Cloud service would you choose?",
+      "choices": {
+          "A": "Cloud Dataflow",
+          "B": "Cloud Pub/Sub",
+          "C": "BigQuery",
+          "D": "Firestore"
+      },
+      "topic": "Cloud services",
+      "exam": "Professional Cloud Architect",
+      "provider": "Google Cloud",
+      "correct": "C",
+      "quick_explanation": "BigQuery is Google's fully managed, petabyte-scale, low-cost enterprise data warehouse for analytics."
+  },
+  {
+        "question": "Which Google Cloud service would you use to connect different Google Cloud services to each other in an event-driven architecture?",
+        "choices": {
+            "A": "Cloud Endpoints",
+            "B": "Cloud Functions",
+            "C": "Cloud Pub/Sub",
+            "D": "Cloud Scheduler"
+        },
+        "topic": "Cloud services",
+        "exam": "Professional Cloud Architect",
+        "provider": "Google Cloud",
+        "correct": "C",
+        "quick_explanation": "Cloud Pub/Sub is a messaging service for building event-driven systems and real-time analytics."
+    },
+    {
+        "question": "You want to ensure that your deployed Google Cloud services are compliant with a set of predefined configurations. Which tool can help you ensure and monitor this?",
+        "choices": {
+            "A": "Cloud Deployment Manager",
+            "B": "Cloud Asset Inventory",
+            "C": "Cloud Security Command Center",
+            "D": "Cloud Policy Intelligence"
+        },
+        "topic": "Cloud services",
+        "exam": "Professional Cloud Architect",
+        "provider": "Google Cloud",
+        "correct": "D",
+        "quick_explanation": "Cloud Policy Intelligence offers tools like Policy Analyzer and Recommender to help you understand, monitor, and optimize your resource access controls."
+    },
+    {
+        "question": "A client requires a fully managed relational database that supports SQL, and it should be serverless and scalable. Which GCP service would best fit this need?",
+        "choices": {
+            "A": "Cloud Spanner",
+            "B": "Cloud SQL",
+            "C": "Firestore",
+            "D": "Cloud Datastore"
+        },
+        "topic": "Cloud services",
+        "exam": "Professional Cloud Architect",
+        "provider": "Google Cloud",
+        "correct": "B",
+        "quick_explanation": "Cloud SQL is a fully managed relational database service that makes it easy to set up, manage, and administer relational databases on Google Cloud."
+    },
+    {
+        "question": "To manage the state of your infrastructure and use Infrastructure as Code (IaC) on GCP, which service would you utilize?",
+        "choices": {
+            "A": "Cloud Build",
+            "B": "Cloud Deployment Manager",
+            "C": "Cloud Composer",
+            "D": "Cloud Tasks"
+        },
+        "topic": "Cloud services",
+        "exam": "Professional Cloud Architect",
+        "provider": "Google Cloud",
+        "correct": "B",
+        "quick_explanation": "Cloud Deployment Manager allows users to specify all the resources needed for their application in a declarative format using YAML."
+    },
+    {
+        "question": "Which GCP service provides a distributed log processing system?",
+        "choices": {
+            "A": "BigQuery",
+            "B": "Cloud Dataflow",
+            "C": "Cloud Pub/Sub",
+            "D": "Cloud Logging"
+        },
+        "topic": "Cloud services",
+        "exam": "Professional Cloud Architect",
+        "provider": "Google Cloud",
+        "correct": "B",
+        "quick_explanation": "Cloud Dataflow is a fully managed stream and batch data processing service that can be used for ETL, analytics, real-time computation, and process orchestration."
+    },
+    {
+        "question": "Which GCP tool allows developers to identify the root cause of production issues in their application without stopping or slowing it down?",
+        "choices": {
+            "A": "Cloud Profiler",
+            "B": "Cloud Debugger",
+            "C": "Cloud Trace",
+            "D": "Error Reporting"
+        },
+        "topic": "Cloud services",
+        "exam": "Professional Cloud Architect",
+        "provider": "Google Cloud",
+        "correct": "B",
+        "quick_explanation": "Cloud Debugger connects your application's production data to your source code, allowing you to inspect the state of your application at any code location in production without stopping or slowing it down."
+    },
+    {
+        "question": "Which GCP service offers AI and machine learning models via a REST API that developers can use without expertise in machine learning?",
+        "choices": {
+            "A": "AI Hub",
+            "B": "AI Platform Training",
+            "C": "Cloud AutoML",
+            "D": "Cloud Machine Learning Engine"
+        },
+        "topic": "Cloud services",
+        "exam": "Professional Cloud Architect",
+        "provider": "Google Cloud",
+        "correct": "C",
+        "quick_explanation": "Cloud AutoML allows users to train high-quality custom machine learning models with minimal effort and expertise."
+    },
+    {
+        "question": "A company wants to connect its on-premises network to its VPC on GCP over the public internet but wants the traffic to be encrypted. Which service should they use?",
+        "choices": {
+            "A": "Cloud VPN",
+            "B": "Cloud Interconnect",
+            "C": "Cloud Router",
+            "D": "Cloud CDN"
+        },
+        "topic": "Cloud services",
+        "exam": "Professional Cloud Architect",
+        "provider": "Google Cloud",
+        "correct": "A",
+        "quick_explanation": "Cloud VPN securely connects your on-premises network to your Google Cloud Virtual Private Cloud (VPC) network through an IPsec VPN connection."
+    },
+    {
+        "question": "Which service would you use to audit who did what, where, and when on Google Cloud resources?",
+        "choices": {
+            "A": "Cloud Monitoring",
+            "B": "Cloud Audit Logs",
+            "C": "Cloud Trace",
+            "D": "Cloud IAM"
+        },
+        "topic": "Cloud services",
+        "exam": "Professional Cloud Architect",
+        "provider": "Google Cloud",
+        "correct": "B",
+        "quick_explanation": "Cloud Audit Logs provides logs of activities that have occurred in your Google Cloud environment, helping you answer the 'who did what, where, and when?' questions."
+    },
+    {
+        "question": "Your application requires a way to schedule and orchestrate workflows that can span across clouds and on-premises data centers. Which GCP service would you use?",
+        "choices": {
+            "A": "Cloud Scheduler",
+            "B": "Cloud Composer",
+            "C": "Cloud Functions",
+            "D": "Cloud Tasks"
+        },
+        "topic": "Cloud services",
+        "exam": "Professional Cloud Architect",
+        "provider": "Google Cloud",
+        "correct": "B",
+        "quick_explanation": "Cloud Composer is a managed Apache Airflow service that helps you create, schedule, monitor, and manage workflows."
+    },
+    {
+        "question": "Which GCP service allows for the automated deployment, scaling, and management of containerized applications?",
+        "choices": {
+            "A": "Compute Engine",
+            "B": "Kubernetes Engine",
+            "C": "App Engine",
+            "D": "Cloud Functions"
+        },
+        "topic": "Cloud services",
+        "exam": "Professional Cloud Architect",
+        "provider": "Google Cloud",
+        "correct": "B",
+        "quick_explanation": "Kubernetes Engine is an environment for deploying, managing, and scaling your containerized applications using Google infrastructure."
+    },
+    {
+          "question": "You want to migrate large amounts of data to GCP and need a physical device to transfer data. Which GCP product would you use?",
+          "choices": {
+              "A": "Cloud Dataflow",
+              "B": "BigQuery Data Transfer Service",
+              "C": "Transfer Appliance",
+              "D": "Cloud Storage Transfer Service"
+          },
+          "topic": "Cloud services",
+          "exam": "Professional Cloud Architect",
+          "provider": "Google Cloud",
+          "correct": "C",
+          "quick_explanation": "Transfer Appliance is a secure, tamper-resistant appliance that lets you securely and quickly transfer large datasets to GCP."
+      },
+      {
+          "question": "To allow developers to access specific GCP resources without giving them full access, you'd use:",
+          "choices": {
+              "A": "Service Accounts",
+              "B": "Cloud Identity",
+              "C": "Organizational Policies",
+              "D": "IAM Roles"
+          },
+          "topic": "Cloud services",
+          "exam": "Professional Cloud Architect",
+          "provider": "Google Cloud",
+          "correct": "D",
+          "quick_explanation": "IAM Roles provide granular access to specific GCP resources and actions."
+      },
+      {
+          "question": "Which GCP service allows you to visualize, monitor, and alert on your cloud-powered applications?",
+          "choices": {
+              "A": "Cloud Audit Logs",
+              "B": "Cloud Monitoring",
+              "C": "Cloud Logging",
+              "D": "Cloud Debugger"
+          },
+          "topic": "Cloud services",
+          "exam": "Professional Cloud Architect",
+          "provider": "Google Cloud",
+          "correct": "B",
+          "quick_explanation": "Cloud Monitoring provides visibility into the performance, uptime, and overall health of cloud-powered applications."
+      },
+      {
+          "question": "When dealing with Big Data and you want a fully-managed data processing service, which GCP product should you choose?",
+          "choices": {
+              "A": "BigQuery",
+              "B": "Cloud Bigtable",
+              "C": "Cloud Dataflow",
+              "D": "Cloud Spanner"
+          },
+          "topic": "Cloud services",
+          "exam": "Professional Cloud Architect",
+          "provider": "Google Cloud",
+          "correct": "C",
+          "quick_explanation": "Cloud Dataflow is a fully-managed stream and batch data processing service."
+      },
+      {
+          "question": "For real-time gaming analytics and telemetry, which GCP storage solution is most appropriate?",
+          "choices": {
+              "A": "Cloud SQL",
+              "B": "Cloud Storage",
+              "C": "Cloud Bigtable",
+              "D": "Firestore"
+          },
+          "topic": "Cloud services",
+          "exam": "Professional Cloud Architect",
+          "provider": "Google Cloud",
+          "correct": "C",
+          "quick_explanation": "Cloud Bigtable offers fast access speeds and high throughput, making it suitable for gaming analytics and telemetry."
+      },
+      {
+          "question": "If you want to analyze the sentiment of text in multiple languages, which GCP service would you utilize?",
+          "choices": {
+              "A": "Translation API",
+              "B": "Vision AI",
+              "C": "Video AI",
+              "D": "Natural Language API"
+          },
+          "topic": "Cloud services",
+          "exam": "Professional Cloud Architect",
+          "provider": "Google Cloud",
+          "correct": "D",
+          "quick_explanation": "The Natural Language API provides methods for analyzing sentiment in text."
+      },
+      {
+          "question": "Which GCP service offers a globally distributed database system for wide-column storage?",
+          "choices": {
+              "A": "Cloud Spanner",
+              "B": "Firestore",
+              "C": "Cloud Bigtable",
+              "D": "Cloud SQL"
+          },
+          "topic": "Cloud services",
+          "exam": "Professional Cloud Architect",
+          "provider": "Google Cloud",
+          "correct": "C",
+          "quick_explanation": "Cloud Bigtable is a NoSQL big data database service that is suitable for large analytical and operational workloads."
+      },
+      {
+          "question": "To find insights from structured and unstructured medical data, which GCP product would be suitable?",
+          "choices": {
+              "A": "BigQuery",
+              "B": "Healthcare API",
+              "C": "Cloud Life Sciences",
+              "D": "Cloud Genomics"
+          },
+          "topic": "Cloud services",
+          "exam": "Professional Cloud Architect",
+          "provider": "Google Cloud",
+          "correct": "B",
+          "quick_explanation": "The Cloud Healthcare API provides methods to store, process, explore, and share healthcare datasets."
+      },
+      {
+          "question": "Which tool in GCP can be used to convert speech into text?",
+          "choices": {
+              "A": "Vision AI",
+              "B": "Video AI",
+              "C": "Speech-to-Text",
+              "D": "Natural Language API"
+          },
+          "topic": "Cloud services",
+          "exam": "Professional Cloud Architect",
+          "provider": "Google Cloud",
+          "correct": "C",
+          "quick_explanation": "The Speech-to-Text service can recognize over 125 languages used to convert audio to text."
+      },
+      {
+        "question": "For an organization wanting to build a chatbot for its website without deep machine learning expertise, which GCP service is most suitable?",
+        "choices": {
+            "A": "Vision AI",
+            "B": "Chatbase",
+            "C": "Dialogflow",
+            "D": "AutoML Video"
+        },
+        "topic": "Cloud services",
+        "exam": "Professional Cloud Architect",
+        "provider": "Google Cloud",
+        "correct": "C",
+        "quick_explanation": "Dialogflow is a platform for building voice and text-based conversational interfaces, such as chatbots."
+    },
+    {
+        "question": "If a company wants to ensure data residency by storing data only in specific countries, which feature in GCP allows them to enforce this?",
+        "choices": {
+            "A": "Resource Locations",
+            "B": "Virtual Private Cloud",
+            "C": "Regional Persistent Disk",
+            "D": "Zonal Deployments"
+        },
+        "topic": "Cloud services",
+        "exam": "Professional Cloud Architect",
+        "provider": "Google Cloud",
+        "correct": "A",
+        "quick_explanation": "Resource Locations in GCP allow users to specify where data is stored based on regions."
+    },
+    {
+        "question": "Which GCP service is a managed environment for running containerized apps, providing auto-scaling and inbuilt deployment strategies?",
+        "choices": {
+            "A": "Compute Engine",
+            "B": "Kubernetes Engine",
+            "C": "App Engine",
+            "D": "Cloud Run"
+        },
+        "topic": "Cloud services",
+        "exam": "Professional Cloud Architect",
+        "provider": "Google Cloud",
+        "correct": "D",
+        "quick_explanation": "Cloud Run is a managed compute platform that automatically scales containerized applications and provides features like zero server management."
+    },
+    {
+        "question": "For a scenario where multiple teams need to collaborate on a shared dataset with controlled access, which GCP service is appropriate?",
+        "choices": {
+            "A": "BigQuery",
+            "B": "Data Catalog",
+            "C": "Cloud Source Repositories",
+            "D": "Data Studio"
+          },
+          "topic": "Cloud services",
+          "exam": "Professional Cloud Architect",
+          "provider": "Google Cloud",
+          "correct": "B",
+          "quick_explanation": "Data Catalog is a fully managed data discovery and metadata management service that allows teams to discover, understand, and manage data."
+      },
+      {
+        "question": "Which service would you use to train a machine learning model with your data in GCP?",
+        "choices": {
+            "A": "Vision AI",
+            "B": "AutoML Vision",
+            "C": "AI Hub",
+            "D": "AI Platform Training"
+        },
+        "topic": "Cloud services",
+        "exam": "Professional Cloud Architect",
+        "provider": "Google Cloud",
+        "correct": "D",
+        "quick_explanation": "AI Platform Training allows developers to train machine learning models in the cloud."
+    },
+    {
+        "question": "You need to manage API endpoints, which service in GCP provides the capability to deploy, protect, and monitor APIs?",
+        "choices": {
+            "A": "Cloud Endpoints",
+            "B": "Apigee Edge",
+            "C": "Cloud Load Balancer",
+            "D": "Cloud NAT"
+        },
+        "topic": "Cloud services",
+        "exam": "Professional Cloud Architect",
+        "provider": "Google Cloud",
+        "correct": "A",
+        "quick_explanation": "Cloud Endpoints is an NGINX-based proxy that handles all the tasks associated with accepting and processing up to hundreds of thousands of concurrent API calls."
+    },
+    {
+        "question": "Which GCP service would you use to integrate with third-party tools and on-premises data centers for hybrid and multi-cloud deployments?",
+        "choices": {
+            "A": "Anthos",
+            "B": "Kubernetes Engine",
+            "C": "App Engine",
+            "D": "Compute Engine"
+        },
+        "topic": "Cloud services",
+        "exam": "Professional Cloud Architect",
+        "provider": "Google Cloud",
+        "correct": "A",
+        "quick_explanation": "Anthos allows enterprises to build and manage modern hybrid applications across environments."
+    },
+    {
+        "question": "For organizations wanting to securely manage API keys, passwords, certificates, and other secrets, which GCP service should they utilize?",
+        "choices": {
+            "A": "Cloud Key Management Service",
+            "B": "Cloud HSM",
+            "C": "Secret Manager",
+            "D": "Cloud Identity"
+        },
+        "topic": "Cloud services",
+        "exam": "Professional Cloud Architect",
+        "provider": "Google Cloud",
+        "correct": "C",
+        "quick_explanation": "Secret Manager is a tool that allows you to store, manage, and access secrets like API keys and credentials securely."
+    },
+    {
+      "question": "When building a mobile application, which GCP service would allow you to add real-time chat messaging?",
+      "choices": {
+          "A": "Cloud Pub/Sub",
+          "B": "Firestore",
+          "C": "Cloud Tasks",
+          "D": "Cloud Messaging"
+      },
+      "topic": "Cloud services",
+      "exam": "Professional Cloud Architect",
+      "provider": "Google Cloud",
+      "correct": "B",
+      "quick_explanation": "Firestore is a flexible, scalable NoSQL cloud database that can sync data across client apps in real-time."
+  },
+  {
+      "question": "You have a need to protect your applications from Distributed Denial of Service (DDoS) attacks. Which GCP service will help you achieve this?",
+      "choices": {
+          "A": "Cloud Armor",
+          "B": "Cloud NAT",
+          "C": "Cloud VPN",
+          "D": "Cloud CDN"
+      },
+      "topic": "Cloud services",
+      "exam": "Professional Cloud Architect",
+      "provider": "Google Cloud",
+      "correct": "A",
+      "quick_explanation": "Cloud Armor provides DDoS protection and web application firewall capabilities to defend applications against web-based threats."
+  },
+  {
+      "question": "Which GCP service allows you to examine application performance down to the code level, identifying performance bottlenecks?",
+      "choices": {
+          "A": "Cloud Profiler",
+          "B": "Cloud Debugger",
+          "C": "Cloud Monitoring",
+          "D": "Cloud Trace"
+      },
+      "topic": "Cloud services",
+      "exam": "Professional Cloud Architect",
+      "provider": "Google Cloud",
+      "correct": "A",
+      "quick_explanation": "Cloud Profiler provides detailed profiling of applications, allowing you to visually inspect the performance of your code."
+  },
+  {
+      "question": "When an organization wants to automate infrastructure tasks based on a declarative configuration file, which service should they utilize?",
+      "choices": {
+          "A": "Cloud Deployment Manager",
+          "B": "Cloud Composer",
+          "C": "Cloud Scheduler",
+          "D": "Kubernetes Engine"
+      },
+      "topic": "Cloud services",
+      "exam": "Professional Cloud Architect",
+      "provider": "Google Cloud",
+      "correct": "A",
+      "quick_explanation": "Cloud Deployment Manager allows users to specify resources in a declarative format using yaml."
+  },
+  {
+      "question": "Which GCP service provides a way to execute code in response to specific events without provisioning or managing servers?",
+      "choices": {
+          "A": "App Engine",
+          "B": "Kubernetes Engine",
+          "C": "Cloud Functions",
+          "D": "Cloud Run"
+      },
+      "topic": "Cloud services",
+      "exam": "Professional Cloud Architect",
+      "provider": "Google Cloud",
+      "correct": "C",
+      "quick_explanation": "Cloud Functions is GCP's serverless execution environment which responds to events."
+  },
+  {
+    "question": "If an organization wants a network architecture that extends their on-premises infrastructure to GCP, which technology should they consider?",
+    "choices": {
+        "A": "Cloud VPN",
+        "B": "Cloud Interconnect",
+        "C": "Virtual Private Cloud (VPC)",
+        "D": "Network Peering"
+    },
+    "topic": "Cloud services",
+    "exam": "Professional Cloud Architect",
+    "provider": "Google Cloud",
+    "correct": "B",
+    "quick_explanation": "Cloud Interconnect extends your on-premises network to Google's network through highly available, low latency connections."
+},{
+  "question": "Which GCP tool allows database migration from on-premises and other cloud providers to Cloud Spanner or Cloud SQL?",
+  "choices": {
+      "A": "Cloud Data Transfer",
+      "B": "BigQuery Data Transfer Service",
+      "C": "Database Migration Service",
+      "D": "Cloud Storage Transfer"
+  },
+  "topic": "Cloud services",
+  "exam": "Professional Cloud Architect",
+  "provider": "Google Cloud",
+  "correct": "C",
+  "quick_explanation": "Database Migration Service provides serverless, easy-to-use capabilities to migrate databases to GCP."
+},
+{
+  "question": "For in-depth analysis of a customer's journey and interaction with a website, which GCP tool should you consider?",
+  "choices": {
+      "A": "Google Analytics 360",
+      "B": "Cloud Monitoring",
+      "C": "Looker",
+      "D": "Data Studio"
+  },
+  "topic": "Cloud services",
+  "exam": "Professional Cloud Architect",
+  "provider": "Google Cloud",
+  "correct": "A",
+  "quick_explanation": "Google Analytics 360 provides detailed website analytics including user journey and behaviors."
+},
+{
+  "question": "When you want to run Apache Hadoop and Apache Spark jobs without managing the underlying infrastructure, which service should you utilize?",
+  "choices": {
+      "A": "BigQuery",
+      "B": "Cloud Dataproc",
+      "C": "Cloud Dataflow",
+      "D": "Cloud Bigtable"
+  },
+  "topic": "Cloud services",
+  "exam": "Professional Cloud Architect",
+  "provider": "Google Cloud",
+  "correct": "B",
+  "quick_explanation": "Cloud Dataproc is a managed Spark and Hadoop service that lets you run these jobs with ease."
+},
+{
+  "question": "In which GCP service would you use virtual machine instances tailored to fit your workload?",
+  "choices": {
+      "A": "App Engine",
+      "B": "Cloud Functions",
+      "C": "Compute Engine",
+      "D": "Kubernetes Engine"
+  },
+  "topic": "Cloud services",
+  "exam": "Professional Cloud Architect",
+  "provider": "Google Cloud",
+  "correct": "C",
+  "quick_explanation": "Compute Engine offers predefined virtual machine configurations for every need from small general-purpose instances to large memory-optimized instances."
+},
+{
+  "question": "For a globally distributed application requiring a database that automatically handles replication, which GCP database product should be chosen?",
+  "choices": {
+      "A": "Firestore",
+      "B": "Cloud Spanner",
+      "C": "Cloud SQL",
+      "D": "Cloud Bigtable"
+  },
+  "topic": "Cloud services",
+  "exam": "Professional Cloud Architect",
+  "provider": "Google Cloud",
+  "correct": "B",
+  "quick_explanation": "Cloud Spanner is a fully managed, mission-critical relational database service that offers global transactions and SQL semantics."
+},
+{
+  "question": "Which GCP service provides a unified logging solution across various Google Cloud services and external applications?",
+  "choices": {
+      "A": "Cloud Debugger",
+      "B": "Cloud Trace",
+      "C": "Cloud Monitoring",
+      "D": "Cloud Logging"
+  },
+  "topic": "Cloud services",
+  "exam": "Professional Cloud Architect",
+  "provider": "Google Cloud",
+  "correct": "D",
+  "quick_explanation": "Cloud Logging allows you to store, search, analyze, monitor, and alert on log data and events from GCP and other sources."
+},
+{
+  "question": "Which GCP service would you use to detect and respond to security threats across all of your GCP resources?",
+  "choices": {
+      "A": "Cloud Security Scanner",
+      "B": "Cloud Identity and Access Management (IAM)",
+      "C": "Cloud Security Command Center",
+      "D": "Cloud Armor"
+  },
+  "topic": "Cloud services",
+  "exam": "Professional Cloud Architect",
+  "provider": "Google Cloud",
+  "correct": "C",
+  "quick_explanation": "Cloud Security Command Center helps you prevent, detect, and respond to threats from a single pane of glass."
+},
+{
+  "question": "When you need to interconnect your GCP resources with resources on other public clouds, which service would you employ?",
+  "choices": {
+      "A": "Shared VPC",
+      "B": "VPC Peering",
+      "C": "VPC Network Peering",
+      "D": "Cloud Interconnect"
+  },
+  "topic": "Cloud services",
+  "exam": "Professional Cloud Architect",
+  "provider": "Google Cloud",
+  "correct": "C",
+  "quick_explanation": "VPC Network Peering allows private connections across multiple networks, including networks in other public cloud providers."
+},
+{
+  "question": "To create a data pipeline for real-time analytics, which combination of GCP services would be best?",
+  "choices": {
+      "A": "Cloud Pub/Sub, Cloud Dataflow, BigQuery",
+      "B": "Cloud Storage, Cloud SQL, Cloud Functions",
+      "C": "App Engine, Bigtable, Cloud Monitoring",
+      "D": "Cloud Scheduler, Cloud Tasks, Firestore"
+  },
+  "topic": "Cloud services",
+  "exam": "Professional Cloud Architect",
+  "provider": "Google Cloud",
+  "correct": "A",
+  "quick_explanation": "Cloud Pub/Sub for messaging, Cloud Dataflow for processing, and BigQuery for analysis are commonly combined for real-time analytics solutions."
+},
+{
+  "question": "Which GCP service helps in orchestrating end-to-end workflows based on Apache Airflow?",
+  "choices": {
+      "A": "Cloud Composer",
+      "B": "Cloud Scheduler",
+      "C": "Cloud Tasks",
+      "D": "Cloud Dataproc"
+  },
+  "topic": "Cloud services",
+  "exam": "Professional Cloud Architect",
+  "provider": "Google Cloud",
+  "correct": "A",
+  "quick_explanation": "Cloud Composer is a managed Apache Airflow service that helps create, schedule, monitor, and manage workflows."
+},
+{
+  "question": "For mission-critical business apps requiring large-scale transactional data with strong consistency, which GCP storage solution is ideal?",
+  "choices": {
+      "A": "Firestore",
+      "B": "Cloud Spanner",
+      "C": "Bigtable",
+      "D": "Cloud SQL"
+  },
+  "topic": "Cloud services",
+  "exam": "Professional Cloud Architect",
+  "provider": "Google Cloud",
+  "correct": "B",
+  "quick_explanation": "Cloud Spanner offers global distribution and strong consistency for large-scale transactional data."
+},
+{
+  "question": "Which GCP service provides a hardware security module (HSM) for cryptographic key storage?",
+  "choices": {
+      "A": "Cloud Key Management Service",
+      "B": "Cloud HSM",
+      "C": "Cloud IAM",
+      "D": "Secret Manager"
+  },
+  "topic": "Cloud services",
+  "exam": "Professional Cloud Architect",
+  "provider": "Google Cloud",
+  "correct": "B",
+  "quick_explanation": "Cloud HSM is a cloud-hosted hardware security module (HSM) service on GCP, enabling users to host encryption keys and perform cryptographic operations."
+},
+{
+  "question": "You want to provide machine learning capabilities to your developers without them having to manage the underlying infrastructure. Which GCP service would you recommend?",
+  "choices": {
+      "A": "TensorFlow",
+      "B": "AI Platform Prediction",
+      "C": "AutoML",
+      "D": "Vision AI"
+  },
+  "topic": "Cloud services",
+  "exam": "Professional Cloud Architect",
+  "provider": "Google Cloud",
+  "correct": "B",
+  "quick_explanation": "AI Platform Prediction is a managed service that allows developers to deploy and run their machine learning models without managing the infrastructure."
+},
+{
+  "question": "If a user wants to integrate GCP services into their existing software using Python or Java, which GCP tool would they likely use?",
+  "choices": {
+      "A": "Cloud SDK",
+      "B": "Cloud Shell",
+      "C": "Cloud APIs",
+      "D": "Cloud Code"
+  },
+  "topic": "Cloud services",
+  "exam": "Professional Cloud Architect",
+  "provider": "Google Cloud",
+  "correct": "C",
+  "quick_explanation": "GCP's Cloud APIs provide programmatic access to most Google Cloud services so users can integrate them into their applications."
+},
+{
+  "question": "Which GCP service allows you to deploy a function triggered by events from Cloud Storage or Pub/Sub without provisioning an entire GCP environment?",
+  "choices": {
+      "A": "Cloud Scheduler",
+      "B": "App Engine",
+      "C": "Cloud Functions",
+      "D": "Cloud Run"
+  },
+  "topic": "Cloud services",
+  "exam": "Professional Cloud Architect",
+  "provider": "Google Cloud",
+  "correct": "C",
+  "quick_explanation": "Cloud Functions is GCP's event-driven serverless compute platform. It can be triggered by events from various GCP services."
+},
+{
+  "question": "If a business requires a GCP service to transform raw data into clean data suitable for analysis, which ETL tool in GCP should they use?",
+  "choices": {
+      "A": "BigQuery",
+      "B": "Cloud Dataproc",
+      "C": "Cloud Dataflow",
+      "D": "Cloud Pub/Sub"
+  },
+  "topic": "Data Processing",
+  "exam": "Professional Cloud Architect",
+  "provider": "Google Cloud",
+  "correct": "C",
+  "quick_explanation": "Cloud Dataflow is a serverless data processing service that supports both stream and batch processing patterns for ETL and analytics."
+}
 ]
